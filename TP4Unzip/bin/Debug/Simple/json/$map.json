@@ -1,0 +1,312 @@
+{
+  "cm": {
+    "me": {
+      "p": "3",
+      "c": "33",
+      "pg": "1",
+      "bt": "1",
+      "pn": "MainPage",
+      "bn": "Button A"
+    }
+  },
+  "am": {
+    "me": {
+      "p": "2",
+      "c": "22",
+      "pg": "1",
+      "bt": "1",
+      "pn": "MainPage",
+      "bn": "Button A"
+    }
+  },
+  "lm": {
+    "me": {
+      "p": "4",
+      "c": "44",
+      "ax": "0",
+      "pg": "1",
+      "bt": "1",
+      "pn": "MainPage",
+      "bn": "Button A"
+    }
+  },
+  "bm": {
+    "im": {
+      "me": [
+        {
+          "i": "Camera_01",
+          "id": "1"
+        },
+        {
+          "i": "Camera_02",
+          "id": "1"
+        },
+        {
+          "i": "Bitmap-256x256.jpg",
+          "rt": "0",
+          "pg": "1",
+          "bt": "6",
+          "st": "1",
+          "sl": "0",
+          "pn": "MainPage",
+          "bn": "BtnBitmap"
+        },
+        {
+          "i": "Bitmap-256x256.jpg",
+          "rt": "0",
+          "pg": "1",
+          "bt": "6",
+          "st": "2",
+          "sl": "0",
+          "pn": "MainPage",
+          "bn": "BtnBitmap"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "1",
+          "bt": "4",
+          "st": "1",
+          "sl": "0",
+          "pn": "MainPage",
+          "bn": "BtnPowerShutdown"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "1",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "1",
+          "bt": "4",
+          "st": "2",
+          "sl": "0",
+          "pn": "MainPage",
+          "bn": "BtnPowerShutdown"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "2",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "1",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "3",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "2",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "4",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "3",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "5",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "4",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "6",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "5",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "6",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "7",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "7",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "8",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "8",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "9",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "10",
+          "st": "1",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "9",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Power-64x64.png",
+          "rt": "0",
+          "pg": "2",
+          "bt": "10",
+          "st": "2",
+          "sl": "0",
+          "pn": "Page_B",
+          "bn": "Button B"
+        },
+        {
+          "i": "Sample-50x50.png",
+          "rt": "0",
+          "pg": "1",
+          "bt": "5",
+          "st": "1",
+          "sl": "0",
+          "pn": "MainPage",
+          "bn": "BtnLogo"
+        },
+        {
+          "i": "Sample-50x50.png",
+          "rt": "0",
+          "pg": "1",
+          "bt": "5",
+          "st": "2",
+          "sl": "0",
+          "pn": "MainPage",
+          "bn": "BtnLogo"
+        }
+      ]
+    }
+  },
+  "sm": {
+    "me": {
+      "i": "November Rain.mp3"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "502",
+    "name": "PP_Navigation_On",
+    "left": "280",
+    "top": "224",
+    "width": "728",
+    "height": "152",
+    "group": "Navigation",
+    "button": [
+      {
+        "type": "general",
+        "bi": "1",
+        "na": "Button",
+        "li": "1",
+        "lt": "158",
+        "tp": "8",
+        "wt": "277",
+        "ht": "136",
+        "zo": "1",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "DarkLime",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "38",
+            "te": "Button 1"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "DarkLime",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "38",
+            "te": "Button 1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "2",
+        "na": "Button",
+        "li": "1",
+        "lt": "443",
+        "tp": "8",
+        "wt": "277",
+        "ht": "136",
+        "zo": "2",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "DarkLime",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "38",
+            "te": "Button 2"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "DarkLime",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "38",
+            "te": "Button 2"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "3",
+        "na": "Button",
+        "li": "1",
+        "lt": "8",
+        "tp": "8",
+        "wt": "141",
+        "ht": "53",
+        "zo": "3",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "38",
+            "te": "PP_Navigation_On"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "38",
+            "te": "PP_Navigation_On"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "Single Line",
+      "cb": "Black",
+      "cf": "#91C7FDFF",
+      "ct": "Black",
+      "ec": "#000000FF",
+      "fi": "1"
+    }
+  }
+}

@@ -1,0 +1,929 @@
+{
+  "page": {
+    "type": "page",
+    "pageID": "2",
+    "name": "Page_B",
+    "width": "1024",
+    "height": "768",
+    "button": [
+      {
+        "type": "general",
+        "bi": "1",
+        "na": "Button B",
+        "li": "1",
+        "lt": "136",
+        "tp": "86",
+        "wt": "112",
+        "ht": "112",
+        "zo": "1",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "1",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "1",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "2",
+        "na": "Button B",
+        "li": "1",
+        "lt": "256",
+        "tp": "86",
+        "wt": "112",
+        "ht": "112",
+        "zo": "2",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "2",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "2",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "3",
+        "na": "Button B",
+        "li": "1",
+        "lt": "376",
+        "tp": "86",
+        "wt": "112",
+        "ht": "112",
+        "zo": "3",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "3",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "3",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "4",
+        "na": "Button B",
+        "li": "1",
+        "lt": "136",
+        "tp": "206",
+        "wt": "112",
+        "ht": "112",
+        "zo": "4",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "4",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "4",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "5",
+        "na": "Button B",
+        "li": "1",
+        "lt": "256",
+        "tp": "206",
+        "wt": "112",
+        "ht": "112",
+        "zo": "5",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "6",
+        "na": "Button B",
+        "li": "1",
+        "lt": "376",
+        "tp": "206",
+        "wt": "112",
+        "ht": "112",
+        "zo": "6",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "6",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "6",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "7",
+        "na": "Button B",
+        "li": "1",
+        "lt": "136",
+        "tp": "326",
+        "wt": "112",
+        "ht": "112",
+        "zo": "7",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "7",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "7",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "8",
+        "na": "Button B",
+        "li": "1",
+        "lt": "256",
+        "tp": "326",
+        "wt": "112",
+        "ht": "112",
+        "zo": "8",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "8",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "8",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "9",
+        "na": "Button B",
+        "li": "1",
+        "lt": "376",
+        "tp": "326",
+        "wt": "112",
+        "ht": "112",
+        "zo": "9",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "9",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "9",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "10",
+        "na": "Button B",
+        "li": "1",
+        "lt": "16",
+        "tp": "86",
+        "wt": "112",
+        "ht": "112",
+        "zo": "10",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "0",
+            "bx": "10",
+            "by": "10",
+            "fi": "38"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Black",
+            "cf": "White",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Power-64x64.png",
+            "jb": "0",
+            "bx": "10",
+            "by": "10",
+            "fi": "38"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "11",
+        "na": "Button B",
+        "li": "1",
+        "lt": "16",
+        "tp": "16",
+        "wt": "472",
+        "ht": "62",
+        "zo": "11",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "White",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "34",
+            "te": "Bitmap Justification"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "White",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "34",
+            "te": "Bitmap Justification"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "12",
+        "na": "Button B",
+        "li": "1",
+        "lt": "512",
+        "tp": "16",
+        "wt": "472",
+        "ht": "62",
+        "zo": "12",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "White",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "34",
+            "te": "VeryLightOrange"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "White",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "34",
+            "te": "Text Justification"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "13",
+        "na": "Button B",
+        "li": "1",
+        "lt": "632",
+        "tp": "86",
+        "wt": "112",
+        "ht": "112",
+        "zo": "13",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Top Left",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Top Left",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "14",
+        "na": "Button B",
+        "li": "1",
+        "lt": "752",
+        "tp": "86",
+        "wt": "112",
+        "ht": "112",
+        "zo": "14",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Top Middle",
+            "jt": "2"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Top Middle",
+            "jt": "2"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "15",
+        "na": "Button B",
+        "li": "1",
+        "lt": "872",
+        "tp": "86",
+        "wt": "112",
+        "ht": "112",
+        "zo": "15",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Top Right",
+            "jt": "3"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Top Right",
+            "jt": "3"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "16",
+        "na": "Button B",
+        "li": "1",
+        "lt": "512",
+        "tp": "86",
+        "wt": "112",
+        "ht": "112",
+        "zo": "16",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bx": "20",
+            "by": "20",
+            "fi": "35",
+            "te": "Absolute",
+            "jt": "0",
+            "tx": "20",
+            "ty": "20"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bx": "20",
+            "by": "20",
+            "fi": "35",
+            "te": "Absolute",
+            "jt": "0",
+            "tx": "20",
+            "ty": "20"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "17",
+        "na": "Button B",
+        "li": "1",
+        "lt": "632",
+        "tp": "206",
+        "wt": "112",
+        "ht": "112",
+        "zo": "17",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Center Left",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Center Left",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "18",
+        "na": "Button B",
+        "li": "1",
+        "lt": "752",
+        "tp": "206",
+        "wt": "112",
+        "ht": "112",
+        "zo": "18",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Center Middle"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Center Middle"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "19",
+        "na": "Button B",
+        "li": "1",
+        "lt": "872",
+        "tp": "206",
+        "wt": "112",
+        "ht": "112",
+        "zo": "19",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Center Right",
+            "jt": "6"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Center Right",
+            "jt": "6"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "20",
+        "na": "Button B",
+        "li": "1",
+        "lt": "632",
+        "tp": "326",
+        "wt": "112",
+        "ht": "112",
+        "zo": "20",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Bottom Left",
+            "jt": "7"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Bottom Left",
+            "jt": "7"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "21",
+        "na": "Button B",
+        "li": "1",
+        "lt": "752",
+        "tp": "326",
+        "wt": "112",
+        "ht": "112",
+        "zo": "21",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Bottom Middle",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Bottom Middle",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "22",
+        "na": "Button B",
+        "li": "1",
+        "lt": "872",
+        "tp": "326",
+        "wt": "112",
+        "ht": "112",
+        "zo": "22",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Bottom Right",
+            "jt": "9"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "Grey4",
+            "cf": "VeryDarkAqua",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "35",
+            "te": "Bottom Right",
+            "jt": "9"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "",
+      "cb": "",
+      "cf": "Grey11",
+      "ct": "White",
+      "ec": "#000000FF",
+      "fi": "21",
+      "te": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "jt": "8",
+      "ww": "1"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: calibri;
+}
+
+li {
+  float: left;
+}
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+.content {
+  position: relative;
+  margin-top: 51px;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.navPage {
+  /* background-color: #4CAF50; */
+}
+
+.navSubpage {
+  background-color: #444;
+}

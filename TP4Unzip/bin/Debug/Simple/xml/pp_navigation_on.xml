@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <page type="subpage" popupType="popup">
+    <pageID>502</pageID>
+    <name>PP_Navigation_On</name>
+    <left>280</left>
+    <top>224</top>
+    <width>728</width>
+    <height>152</height>
+    <group>Navigation</group>
+    <button type="general">
+      <bi>1</bi>
+      <na>Button</na>
+      <li>1</li>
+      <lt>158</lt>
+      <tp>8</tp>
+      <wt>277</wt>
+      <ht>136</ht>
+      <zo>1</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Double Line</bs>
+        <cb>Black</cb>
+        <cf>DarkLime</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>38</fi>
+        <te>Button 1</te>
+      </sr>
+      <sr number="2">
+        <bs>Double Line</bs>
+        <cb>Black</cb>
+        <cf>DarkLime</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>38</fi>
+        <te>Button 1</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>2</bi>
+      <na>Button</na>
+      <li>1</li>
+      <lt>443</lt>
+      <tp>8</tp>
+      <wt>277</wt>
+      <ht>136</ht>
+      <zo>2</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Double Line</bs>
+        <cb>Black</cb>
+        <cf>DarkLime</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>38</fi>
+        <te>Button 2</te>
+      </sr>
+      <sr number="2">
+        <bs>Double Line</bs>
+        <cb>Black</cb>
+        <cf>DarkLime</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>38</fi>
+        <te>Button 2</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>3</bi>
+      <na>Button</na>
+      <li>1</li>
+      <lt>8</lt>
+      <tp>8</tp>
+      <wt>141</wt>
+      <ht>53</ht>
+      <zo>3</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Double Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>38</fi>
+        <te>PP_Navigation_On</te>
+      </sr>
+      <sr number="2">
+        <bs>Double Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>38</fi>
+        <te>PP_Navigation_On</te>
+      </sr>
+    </button>
+    <sr number="1">
+      <bs>Single Line</bs>
+      <cb>Black</cb>
+      <cf>#91C7FDFF</cf>
+      <ct>Black</ct>
+      <ec>#000000FF</ec>
+      <fi>1</fi>
+    </sr>
+  </page>
+</root>

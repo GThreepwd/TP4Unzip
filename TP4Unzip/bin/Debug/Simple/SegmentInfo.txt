@@ -1,0 +1,23 @@
+Info: SegmentNo=0x00000001, DataSegmentNo=0x00000002, DataJunks=00003, DataSize=0001430, Name=prj.xma
+Info: SegmentNo=0x00000005, DataSegmentNo=0x00000006, DataJunks=00005, DataSize=0002187, Name=MainPage.xml
+Info: SegmentNo=0x0000000B, DataSegmentNo=0x0000000C, DataJunks=00003, DataSize=0001088, Name=Page_B.xml
+Info: SegmentNo=0x0000000D, DataSegmentNo=0x0000000E, DataJunks=00001, DataSize=0000454, Name=PP_Navigation_On.xml
+Info: SegmentNo=0x0000000F, DataSegmentNo=0x00000010, DataJunks=00001, DataSize=0000457, Name=PP_Navigation_Off.xml
+Info: SegmentNo=0x00000011, DataSegmentNo=0x00000012, DataJunks=00001, DataSize=0000437, Name=PP_Popup_A.xml
+Info: SegmentNo=0x00000013, DataSegmentNo=0x00000014, DataJunks=00001, DataSize=0000437, Name=PP_Popup_B.xml
+Info: SegmentNo=0x00000015, DataSegmentNo=0x00000016, DataJunks=00001, DataSize=0000404, Name=map.xma
+Info: SegmentNo=0x00000017, DataSegmentNo=0x00000018, DataJunks=00001, DataSize=0000421, Name=external.xma
+Info: SegmentNo=0x00000019, DataSegmentNo=0x0000001A, DataJunks=00001, DataSize=0000082, Name=icon.xma
+Info: SegmentNo=0x0000001B, DataSegmentNo=0x0000001C, DataJunks=00003, DataSize=0001402, Name=pal_001.xma
+Info: SegmentNo=0x0000001F, DataSegmentNo=0x00000020, DataJunks=00001, DataSize=0000319, Name=fnt.xma
+Info: SegmentNo=0x00000021, DataSegmentNo=0x00000022, DataJunks=00001, DataSize=0000354, Name=table.xma
+Info: SegmentNo=0x00000023, DataSegmentNo=0x00000024, DataJunks=00010, DataSize=0005120, Name=Bitmap-256x256.jpg
+Info: SegmentNo=0x0000002E, DataSegmentNo=0x0000002F, DataJunks=00002, DataSize=0000809, Name=pal_002.xma
+Info: SegmentNo=0x0000004D, DataSegmentNo=0x00000EE0, DataJunks=00003, DataSize=0001313, Name=Sample-50x50.png
+Info: SegmentNo=0x0000004E, DataSegmentNo=0x0000004F, DataJunks=02535, DataSize=1297656, Name=calibrib.ttf
+Info: SegmentNo=0x0000006C, DataSegmentNo=0x0000006D, DataJunks=00413, DataSize=0211316, Name=verdanab.ttf
+Info: SegmentNo=0x00000C13, DataSegmentNo=0x00000C14, DataJunks=00767, DataSize=0392348, Name=consolab.ttf
+Info: SegmentNo=0x00000CD0, DataSegmentNo=0x00000CD1, DataJunks=00013, DataSize=0006656, Name=Power-64x64.png
+Info: SegmentNo=0x00000CD2, DataSegmentNo=0x00000CD3, DataJunks=00001, DataSize=0000335, Name=Page_C.xml
+Info: SegmentNo=0x00000EE8, DataSegmentNo=0x00000EE9, DataJunks=01216, DataSize=0622396, Name=arial-boldatc.ttf
+Info: SegmentNo=0x000013AB, DataSegmentNo=0x000013AC, DataJunks=16785, DataSize=8593536, Name=November Rain.mp3
