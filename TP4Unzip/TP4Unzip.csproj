@@ -84,6 +84,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Debug\Simple.tp4" />
+    <None Include="bin\Debug\TP4Unzip.exe.config" />
+    <None Include="bin\Debug\Walchwil.tp4" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -102,6 +105,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.ico" />
+    <None Include="bin\Debug\html.xslt" />
+    <None Include="bin\Debug\ICSharpCode.SharpZipLib.dll" />
+    <None Include="bin\Debug\json.xslt" />
+    <None Include="bin\Debug\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\TP4Unzip.exe" />
+    <None Include="bin\Debug\TP4Unzip.pdb" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
