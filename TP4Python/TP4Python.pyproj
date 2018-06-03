@@ -26,10 +26,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Project.py" />
-    <Compile Include="SegmentInfo.py" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="PresentationFramework">
       <Name>PresentationFramework</Name>
       <AssemblyName>
@@ -37,6 +33,14 @@
       <HintPath>
       </HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Project.py">
+      <Publish>False</Publish>
+    </Compile>
+    <Compile Include="SegmentInfo.py">
+      <Publish>False</Publish>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

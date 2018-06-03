@@ -85,8 +85,27 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="bin\Debug\Simple.tp4" />
+    <None Include="bin\Debug\Simple\fonts\arial-boldatc.ttf" />
+    <None Include="bin\Debug\Simple\fonts\calibrib.ttf" />
+    <None Include="bin\Debug\Simple\fonts\consolab.ttf" />
+    <None Include="bin\Debug\Simple\fonts\verdanab.ttf" />
+    <None Include="bin\Debug\Simple\json\%24external.json" />
+    <None Include="bin\Debug\Simple\json\%24fnt.json" />
+    <None Include="bin\Debug\Simple\json\%24icon.json" />
+    <None Include="bin\Debug\Simple\json\%24map.json" />
+    <None Include="bin\Debug\Simple\json\%24pal_001.json" />
+    <None Include="bin\Debug\Simple\json\%24pal_002.json" />
+    <None Include="bin\Debug\Simple\json\%24prj.json" />
+    <None Include="bin\Debug\Simple\json\%24table.json" />
+    <None Include="bin\Debug\Simple\json\mainpage.json" />
+    <None Include="bin\Debug\Simple\json\page_b.json" />
+    <None Include="bin\Debug\Simple\json\page_c.json" />
+    <None Include="bin\Debug\Simple\json\pp_navigation_off.json" />
+    <None Include="bin\Debug\Simple\json\pp_navigation_on.json" />
+    <None Include="bin\Debug\Simple\json\pp_popup_a.json" />
+    <None Include="bin\Debug\Simple\json\pp_popup_b.json" />
+    <None Include="bin\Debug\Simple\proj.json" />
     <None Include="bin\Debug\TP4Unzip.exe.config" />
-    <None Include="bin\Debug\Walchwil.tp4" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +124,48 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.ico" />
+    <Content Include="bin\Debug\Simple\audio\november rain.mp3" />
+    <Content Include="bin\Debug\Simple\html\%24external.html" />
+    <Content Include="bin\Debug\Simple\html\%24fnt.html" />
+    <Content Include="bin\Debug\Simple\html\%24icon.html" />
+    <Content Include="bin\Debug\Simple\html\%24map.html" />
+    <Content Include="bin\Debug\Simple\html\%24pal_001.html" />
+    <Content Include="bin\Debug\Simple\html\%24pal_002.html" />
+    <Content Include="bin\Debug\Simple\html\%24prj.html" />
+    <Content Include="bin\Debug\Simple\html\%24table.html" />
+    <Content Include="bin\Debug\Simple\html\mainpage.html" />
+    <Content Include="bin\Debug\Simple\html\page_b.html" />
+    <Content Include="bin\Debug\Simple\html\page_c.html" />
+    <Content Include="bin\Debug\Simple\html\pp_navigation_off.html" />
+    <Content Include="bin\Debug\Simple\html\pp_navigation_on.html" />
+    <Content Include="bin\Debug\Simple\html\pp_popup_a.html" />
+    <Content Include="bin\Debug\Simple\html\pp_popup_b.html" />
+    <Content Include="bin\Debug\Simple\images\bitmap-256x256.jpg" />
+    <Content Include="bin\Debug\Simple\images\power-64x64.png" />
+    <Content Include="bin\Debug\Simple\images\sample-50x50.png" />
+    <Content Include="bin\Debug\Simple\index.html" />
+    <Content Include="bin\Debug\Simple\scripts\common.js" />
+    <Content Include="bin\Debug\Simple\scripts\html5shiv.js" />
+    <Content Include="bin\Debug\Simple\scripts\jsonpath-0.8.0.js" />
+    <Content Include="bin\Debug\Simple\scripts\main.css" />
+    <Content Include="bin\Debug\Simple\scripts\proj.js" />
+    <Content Include="bin\Debug\Simple\SegmentInfo.txt" />
+    <Content Include="bin\Debug\Simple\xml\%24external.xml" />
+    <Content Include="bin\Debug\Simple\xml\%24fnt.xml" />
+    <Content Include="bin\Debug\Simple\xml\%24icon.xml" />
+    <Content Include="bin\Debug\Simple\xml\%24map.xml" />
+    <Content Include="bin\Debug\Simple\xml\%24pal_001.xml" />
+    <Content Include="bin\Debug\Simple\xml\%24pal_002.xml" />
+    <Content Include="bin\Debug\Simple\xml\%24prj.xml" />
+    <Content Include="bin\Debug\Simple\xml\%24sysfnt.xml" />
+    <Content Include="bin\Debug\Simple\xml\%24table.xml" />
+    <Content Include="bin\Debug\Simple\xml\mainpage.xml" />
+    <Content Include="bin\Debug\Simple\xml\page_b.xml" />
+    <Content Include="bin\Debug\Simple\xml\page_c.xml" />
+    <Content Include="bin\Debug\Simple\xml\pp_navigation_off.xml" />
+    <Content Include="bin\Debug\Simple\xml\pp_navigation_on.xml" />
+    <Content Include="bin\Debug\Simple\xml\pp_popup_a.xml" />
+    <Content Include="bin\Debug\Simple\xml\pp_popup_b.xml" />
     <None Include="bin\Debug\html.xslt" />
     <None Include="bin\Debug\ICSharpCode.SharpZipLib.dll" />
     <None Include="bin\Debug\json.xslt" />
