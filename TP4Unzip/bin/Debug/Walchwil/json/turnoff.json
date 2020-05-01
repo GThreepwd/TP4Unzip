@@ -1,0 +1,240 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "515",
+    "name": "TurnOff",
+    "top": "91",
+    "width": "1024",
+    "height": "565",
+    "hideTime": "3",
+    "button": [
+      {
+        "type": "general",
+        "bi": "1",
+        "na": "Möchten Sie das System wirklich ausschalten?",
+        "lt": "201",
+        "tp": "104",
+        "wt": "622",
+        "ht": "158",
+        "zo": "24",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "Black",
+            "fi": "27",
+            "te": "Möchten Sie das System wirklich ausschalten?",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "Black",
+            "fi": "27",
+            "te": "Möchten Sie das System wirklich ausschalten?",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "2",
+        "na": "Ja",
+        "lt": "250",
+        "tp": "298",
+        "wt": "223",
+        "ht": "72",
+        "zo": "25",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "ch": "12",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sHide",
+          "#text": "TurnOff"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "55",
+            "te": "Ja"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "55",
+            "te": "Ja"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "3",
+        "na": "Bitte schliessen sie das iPad nach Gebrauch an das Ladekabel an.",
+        "lt": "40",
+        "tp": "439",
+        "wt": "944",
+        "ht": "86",
+        "zo": "26",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "VeryLightOrange",
+            "cf": "#FEDE13AD",
+            "ct": "Black",
+            "ec": "Black",
+            "fi": "55",
+            "te": "Bitte schliessen sie das iPad nach Gebrauch an das Ladekabel an.",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "VeryLightOrange",
+            "cf": "#FEDE13AD",
+            "ct": "Black",
+            "ec": "Black",
+            "fi": "55",
+            "te": "Bitte schliessen sie das iPad nach Gebrauch an das Ladekabel an.",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "6",
+        "na": "Nein",
+        "lt": "552",
+        "tp": "298",
+        "wt": "223",
+        "ht": "72",
+        "zo": "29",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sHide",
+          "#text": "TurnOff"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "55",
+            "te": "Nein"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "55",
+            "te": "Nein"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "7",
+        "na": "System ausschalten",
+        "lt": "40",
+        "tp": "24",
+        "wt": "944",
+        "ht": "50",
+        "zo": "30",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "#FF4545BC",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "57",
+            "te": "System ausschalten"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "#FF4545BC",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "57",
+            "te": "System ausschalten"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "Line Single",
+      "cb": "Black",
+      "cf": "White",
+      "ct": "White",
+      "ec": "#000000FF",
+      "jb": "4",
+      "fi": "45"
+    }
+  }
+}

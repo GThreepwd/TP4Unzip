@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
 <root>
   <page type="page">
     <pageID>1</pageID>
@@ -25,34 +24,31 @@
       <ad>22</ad>
       <cp>3</cp>
       <ch>33</ch>
-      <vt>rel</vt>
-      <lp>4</lp>
-      <lv>44</lv>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
       <sr number="1">
-        <bs>
-        </bs>
-        <cb>Grey7</cb>
+        <bs>Single Line</bs>
+        <cb>Black</cb>
         <cf>VeryLightOrange</cf>
         <ct>Black</ct>
         <ec>#000000FF</ec>
-        <fi>32</fi>
-        <te>Button A</te>
+        <fi>35</fi>
+        <te>Button A
+Momentary</te>
         <jt>1</jt>
         <ww>1</ww>
       </sr>
       <sr number="2">
-        <bs>
-        </bs>
-        <cb>Grey7</cb>
-        <cf>VeryLightOrange</cf>
-        <ct>Black</ct>
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightBlue</cf>
+        <ct>White</ct>
         <ec>#000000FF</ec>
-        <fi>32</fi>
-        <te>Button A</te>
-        <jt>1</jt>
+        <fi>35</fi>
+        <te>Button A
+Momentary Down</te>
+        <jt>9</jt>
         <ww>1</ww>
       </sr>
     </button>
@@ -68,6 +64,7 @@
       <hs>passThru</hs>
       <bs>
       </bs>
+      <fb>momentary</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -77,17 +74,22 @@
         <cf>LightAqua</cf>
         <ct>White</ct>
         <ec>#000000FF</ec>
-        <fi>39</fi>
-        <te>Button C</te>
+        <fi>43</fi>
+        <te>Button C
+Momentary</te>
+        <ww>1</ww>
       </sr>
       <sr number="2">
         <bs>Single Line</bs>
         <cb>Black</cb>
-        <cf>LightAqua</cf>
+        <cf>Green</cf>
         <ct>Black</ct>
         <ec>#000000FF</ec>
-        <fi>39</fi>
-        <te>Button C</te>
+        <fi>43</fi>
+        <te>Button C
+Momentary
+Down</te>
+        <ww>1</ww>
       </sr>
     </button>
     <button type="general">
@@ -138,6 +140,7 @@
       <zo>5</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -171,6 +174,7 @@
       <zo>6</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -204,6 +208,7 @@
       <zo>7</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -235,6 +240,7 @@
       <zo>8</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -266,6 +272,7 @@
       <zo>9</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -297,6 +304,7 @@
       <zo>10</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -328,6 +336,7 @@
       <zo>11</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -359,6 +368,7 @@
       <zo>12</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -390,6 +400,7 @@
       <zo>13</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -421,6 +432,7 @@
       <zo>14</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -452,6 +464,7 @@
       <zo>15</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -483,6 +496,7 @@
       <zo>16</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -514,6 +528,7 @@
       <zo>17</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -545,6 +560,7 @@
       <zo>18</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -576,6 +592,7 @@
       <zo>19</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -607,6 +624,7 @@
       <zo>20</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -638,6 +656,7 @@
       <zo>21</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -669,6 +688,7 @@
       <zo>22</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -700,6 +720,7 @@
       <zo>23</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -731,6 +752,7 @@
       <zo>24</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -762,6 +784,7 @@
       <zo>25</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -793,6 +816,7 @@
       <zo>26</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -824,6 +848,7 @@
       <zo>27</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -855,6 +880,7 @@
       <zo>28</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -886,6 +912,7 @@
       <zo>29</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -917,6 +944,7 @@
       <zo>30</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -948,6 +976,7 @@
       <zo>31</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -979,6 +1008,7 @@
       <zo>32</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1010,6 +1040,7 @@
       <zo>33</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1041,6 +1072,7 @@
       <zo>34</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1072,6 +1104,7 @@
       <zo>35</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1103,6 +1136,7 @@
       <zo>36</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1134,6 +1168,7 @@
       <zo>37</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1165,6 +1200,7 @@
       <zo>38</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1196,6 +1232,7 @@
       <zo>39</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1227,6 +1264,7 @@
       <zo>40</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1258,6 +1296,7 @@
       <zo>41</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1289,6 +1328,7 @@
       <zo>42</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1320,6 +1360,7 @@
       <zo>43</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1351,6 +1392,7 @@
       <zo>44</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1382,6 +1424,7 @@
       <zo>45</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1413,6 +1456,7 @@
       <zo>46</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1444,6 +1488,7 @@
       <zo>47</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1475,6 +1520,7 @@
       <zo>48</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1506,6 +1552,7 @@
       <zo>49</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1537,6 +1584,7 @@
       <zo>50</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1568,6 +1616,7 @@
       <zo>51</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1599,6 +1648,7 @@
       <zo>52</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1630,6 +1680,7 @@
       <zo>53</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1661,6 +1712,7 @@
       <zo>54</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1692,6 +1744,7 @@
       <zo>55</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1723,6 +1776,7 @@
       <zo>56</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1754,6 +1808,7 @@
       <zo>57</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1785,6 +1840,7 @@
       <zo>58</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1816,6 +1872,7 @@
       <zo>59</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1847,6 +1904,7 @@
       <zo>60</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1878,6 +1936,7 @@
       <zo>61</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1909,6 +1968,7 @@
       <zo>62</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1940,6 +2000,7 @@
       <zo>63</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -1971,6 +2032,7 @@
       <zo>64</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2002,6 +2064,7 @@
       <zo>65</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2033,6 +2096,7 @@
       <zo>66</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2064,6 +2128,7 @@
       <zo>67</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2095,6 +2160,7 @@
       <zo>68</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2126,6 +2192,7 @@
       <zo>69</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2157,6 +2224,7 @@
       <zo>70</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2188,6 +2256,7 @@
       <zo>71</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2219,6 +2288,7 @@
       <zo>72</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2250,6 +2320,7 @@
       <zo>73</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2281,6 +2352,7 @@
       <zo>74</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2312,6 +2384,7 @@
       <zo>75</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2343,6 +2416,7 @@
       <zo>76</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2374,6 +2448,7 @@
       <zo>77</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2405,6 +2480,7 @@
       <zo>78</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2436,6 +2512,7 @@
       <zo>79</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2467,6 +2544,7 @@
       <zo>80</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2498,6 +2576,7 @@
       <zo>81</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2529,6 +2608,7 @@
       <zo>82</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2560,6 +2640,7 @@
       <zo>83</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2591,6 +2672,7 @@
       <zo>84</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2622,6 +2704,7 @@
       <zo>85</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2653,6 +2736,7 @@
       <zo>86</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2684,6 +2768,7 @@
       <zo>87</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2715,6 +2800,7 @@
       <zo>88</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2746,6 +2832,7 @@
       <zo>89</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2777,6 +2864,7 @@
       <zo>90</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2808,6 +2896,7 @@
       <zo>91</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2839,6 +2928,7 @@
       <zo>92</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2870,6 +2960,7 @@
       <zo>93</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2901,6 +2992,7 @@
       <zo>94</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2932,6 +3024,7 @@
       <zo>95</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
@@ -2963,26 +3056,330 @@
       <zo>96</zo>
       <bs>
       </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>55</ch>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />
       <sr number="1">
-        <bs>Double Line</bs>
+        <bs>Single Line</bs>
         <cb>Black</cb>
         <cf>DarkLime</cf>
         <ct>White</ct>
         <ec>#000000FF</ec>
-        <fi>38</fi>
-        <te>Button B</te>
+        <fi>36</fi>
+        <te>Button B
+Momentary</te>
+        <ww>1</ww>
       </sr>
       <sr number="2">
-        <bs>Double Line</bs>
+        <bs>Single Line</bs>
         <cb>Black</cb>
-        <cf>DarkLime</cf>
+        <cf>VeryLightYellow</cf>
         <ct>Black</ct>
         <ec>#000000FF</ec>
-        <fi>38</fi>
-        <te>Button B</te>
+        <fi>36</fi>
+        <te>Button B
+Momentary Down</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>96</bi>
+      <na>BtnNone</na>
+      <li>1</li>
+      <lt>297</lt>
+      <tp>242</tp>
+      <wt>125</wt>
+      <ht>125</ht>
+      <zo>97</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <da>1</da>
+      <hd>1</hd>
+      <fb>none</fb>
+      <ch>10</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>LightAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>None</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>None</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>97</bi>
+      <na>BtnInvertedChannel</na>
+      <li>1</li>
+      <lt>569</lt>
+      <tp>242</tp>
+      <wt>125</wt>
+      <ht>125</ht>
+      <zo>98</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>inverted</fb>
+      <ch>10</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>LightAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Inverted Channel</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Inverted Channel</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>98</bi>
+      <na>BtnChannel</na>
+      <li>1</li>
+      <lt>433</lt>
+      <tp>242</tp>
+      <wt>125</wt>
+      <ht>125</ht>
+      <zo>99</zo>
+      <bs>
+      </bs>
+      <ch>10</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>LightAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Channel</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Channel</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>99</bi>
+      <na>BtnAllwayOn</na>
+      <li>1</li>
+      <lt>297</lt>
+      <tp>378</tp>
+      <wt>125</wt>
+      <ht>125</ht>
+      <zo>100</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <da>1</da>
+      <hd>1</hd>
+      <fb>on</fb>
+      <ch>10</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>LightAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Always on</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Always on</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>100</bi>
+      <na>BtnBlink</na>
+      <li>1</li>
+      <lt>569</lt>
+      <tp>378</tp>
+      <wt>125</wt>
+      <ht>125</ht>
+      <zo>101</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ch>10</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>LightAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Blink</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Blink</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>101</bi>
+      <na>BtnMomentary</na>
+      <li>1</li>
+      <lt>433</lt>
+      <tp>378</tp>
+      <wt>125</wt>
+      <ht>125</ht>
+      <zo>102</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <ch>10</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>LightAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Momentary</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>34</fi>
+        <te>Momentary</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>102</bi>
+      <na>[Time]</na>
+      <lt>776</lt>
+      <tp>16</tp>
+      <wt>232</wt>
+      <ht>46</ht>
+      <zo>103</zo>
+      <bs>
+      </bs>
+      <ad>101</ad>
+      <ch>101</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkCyan</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>33</fi>
+        <te>[Time]</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>MediumAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>33</fi>
+        <te>[Time]</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>103</bi>
+      <na>[Date]</na>
+      <lt>776</lt>
+      <tp>72</tp>
+      <wt>232</wt>
+      <ht>46</ht>
+      <zo>104</zo>
+      <bs>
+      </bs>
+      <ad>102</ad>
+      <ch>102</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkCyan</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>33</fi>
+        <te>[Date]</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>MediumAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>33</fi>
+        <te>[Date]</te>
       </sr>
     </button>
     <sr number="1">

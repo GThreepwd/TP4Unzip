@@ -1,0 +1,1546 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "502",
+    "name": "Navigation_On",
+    "top": "656",
+    "width": "1024",
+    "height": "112",
+    "group": "Navigation",
+    "button": [
+      {
+        "type": "general",
+        "bi": "1",
+        "na": "Room",
+        "lt": "8",
+        "tp": "6",
+        "wt": "105",
+        "ht": "99",
+        "zo": "2",
+        "bs": "",
+        "ch": "1",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "2",
+            "ct": "#E20A17FF",
+            "ec": "#000000FF",
+            "fi": "32",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "32",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "2",
+        "na": "licht/storen",
+        "lt": "12",
+        "tp": "31",
+        "wt": "97",
+        "ht": "22",
+        "zo": "3",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "1",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "licht/storen",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "licht/storen",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "3",
+        "na": "Copy of sun48",
+        "lt": "60",
+        "tp": "54",
+        "wt": "48",
+        "ht": "48",
+        "zo": "4",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "1",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "mi": "Copy of sun48.png",
+            "cb": "1",
+            "cf": "1",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "18"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "mi": "Copy of sun48.png",
+            "cb": "1",
+            "cf": "3",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "18"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "4",
+        "na": "Saal",
+        "lt": "12",
+        "tp": "11",
+        "wt": "97",
+        "ht": "22",
+        "zo": "5",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "1",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Saal",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Saal",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "5",
+        "na": "Media",
+        "lt": "232",
+        "tp": "6",
+        "wt": "105",
+        "ht": "99",
+        "zo": "6",
+        "bs": "",
+        "ch": "3",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "#FFFFFFFF",
+            "ct": "#E20A17FF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "1",
+            "ct": "#FFFFFFFF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "6",
+        "na": "video-48",
+        "lt": "279",
+        "tp": "68",
+        "wt": "50",
+        "ht": "30",
+        "zo": "7",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "3",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "mi": "Laptop_50.png",
+            "cb": "#FFFFFFFF",
+            "cf": "1",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "18"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "mi": "Laptop_50.png",
+            "cb": "#FFFFFFFF",
+            "cf": "3",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "18"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "7",
+        "na": "quellen",
+        "lt": "236",
+        "tp": "31",
+        "wt": "97",
+        "ht": "22",
+        "zo": "8",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "3",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "quellen",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "quellen",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "8",
+        "na": "Medien",
+        "lt": "236",
+        "tp": "11",
+        "wt": "97",
+        "ht": "22",
+        "zo": "9",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "3",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Medien",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "White",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Medien",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "13",
+        "na": "Power",
+        "lt": "911",
+        "tp": "6",
+        "wt": "105",
+        "ht": "99",
+        "zo": "14",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "TurnOff"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "#FFFFFFFF",
+            "ct": "#E20A17FF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "1",
+            "ct": "#FFFFFFFF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "14",
+        "na": "Button 9",
+        "lt": "973",
+        "tp": "58",
+        "wt": "36",
+        "ht": "40",
+        "zo": "15",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "mi": "turn-off.png",
+            "cb": "White",
+            "cf": "1",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "18"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "mi": "turn-off.png",
+            "cb": "White",
+            "cf": "3",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "ii": "10",
+            "fi": "18"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "15",
+        "na": "ausschalten",
+        "lt": "915",
+        "tp": "31",
+        "wt": "97",
+        "ht": "22",
+        "zo": "17",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "ausschalten",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "ausschalten",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "16",
+        "na": "System",
+        "lt": "915",
+        "tp": "11",
+        "wt": "97",
+        "ht": "22",
+        "zo": "18",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "System",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "System",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "21",
+        "na": "Microfon",
+        "lt": "568",
+        "tp": "6",
+        "wt": "105",
+        "ht": "99",
+        "zo": "22",
+        "bs": "",
+        "ch": "6",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "#FFFFFFFF",
+            "ct": "#E20A17FF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "1",
+            "ct": "#FFFFFFFF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "22",
+        "na": "Microfon",
+        "lt": "344",
+        "tp": "6",
+        "wt": "105",
+        "ht": "99",
+        "zo": "23",
+        "bs": "",
+        "ch": "4",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "#FFFFFFFF",
+            "ct": "#E20A17FF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "1",
+            "ct": "#FFFFFFFF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "23",
+        "na": "microphone_48",
+        "lt": "395",
+        "tp": "54",
+        "wt": "45",
+        "ht": "42",
+        "zo": "24",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "4",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "mi": "Parameters_56.png",
+            "cb": "1",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "18"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "mi": "Parameters_56.png",
+            "cb": "White",
+            "cf": "3",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "18"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "24",
+        "na": "lautstärke",
+        "lt": "348",
+        "tp": "31",
+        "wt": "97",
+        "ht": "22",
+        "zo": "25",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "4",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "lautstärke",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "lautstärke",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "25",
+        "na": "Audio",
+        "lt": "348",
+        "tp": "11",
+        "wt": "97",
+        "ht": "22",
+        "zo": "26",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "4",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Audio",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Audio",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "27",
+        "na": "aufnahme",
+        "lt": "572",
+        "tp": "31",
+        "wt": "97",
+        "ht": "22",
+        "zo": "28",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "6",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "aufnahme",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "aufnahme",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "28",
+        "na": "Recorder",
+        "lt": "572",
+        "tp": "11",
+        "wt": "97",
+        "ht": "22",
+        "zo": "29",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "6",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Recorder",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Recorder",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "17",
+        "na": "Room",
+        "lt": "120",
+        "tp": "6",
+        "wt": "105",
+        "ht": "99",
+        "zo": "34",
+        "bs": "",
+        "ch": "2",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "2",
+            "ct": "#E20A17FF",
+            "ec": "#000000FF",
+            "fi": "32",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "32",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "18",
+        "na": "licht/storen",
+        "lt": "124",
+        "tp": "31",
+        "wt": "97",
+        "ht": "22",
+        "zo": "35",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "2",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "licht/storen",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "licht/storen",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "19",
+        "na": "Copy of sun48",
+        "lt": "172",
+        "tp": "54",
+        "wt": "48",
+        "ht": "48",
+        "zo": "36",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "2",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "mi": "Copy of sun48.png",
+            "cb": "1",
+            "cf": "1",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "18"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "mi": "Copy of sun48.png",
+            "cb": "1",
+            "cf": "3",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "18"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "20",
+        "na": "Bühne",
+        "lt": "124",
+        "tp": "11",
+        "wt": "97",
+        "ht": "22",
+        "zo": "37",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "2",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Bühne",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Bühne",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "29",
+        "na": "Media",
+        "lt": "680",
+        "tp": "6",
+        "wt": "112",
+        "ht": "99",
+        "zo": "38",
+        "bs": "",
+        "ch": "22",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "#D6FEF6D2",
+            "ct": "#E20A17FF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "1",
+            "ct": "#FFFFFFFF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "31",
+        "na": "starten",
+        "lt": "684",
+        "tp": "31",
+        "wt": "104",
+        "ht": "22",
+        "zo": "40",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "22",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "starten",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "starten",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "32",
+        "na": "Präsentation",
+        "lt": "684",
+        "tp": "11",
+        "wt": "104",
+        "ht": "22",
+        "zo": "41",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "22",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Präsentation",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "White",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Präsentation",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "33",
+        "na": "presentation",
+        "lt": "738",
+        "tp": "51",
+        "wt": "48",
+        "ht": "48",
+        "zo": "42",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "22",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "mi": "presentation.png",
+            "cb": "1",
+            "cf": "1",
+            "ct": "White",
+            "ec": "White",
+            "bm": "presentation.png",
+            "fi": "44"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "mi": "presentation.png",
+            "cb": "3",
+            "cf": "3",
+            "ct": "White",
+            "ec": "White",
+            "bm": "presentation.png",
+            "fi": "44"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "34",
+        "na": "Media",
+        "lt": "799",
+        "tp": "6",
+        "wt": "105",
+        "ht": "99",
+        "zo": "43",
+        "bs": "",
+        "ch": "7",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "#FFFFFFFF",
+            "ct": "#E20A17FF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "1",
+            "ct": "#FFFFFFFF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "35",
+        "na": "?",
+        "lt": "846",
+        "tp": "52",
+        "wt": "50",
+        "ht": "44",
+        "zo": "44",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "7",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "#FFFFFFFF",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "74",
+            "te": "?"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "#FFFFFFFF",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "#000000FF",
+            "fi": "74",
+            "te": "?"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "36",
+        "na": "hilfe",
+        "lt": "803",
+        "tp": "31",
+        "wt": "97",
+        "ht": "22",
+        "zo": "45",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "7",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "hilfe",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "hilfe",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "37",
+        "na": "Information",
+        "lt": "803",
+        "tp": "11",
+        "wt": "97",
+        "ht": "22",
+        "zo": "46",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "7",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Information",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "White",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Information",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "38",
+        "na": "w",
+        "lt": "630",
+        "tp": "62",
+        "wt": "35",
+        "ht": "35",
+        "zo": "47",
+        "hs": "passThru",
+        "bs": "",
+        "ap": "7",
+        "cp": "7",
+        "ch": "1",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 35",
+            "cb": "1",
+            "cf": "White",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "60",
+            "te": "w",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 35",
+            "cb": "1",
+            "cf": "VeryLightRed",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "60",
+            "te": "p",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "9",
+        "na": "Warning",
+        "lt": "576",
+        "tp": "56",
+        "wt": "42",
+        "ht": "44",
+        "zo": "48",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "blink",
+        "ap": "7",
+        "ad": "98",
+        "cp": "7",
+        "ch": "98",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "bm": "symbolWarningYellow40Red_shadow.png",
+            "by": "11",
+            "fi": "20",
+            "ty": "32",
+            "et": "25"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "by": "11",
+            "fi": "20",
+            "ty": "32",
+            "et": "25"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "10",
+        "na": "Microfon",
+        "lt": "456",
+        "tp": "6",
+        "wt": "105",
+        "ht": "99",
+        "zo": "49",
+        "bs": "",
+        "ch": "5",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "#FFFFFFFF",
+            "ct": "#E20A17FF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "4",
+            "cf": "1",
+            "ct": "#FFFFFFFF",
+            "ec": "#000000FF",
+            "fi": "42",
+            "jt": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "11",
+        "na": "microphone_48",
+        "lt": "520",
+        "tp": "52",
+        "wt": "32",
+        "ht": "48",
+        "zo": "50",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "5",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "mi": "microphone_48.png",
+            "cb": "White",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "18"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "mi": "microphone_48.png",
+            "cb": "White",
+            "cf": "3",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "18"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "12",
+        "na": "lautstärke",
+        "lt": "460",
+        "tp": "31",
+        "wt": "97",
+        "ht": "22",
+        "zo": "51",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "5",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "lautstärke",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "35",
+            "te": "lautstärke",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "26",
+        "na": "Mikrofone",
+        "lt": "460",
+        "tp": "11",
+        "wt": "97",
+        "ht": "22",
+        "zo": "52",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "5",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Mikrofone",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "1",
+            "cf": "Transparent",
+            "ct": "2",
+            "ec": "Transparent",
+            "fi": "64",
+            "te": "Mikrofone",
+            "jt": "4"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "Single Line",
+      "cb": "Black",
+      "cf": "5",
+      "ct": "White",
+      "ec": "#000000FF",
+      "fi": "43"
+    }
+  }
+}

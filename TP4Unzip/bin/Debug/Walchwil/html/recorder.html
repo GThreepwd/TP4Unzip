@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="de-DE"><head><meta charset="UTF-8" /><title>Recorder</title><style>
+              
+        body {
+          background-color:#FFFFFF;
+          width:1024px;
+          height:565px;
+          
+          /* -ms-transform: scale(1.5, 1.5); /* IE 9 */
+          /* -webkit-transform: scale(1.5, 1.5); /* Safari */
+          /* transform: scale(1.5, 1.5); /* Standard syntax */
+          
+          transform-origin: 0 0;
+          overflow:hidden;
+          padding:0px;
+          margin:0px;
+          border-style:solid;border-width:1px;
+        }
+        </style><meta name="viewport" content="width=device-width, initial-scale=1.0" /></head><body><button id="Recorder" style="
+          width:960px;
+          height:30px;
+          background-color:#FF8000;
+          position: absolute;
+          left:32px;
+          top:16px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Recorder</button><button id="p" style="
+          width:135px;
+          height:135px;
+          background-color:17;
+          position: absolute;
+          left:754px;
+          top:246px;
+          border-style:solid;border-width:Circle 135px;
+          border-color:#222222FF;
+          color:#AC0000FF;
+          padding:0px;
+        ">p</button><button id="w" style="
+          width:135px;
+          height:135px;
+          background-color:17;
+          position: absolute;
+          left:556px;
+          top:246px;
+          border-style:solid;border-width:Circle 135px;
+          border-color:#222222FF;
+          color:#333333;
+          padding:0px;
+        ">w</button><button id="00:00:00" style="
+          width:200px;
+          height:62px;
+          background-color:17;
+          position: absolute;
+          left:241px;
+          top:460px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">00:00:00</button><button id="Gesammte verbleibende Aufnahmezeit" style="
+          width:200px;
+          height:46px;
+          background-color:#63356300;
+          position: absolute;
+          left:241px;
+          top:406px;
+          border-style:solid;border-width:0px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Gesammte verbleibende Aufnahmezeit</button><button id="Aufgezeichnete Daten werden auf das Medium geschrieben" style="
+          width:535px;
+          height:119px;
+          background-color:17;
+          position: absolute;
+          left:457px;
+          top:62px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">Aufgezeichnete Daten werden auf das Medium geschrieben</button><button id="00:00:00" style="
+          width:200px;
+          height:62px;
+          background-color:17;
+          position: absolute;
+          left:32px;
+          top:460px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">00:00:00</button><button id="Verbleibende Aufnahmezeit (Titel)" style="
+          width:200px;
+          height:46px;
+          background-color:#63356300;
+          position: absolute;
+          left:32px;
+          top:406px;
+          border-style:solid;border-width:0px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Verbleibende Aufnahmezeit (Titel)</button><button id="---" style="
+          width:200px;
+          height:62px;
+          background-color:17;
+          position: absolute;
+          left:32px;
+          top:292px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">---</button><button id="Aktuelles  Speichermedium" style="
+          width:200px;
+          height:62px;
+          background-color:#63356300;
+          position: absolute;
+          left:32px;
+          top:222px;
+          border-style:solid;border-width:0px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Aktuelles 
+Speichermedium</button><button id="Speichermedium" style="
+          width:409px;
+          height:31px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:32px;
+          top:62px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Speichermedium</button><button id="SD" style="
+          width:127px;
+          height:72px;
+          background-color:1;
+          position: absolute;
+          left:173px;
+          top:109px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />SD</button><button id="USB" style="
+          width:127px;
+          height:72px;
+          background-color:1;
+          position: absolute;
+          left:32px;
+          top:109px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />USB</button><button id="CF" style="
+          width:127px;
+          height:72px;
+          background-color:1;
+          position: absolute;
+          left:314px;
+          top:109px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />CF</button><button id="Warning" style="
+          width:42px;
+          height:44px;
+          background-color:transparent;
+          position: absolute;
+          left:420px;
+          top:495px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:transparent;
+          padding:0px;
+        "><img src="../Images/symbolWarningYellow40Red_shadow.png" alt="symbolWarningYellow40Red_shadow.png" style="width:100%;height:auto;" /></button><button id="Aufnahme starten" style="
+          width:135px;
+          height:46px;
+          background-color:#63356300;
+          position: absolute;
+          left:754px;
+          top:406px;
+          border-style:solid;border-width:0px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Aufnahme
+starten</button><button id="Aufnahme stoppen" style="
+          width:135px;
+          height:46px;
+          background-color:#63356300;
+          position: absolute;
+          left:556px;
+          top:406px;
+          border-style:solid;border-width:0px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Aufnahme
+stoppen</button><button id="Warning" style="
+          width:42px;
+          height:44px;
+          background-color:transparent;
+          position: absolute;
+          left:942px;
+          top:129px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:transparent;
+          padding:0px;
+        "><img src="../Images/symbolWarningYellow40Red_shadow.png" alt="symbolWarningYellow40Red_shadow.png" style="width:100%;height:auto;" /></button><script>
+          // Resizes current window (150%)
+          // window.resizeTo(1536,  847.5);
+          // window.resizeTo(1024 * 1.53, 768 * 1.805);
+          window.focus(); // Sets focus to the new window
+        </script></body></html>

@@ -9,6 +9,8 @@ using System.Xml;
 using System.Xml.XPath;
 using System.Xml.Xsl;
 
+using TP4Unzip.Properties;
+
 using ICSharpCode.SharpZipLib.GZip;
 
 using Newtonsoft.Json;
@@ -48,6 +50,10 @@ namespace TP4Unzip
       if(fileName == null)
         throw new ArgumentNullException(nameof(fileName));
 
+      // Development
+      CreateJson = Settings.Default.CreateJson;
+      CreateXml = Settings.Default.CreateXml;
+
       // Initial Check
       try
       {
@@ -72,13 +78,9 @@ namespace TP4Unzip
 
     public string OutputDirectory { get; set; } = ".\\";
 
-    public string XmlStyleSheetElement { get; set; }
-
-    public string XmlStyleSheetHtmlFileName { get; set; }
-
     public bool CreateJson { get; set; } = true;
 
-    public bool CreateJsonJs { get; set; } = true;
+    public bool CreateXml { get; set; } = true;
 
     public static string ByteArrayToString(byte[] bytes)
     {
@@ -142,96 +144,94 @@ namespace TP4Unzip
 
         EventService.CreateMsg(this, "Gefundene Info-Segmente: {0}, Aktuelle Position={1}", mInfoSegments.Count, mStream.Position);
 
-        DebugInfoSegments();
+        if(Settings.Default.CreateSegmentInfo)
+          DebugInfoSegments();
 
         ProcessJunkData();
 
-        if(CreateJson)
+        try
         {
-          try
+          var lJsonProject = new JObject();
+
+          var lJsonPages = new JArray();
+          var lJsonPalettes = new JArray();
+
+          foreach(var json in mJsonList)
           {
-            var lFileNameJson = string.Format(@"{0}\proj.json", OutputDirectory).ToLower();
+            var lJsonObj = JObject.Parse(json).SelectToken("", false);
 
-            var lJsonProject = new JObject();
+            // Omit root object
+            if((lJsonObj.First as JProperty)?.Name == "root")
+              lJsonObj = lJsonObj.SelectToken("root", false);
 
-            var lJsonPages = new JArray();
-            var lJsonPalettes = new JArray();
+            var lProperty = lJsonObj.First as JProperty;
 
-            foreach(var json in mJsonList)
+            switch(lProperty?.Name)
             {
-              var lJsonObj = JObject.Parse(json).SelectToken("", false);
+              case "versionInfo":
+                {
+                  lJsonProject["project"] = lJsonObj;
 
-              // Omit root object
-              if((lJsonObj.First as JProperty)?.Name == "root")
-                lJsonObj = lJsonObj.SelectToken("root", false);
+                  // Add pages after Project-Info
+                  if(lProperty?.Name == "versionInfo")
+                    lJsonProject.Add(new JProperty("pages"));
 
-              var lProperty = lJsonObj.First as JProperty;
+                  break;
+                }
+              case "page":
+                {
+                  lJsonPages.Add(lJsonObj);
 
-              switch(lProperty?.Name)
-              {
-                case "versionInfo":
-                  {
-                    lJsonProject["project"] = lJsonObj;
+                  break;
+                }
+              case "cm":
+                {
+                  lJsonProject.Add(new JProperty("map", lJsonObj));
 
-                    // Add pages after Project-Info
-                    if(lProperty?.Name == "versionInfo")
-                      lJsonProject.Add(new JProperty("pages"));
+                  break;
+                }
+              case "paletteData":
+                {
+                  lJsonPalettes.Add(lJsonObj);
 
-                    break;
-                  }
-                case "page":
-                  {
-                    lJsonPages.Add(lJsonObj);
-
-                    break;
-                  }
-                case "cm":
-                  {
-                    lJsonProject.Add(new JProperty("map", lJsonObj));
-
-                    break;
-                  }
-                case "paletteData":
-                  {
-                    lJsonPalettes.Add(lJsonObj);
-
-                    break;
-                  }
-                default:
-                  {
-                    lJsonProject.Merge(lJsonObj);
-                    break;
-                  }
-              }
-            }
-
-            // All pages (Array)
-            lJsonProject["pages"] = lJsonPages;
-
-            // Palette Data
-            lJsonProject["palettes"] = lJsonPalettes;
-
-            var lJSonProjStr = lJsonProject.ToString();
-
-            File.WriteAllText(lFileNameJson, lJSonProjStr);
-
-            if(CreateJsonJs)
-            {
-              lJSonProjStr = "var Proj = " + lJSonProjStr;
-
-              CreateResourceDirectory("scripts");
-
-              lFileNameJson = string.Format(@"{0}\scripts\proj.js", OutputDirectory).ToLower();
-
-              File.WriteAllText(lFileNameJson, lJSonProjStr);
+                  break;
+                }
+              default:
+                {
+                  lJsonProject.Merge(lJsonObj);
+                  break;
+                }
             }
           }
-          catch(Exception ex)
-          {
-            mTotalErrors++;
 
-            EventService.CreateMsg(this, "Error: [Extract-CreateJson] Message={0}", ex.Message);
+          // All pages (Array)
+          lJsonProject["pages"] = lJsonPages;
+
+          // Palette Data
+          lJsonProject["palettes"] = lJsonPalettes;
+
+          var lJSonProjStr = lJsonProject.ToString();
+
+          // Project -> JSON
+          if(CreateJson)
+          {
+            var lFileName = string.Format(@"{0}\project.json", OutputDirectory).ToLower();
+
+            File.WriteAllText(lFileName, lJSonProjStr);
           }
+
+          // Project -> JavaScript
+          lJSonProjStr = string.Format("var {0} = {1}", Settings.Default.JsVariableName, lJSonProjStr);
+
+          var lFileNameJsProject = string.Format(@"{0}\{1}", OutputDirectory, Settings.Default.JsFileName);
+
+          File.WriteAllText(lFileNameJsProject, lJSonProjStr);
+        }
+        catch(Exception ex)
+        {
+          mTotalErrors++;
+
+          EventService.CreateMsg(this, "Error: [Extract-CreateJson] Message={0}", ex.Message);
         }
       }
       catch(Exception ex)
@@ -347,14 +347,16 @@ namespace TP4Unzip
           case ".mp3": lDirectory = DirectoryAudio; break;
         }
 
-        CreateResourceDirectory(lDirectory);
-
         EventService.CreateMsg(this, "Erstelle Datei: {0}", lNewFileName);
 
         if(lExt == ".xma" || lExt == ".xml")
           ProcessGZipData(lDirectory, lNewFileName, lNewFileName == "$fnt.xml");
         else
+        {
+          CreateResourceDirectory(lDirectory);
+
           ProcessRawData(lDirectory, lNewFileName);
+        }
 
         Application.DoEvents();
       }
@@ -405,9 +407,14 @@ namespace TP4Unzip
           try
           {
             // Try save memory to file
-            lFileNameXml = string.Format(@"{0}\{1}\{2}.corrupted{3}", OutputDirectory, directory, Path.GetFileNameWithoutExtension(fileName), Path.GetExtension(fileName)).ToLower();
+            if(CreateXml)
+            {
+              CreateResourceDirectory("xml");
 
-            File.WriteAllText(lFileNameXml, Encoding.Default.GetString(lMemStream.ToArray()));
+              lFileNameXml = string.Format(@"{0}\{1}\{2}.corrupted{3}", OutputDirectory, directory, Path.GetFileNameWithoutExtension(fileName), Path.GetExtension(fileName)).ToLower();
+
+              File.WriteAllText(lFileNameXml, Encoding.Default.GetString(lMemStream.ToArray()));
+            }
           }
           catch { }
 
@@ -424,29 +431,12 @@ namespace TP4Unzip
         {
           lXmlDoc.LoadXml(lXml);
 
-          try
+          if(CreateXml)
           {
-            // Linking XSLT to a Source XML Document:
-            // Embed an XSLT style sheet inside the source XML document
-            // Example: <?xml-stylesheet type="text/xsl" href="style.xsl"?>
-            // When you run the source XML file in Internet Explorer, the transformation is applied automatically
-            if(!string.IsNullOrWhiteSpace(XmlStyleSheetElement))
-            {
-              var lData = string.Format("type=\"text/xsl\" href=\"{0}\"", XmlStyleSheetElement);
+            CreateResourceDirectory("xml");
 
-              var lStylesheetInstruction = lXmlDoc.CreateProcessingInstruction("xml-stylesheet", lData);
-
-              lXmlDoc.InsertAfter(lStylesheetInstruction, lXmlDoc.FirstChild);
-            }
+            lXmlDoc.Save(lFileNameXml);
           }
-          catch(Exception ex)
-          {
-            mTotalErrors++;
-
-            EventService.CreateMsg(this, "Error: [ProcessGZipData-XmlStyleSheetElement] Message={0}", ex.Message);
-          }
-          
-          lXmlDoc.Save(lFileNameXml);
         }
         catch(Exception ex)
         {
@@ -454,7 +444,12 @@ namespace TP4Unzip
 
           EventService.CreateMsg(this, "Error: [ProcessGZipData-LoadXml] Message={0}", ex.Message);
 
-          File.WriteAllText(lFileNameXml, lXml);
+          if(CreateXml)
+          {
+            CreateResourceDirectory("xml");
+
+            File.WriteAllText(lFileNameXml, lXml);
+          }
         }
 
         // Import System Fonts!
@@ -463,7 +458,7 @@ namespace TP4Unzip
         {
           var lXmlDocSysFonts = new XmlDocument();
 
-          lXmlDocSysFonts.LoadXml(Properties.Resources.SysFonts);
+          lXmlDocSysFonts.LoadXml(Resources.SysFonts);
 
           var lTargetNode = lXmlDoc.DocumentElement.SelectSingleNode("/root/fontList");
 
@@ -492,92 +487,50 @@ namespace TP4Unzip
             }
           }
 
-          CreateResourceDirectory("xml");
+          if(CreateXml)
+          {
+            CreateResourceDirectory("xml");
 
-          var lFileNameSysFont = string.Format(@"{0}\xml\$SysFnt.xml", OutputDirectory, directory).ToLower();
+            var lFileNameSysFont = string.Format(@"{0}\xml\$SysFnt.xml", OutputDirectory, directory).ToLower();
 
-          lXmlDocSysFonts.Save(lFileNameSysFont);
+            lXmlDocSysFonts.Save(lFileNameSysFont);
+          }
         }
 
-        if(CreateJson)
+        try
         {
-          try
+          // Remove XmlDeclaration
+          foreach(XmlNode node in lXmlDoc)
           {
-            // Remove XmlDeclaration
-            foreach(XmlNode node in lXmlDoc)
-            {
-              if(node.NodeType == XmlNodeType.XmlDeclaration)
-                lXmlDoc.RemoveChild(node);
-            }
+            if(node.NodeType == XmlNodeType.XmlDeclaration)
+              lXmlDoc.RemoveChild(node);
+          }
 
-            // Remove Stylesheet Instruction
-            var lNode = lXmlDoc.SelectSingleNode("/processing-instruction('xml-stylesheet')");
+          JsonArrrayHelper(lXmlDoc);
 
-            if(lNode != null)
-              lXmlDoc.RemoveChild(lNode);
+          var lJson = JsonConvert.SerializeXmlNode(lXmlDoc, Newtonsoft.Json.Formatting.Indented, true);
 
-            JsonArrrayHelper(lXmlDoc);
+          // <page type="page">
+          // JSON.NET and Replacing @ Sign in XML to JSON converstion
+          lJson = (Regex.Replace(lJson, "(?<=\")(@)(?!.*\":\\s )", string.Empty, RegexOptions.IgnoreCase));
 
-            var lJson = JsonConvert.SerializeXmlNode(lXmlDoc, Newtonsoft.Json.Formatting.Indented, true);
+          mJsonList.Add(lJson);
 
-            // <page type="page">
-            // JSON.NET and Replacing @ Sign in XML to JSON converstion
-            lJson = (Regex.Replace(lJson, "(?<=\")(@)(?!.*\":\\s )", string.Empty, RegexOptions.IgnoreCase));
-
-            mJsonList.Add(lJson);
-
+          // Project -> JSON
+          if(CreateJson)
+          {
             CreateResourceDirectory("json");
 
             var lFileNameJson = string.Format(@"{0}\{1}\{2}.json", OutputDirectory, "json", Path.GetFileNameWithoutExtension(lFileNameXml)).ToLower();
 
             File.WriteAllText(lFileNameJson, lJson);
           }
-          catch(Exception ex)
-          {
-            mTotalErrors++;
-
-            EventService.CreateMsg(this, "Error: [ProcessGZipData-CreateJson] Message={0}", ex.Message);
-          }
         }
-
-        // HTML-Transformation
-        if(!string.IsNullOrWhiteSpace(XmlStyleSheetHtmlFileName))
+        catch(Exception ex)
         {
-          CreateResourceDirectory("html");
+          mTotalErrors++;
 
-          // Create the XslTransform object and load the style sheet.
-          var lXslt = new XslCompiledTransform();
-
-          lXslt.Load(XmlStyleSheetHtmlFileName);
-
-          // Load the file to transform.
-          var lXmlSource = new XPathDocument(lFileNameXml);
-
-          var lFileNameHtml = string.Format(@"{0}\{1}\{2}.html", OutputDirectory, "html", Path.GetFileNameWithoutExtension(lFileNameXml)).ToLower();
-
-          var lSettings = new XmlWriterSettings
-          {
-            Indent = true,
-            NewLineHandling = NewLineHandling.None,
-            ConformanceLevel = ConformanceLevel.Fragment
-          };
-
-          using(var lStrWriter = new StringWriter())
-          {
-            // Create the writer.
-            using(var lXmlWriter = XmlWriter.Create(lStrWriter, lSettings))
-            {
-              // Transform the file and send the output to the console.
-              lXslt.Transform(lXmlSource, lXmlWriter);
-
-              var lHtml = lStrWriter.ToString();
-
-              // Remove: <?xml version="1.0" encoding="utf-16"?>
-              lHtml = lHtml.Replace(XmlHeaderNet, "");
-
-              File.WriteAllText(lFileNameHtml, lHtml);
-            }
-          }
+          EventService.CreateMsg(this, "Error: [ProcessGZipData-CreateJson] Message={0}", ex.Message);
         }
       }
       catch(Exception ex)
@@ -627,8 +580,10 @@ namespace TP4Unzip
 
       xmlDoc.DocumentElement.SetAttribute("xmlns:json", lNamespace);
 
-      var lElements = xmlDoc.SelectNodes("/rootresourceList/resource|/root/page/button|/root/tableList/tableEntry|/root/tableList/tableEntry/row");
-      
+      // Pages    : /root/pageList/pageEntry[]
+      // PageFlips: /root/page/button/pf
+      var lElements = xmlDoc.SelectNodes("/root/pageList/pageEntry|/rootresourceList/resource|/root/page/button|/root/page/button/pf|/root/tableList/tableEntry|/root/tableList/tableEntry/row");
+
       foreach(XmlElement element in lElements)
       {
         var lAttr = xmlDoc.CreateAttribute("Array", lNamespace);

@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
 <root>
   <page type="page">
     <pageID>3</pageID>
@@ -8,8 +7,7 @@
     <height>768</height>
     <button type="general">
       <bi>1</bi>
-      <na>Button B</na>
-      <li>1</li>
+      <na>PAGE_C</na>
       <lt>175</lt>
       <tp>217</tp>
       <wt>675</wt>
@@ -17,6 +15,7 @@
       <zo>1</zo>
       <bs>
       </bs>
+      <fb>none</fb>
       <rl>0</rl>
       <rh>255</rh>
       <ac di="0" />

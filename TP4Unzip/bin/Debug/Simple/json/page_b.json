@@ -9,14 +9,15 @@
       {
         "type": "general",
         "bi": "1",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "136",
         "tp": "86",
         "wt": "112",
         "ht": "112",
         "zo": "1",
         "bs": "",
+        "cp": "5",
+        "ch": "55",
         "rl": "0",
         "rh": "255",
         "ac": {
@@ -50,8 +51,7 @@
       {
         "type": "general",
         "bi": "2",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "256",
         "tp": "86",
         "wt": "112",
@@ -91,8 +91,7 @@
       {
         "type": "general",
         "bi": "3",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "376",
         "tp": "86",
         "wt": "112",
@@ -132,8 +131,7 @@
       {
         "type": "general",
         "bi": "4",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "136",
         "tp": "206",
         "wt": "112",
@@ -173,8 +171,7 @@
       {
         "type": "general",
         "bi": "5",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "256",
         "tp": "206",
         "wt": "112",
@@ -212,8 +209,7 @@
       {
         "type": "general",
         "bi": "6",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "376",
         "tp": "206",
         "wt": "112",
@@ -253,8 +249,7 @@
       {
         "type": "general",
         "bi": "7",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "136",
         "tp": "326",
         "wt": "112",
@@ -294,8 +289,7 @@
       {
         "type": "general",
         "bi": "8",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "256",
         "tp": "326",
         "wt": "112",
@@ -335,8 +329,7 @@
       {
         "type": "general",
         "bi": "9",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "376",
         "tp": "326",
         "wt": "112",
@@ -376,14 +369,15 @@
       {
         "type": "general",
         "bi": "10",
-        "na": "Button B",
-        "li": "1",
+        "na": "Power-64x64",
         "lt": "16",
         "tp": "86",
         "wt": "112",
         "ht": "112",
         "zo": "10",
         "bs": "",
+        "cp": "5",
+        "ch": "55",
         "rl": "0",
         "rh": "255",
         "ac": {
@@ -421,14 +415,14 @@
       {
         "type": "general",
         "bi": "11",
-        "na": "Button B",
-        "li": "1",
+        "na": "Bitmap Justification",
         "lt": "16",
         "tp": "16",
         "wt": "472",
         "ht": "62",
         "zo": "11",
         "bs": "",
+        "fb": "none",
         "rl": "0",
         "rh": "255",
         "ac": {
@@ -460,14 +454,14 @@
       {
         "type": "general",
         "bi": "12",
-        "na": "Button B",
-        "li": "1",
+        "na": "Text Justification",
         "lt": "512",
         "tp": "16",
         "wt": "472",
         "ht": "62",
         "zo": "12",
         "bs": "",
+        "fb": "none",
         "rl": "0",
         "rh": "255",
         "ac": {
@@ -482,7 +476,7 @@
             "ct": "Black",
             "ec": "#000000FF",
             "fi": "34",
-            "te": "VeryLightOrange"
+            "te": "Text Justification"
           },
           {
             "number": "2",
@@ -499,8 +493,7 @@
       {
         "type": "general",
         "bi": "13",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Top Left",
         "lt": "632",
         "tp": "86",
         "wt": "112",
@@ -520,9 +513,10 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Top Left",
-            "jt": "1"
+            "fi": "33",
+            "te": "This Text is\r\nTop Left",
+            "jt": "1",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -531,17 +525,17 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Top Left",
-            "jt": "1"
+            "fi": "33",
+            "te": "This Text is\r\nTop Left",
+            "jt": "1",
+            "ww": "1"
           }
         ]
       },
       {
         "type": "general",
         "bi": "14",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Top Middle",
         "lt": "752",
         "tp": "86",
         "wt": "112",
@@ -561,9 +555,10 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Top Middle",
-            "jt": "2"
+            "fi": "33",
+            "te": "This Text is\r\nTop Middle",
+            "jt": "2",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -572,17 +567,17 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Top Middle",
-            "jt": "2"
+            "fi": "33",
+            "te": "This Text is\r\nTop Middle",
+            "jt": "2",
+            "ww": "1"
           }
         ]
       },
       {
         "type": "general",
         "bi": "15",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Top Right",
         "lt": "872",
         "tp": "86",
         "wt": "112",
@@ -602,9 +597,10 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Top Right",
-            "jt": "3"
+            "fi": "33",
+            "te": "This Text is\r\nTop Right",
+            "jt": "3",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -613,17 +609,17 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Top Right",
-            "jt": "3"
+            "fi": "33",
+            "te": "This Text is\r\nTop Right",
+            "jt": "3",
+            "ww": "1"
           }
         ]
       },
       {
         "type": "general",
         "bi": "16",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Absolute 20x20",
         "lt": "512",
         "tp": "86",
         "wt": "112",
@@ -645,11 +641,12 @@
             "ec": "#000000FF",
             "bx": "20",
             "by": "20",
-            "fi": "35",
-            "te": "Absolute",
+            "fi": "33",
+            "te": "This Text is\r\nAbsolute 20x20",
             "jt": "0",
             "tx": "20",
-            "ty": "20"
+            "ty": "20",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -660,19 +657,19 @@
             "ec": "#000000FF",
             "bx": "20",
             "by": "20",
-            "fi": "35",
-            "te": "Absolute",
+            "fi": "33",
+            "te": "This Text is\r\nAbsolute 20x20",
             "jt": "0",
             "tx": "20",
-            "ty": "20"
+            "ty": "20",
+            "ww": "1"
           }
         ]
       },
       {
         "type": "general",
         "bi": "17",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Center Left",
         "lt": "632",
         "tp": "206",
         "wt": "112",
@@ -692,9 +689,10 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Center Left",
-            "jt": "4"
+            "fi": "33",
+            "te": "This Text is\r\nCenter Left",
+            "jt": "4",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -703,17 +701,17 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Center Left",
-            "jt": "4"
+            "fi": "33",
+            "te": "This Text is\r\nCenter Left",
+            "jt": "4",
+            "ww": "1"
           }
         ]
       },
       {
         "type": "general",
         "bi": "18",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Center Middle",
         "lt": "752",
         "tp": "206",
         "wt": "112",
@@ -733,8 +731,9 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Center Middle"
+            "fi": "33",
+            "te": "This Text is\r\nCenter Middle",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -743,16 +742,16 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Center Middle"
+            "fi": "33",
+            "te": "This Text is\r\nCenter Middle",
+            "ww": "1"
           }
         ]
       },
       {
         "type": "general",
         "bi": "19",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Center Right",
         "lt": "872",
         "tp": "206",
         "wt": "112",
@@ -772,9 +771,10 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Center Right",
-            "jt": "6"
+            "fi": "33",
+            "te": "This Text is\r\nCenter Right",
+            "jt": "6",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -783,17 +783,17 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Center Right",
-            "jt": "6"
+            "fi": "33",
+            "te": "This Text is\r\nCenter Right",
+            "jt": "6",
+            "ww": "1"
           }
         ]
       },
       {
         "type": "general",
         "bi": "20",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Bottom Left",
         "lt": "632",
         "tp": "326",
         "wt": "112",
@@ -813,9 +813,10 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Bottom Left",
-            "jt": "7"
+            "fi": "33",
+            "te": "This Text is\r\nBottom Left",
+            "jt": "7",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -824,17 +825,17 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Bottom Left",
-            "jt": "7"
+            "fi": "33",
+            "te": "This Text is\r\nBottom Left",
+            "jt": "7",
+            "ww": "1"
           }
         ]
       },
       {
         "type": "general",
         "bi": "21",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Bottom Middle",
         "lt": "752",
         "tp": "326",
         "wt": "112",
@@ -854,9 +855,10 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Bottom Middle",
-            "jt": "8"
+            "fi": "33",
+            "te": "This Text is\r\nBottom Middle",
+            "jt": "8",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -865,17 +867,17 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Bottom Middle",
-            "jt": "8"
+            "fi": "33",
+            "te": "This Text is\r\nBottom Middle",
+            "jt": "8",
+            "ww": "1"
           }
         ]
       },
       {
         "type": "general",
         "bi": "22",
-        "na": "Button B",
-        "li": "1",
+        "na": "This Text is Bottom Right",
         "lt": "872",
         "tp": "326",
         "wt": "112",
@@ -895,9 +897,10 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Bottom Right",
-            "jt": "9"
+            "fi": "33",
+            "te": "This Text is\r\nBottom Right",
+            "jt": "9",
+            "ww": "1"
           },
           {
             "number": "2",
@@ -906,9 +909,10 @@
             "cf": "VeryDarkAqua",
             "ct": "White",
             "ec": "#000000FF",
-            "fi": "35",
-            "te": "Bottom Right",
-            "jt": "9"
+            "fi": "33",
+            "te": "This Text is\r\nBottom Right",
+            "jt": "9",
+            "ww": "1"
           }
         ]
       }

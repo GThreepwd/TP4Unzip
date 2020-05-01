@@ -1,0 +1,23 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "510",
+    "name": "_MsgBox",
+    "width": "15",
+    "height": "15",
+    "group": "MsgBox",
+    "timeout": "2",
+    "hideTime": "2",
+    "sr": {
+      "number": "1",
+      "bs": "Line Single",
+      "cb": "Black",
+      "cf": "Transparent",
+      "ct": "Transparent",
+      "ec": "Transparent",
+      "jb": "1",
+      "fi": "45"
+    }
+  }
+}

@@ -1,0 +1,815 @@
+{
+  "page": {
+    "type": "page",
+    "pageID": "4",
+    "name": "Main",
+    "width": "1024",
+    "height": "768",
+    "button": [
+      {
+        "type": "general",
+        "bi": "9",
+        "na": "Line_Black_H",
+        "tp": "83",
+        "wt": "1024",
+        "ht": "4",
+        "zo": "31",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "10",
+        "na": "Line_Black_H",
+        "tp": "88",
+        "wt": "1024",
+        "ht": "4",
+        "zo": "32",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "23",
+        "na": "Warning",
+        "lt": "850",
+        "tp": "27",
+        "wt": "42",
+        "ht": "44",
+        "zo": "59",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "blink",
+        "ad": "256",
+        "ch": "256",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "Setup"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "bm": "symbolWarningYellow40Red_shadow.png",
+            "by": "11",
+            "fi": "20",
+            "ty": "32",
+            "et": "25"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "by": "11",
+            "fi": "20",
+            "ty": "32",
+            "et": "25"
+          }
+        ]
+      },
+      {
+        "type": "bargraph",
+        "bi": "15",
+        "na": "__AMX__10x1_half",
+        "lt": "974",
+        "tp": "16",
+        "wt": "34",
+        "ht": "10",
+        "zo": "60",
+        "bs": "",
+        "dr": "horizontal",
+        "lp": "0",
+        "lv": "79",
+        "rl": "0",
+        "rh": "100",
+        "rn": "256",
+        "sc": "#505050FF",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Grey14",
+            "cf": "White",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Grey14",
+            "cf": "1",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "12",
+        "na": "7",
+        "lt": "908",
+        "tp": "13",
+        "wt": "15",
+        "ht": "17",
+        "zo": "61",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "inverted",
+        "cp": "0",
+        "ch": "292",
+        "vt": "rel",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "#000000FF",
+            "ec": "Transparent",
+            "fi": "46",
+            "te": "7"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "#000000FF",
+            "fi": "46",
+            "te": "7"
+          }
+        ]
+      },
+      {
+        "type": "bargraph",
+        "bi": "13",
+        "na": "$V%",
+        "lt": "923",
+        "tp": "14",
+        "wt": "46",
+        "ht": "15",
+        "zo": "62",
+        "bs": "",
+        "lp": "0",
+        "lv": "76",
+        "rl": "0",
+        "rh": "100",
+        "rn": "256",
+        "sc": "#FFFF00FF",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "#FFFF00FF",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "Transparent",
+            "fi": "20",
+            "te": "$V%",
+            "jt": "6",
+            "et": "25"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "#FFFF00FF",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "Transparent",
+            "fi": "20",
+            "te": "$V%",
+            "jt": "6",
+            "et": "25"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "24",
+        "na": "MainNaviButtonOn_180x80px",
+        "lt": "1016",
+        "tp": "2",
+        "wt": "6",
+        "ht": "6",
+        "zo": "100",
+        "bs": "",
+        "ch": "250",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey7",
+            "ct": "#FBFBFBFF",
+            "ec": "#6C6C6CFF",
+            "fi": "48",
+            "et": "25"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "DarkGreen",
+            "ct": "#FBFBFBFF",
+            "ec": "#6C6C6CFF",
+            "fi": "48",
+            "et": "25"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "25",
+        "na": "AVS",
+        "lt": "908",
+        "tp": "42",
+        "wt": "100",
+        "ht": "24",
+        "zo": "101",
+        "hs": "bounding",
+        "bs": "",
+        "pp": "1",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "Setup"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "AVS.png",
+            "fi": "18"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "AVS.png",
+            "fi": "18"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "8",
+        "na": "________________________________________________________________________________________________________________________________",
+        "tp": "86",
+        "wt": "1024",
+        "ht": "4",
+        "zo": "102",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "#828282A3",
+            "ct": "#181717D7",
+            "ec": "#000000FF",
+            "fi": "21"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "#828282A3",
+            "ct": "#181717D7",
+            "ec": "#000000FF",
+            "fi": "21"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "26",
+        "na": "Gemeinde-Walchwil-52x60",
+        "lt": "11",
+        "tp": "12",
+        "wt": "52",
+        "ht": "60",
+        "zo": "103",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Grey10",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "bm": "Gemeinde-Walchwil-52x60.png",
+            "fi": "20"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Grey10",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "bm": "Gemeinde-Walchwil-52x60.png",
+            "fi": "20"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "1",
+        "na": "Gemeinde Walchwil",
+        "lt": "73",
+        "tp": "47",
+        "wt": "190",
+        "ht": "26",
+        "zo": "104",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "56",
+            "te": "Gemeinde Walchwil",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "56",
+            "te": "Gemeinde Walchwil",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "2",
+        "na": "+",
+        "lt": "634",
+        "tp": "12",
+        "wt": "62",
+        "ht": "62",
+        "zo": "105",
+        "bs": "",
+        "fb": "momentary",
+        "ap": "2",
+        "ad": "200",
+        "cp": "2",
+        "ch": "201",
+        "vt": "rel",
+        "lp": "2",
+        "lv": "201",
+        "va": "1",
+        "rv": "60",
+        "rl": "0",
+        "rh": "100",
+        "lu": "1",
+        "ld": "1",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "#000000FF",
+            "cf": "#FFFFFFFF",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "61",
+            "te": "+"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "#797979FF",
+            "cf": "1",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "61",
+            "te": "+"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "3",
+        "na": "-",
+        "lt": "303",
+        "tp": "12",
+        "wt": "62",
+        "ht": "62",
+        "zo": "106",
+        "bs": "",
+        "fb": "momentary",
+        "ap": "2",
+        "ad": "200",
+        "cp": "2",
+        "ch": "201",
+        "vt": "rel",
+        "lp": "2",
+        "lv": "201",
+        "va": "-1",
+        "rv": "60",
+        "rl": "0",
+        "rh": "100",
+        "lu": "1",
+        "ld": "1",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "#000000FF",
+            "cf": "#FFFFFFFF",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "61",
+            "te": "-"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "#797979FF",
+            "cf": "1",
+            "ct": "1",
+            "ec": "#000000FF",
+            "fi": "61",
+            "te": "-"
+          }
+        ]
+      },
+      {
+        "type": "bargraph",
+        "bi": "4",
+        "na": "50%",
+        "lt": "373",
+        "tp": "12",
+        "wt": "253",
+        "ht": "62",
+        "zo": "107",
+        "bs": "",
+        "dr": "horizontal",
+        "ap": "2",
+        "ad": "201",
+        "cp": "2",
+        "ch": "201",
+        "lp": "2",
+        "lv": "201",
+        "rl": "0",
+        "rh": "100",
+        "rn": "256",
+        "sc": "Grey9",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "Transparent",
+            "bm": "Volume-H-Off.png",
+            "fi": "116",
+            "te": "50%"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "Transparent",
+            "bm": "Volume-H-On.png",
+            "fi": "116",
+            "te": "50%"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "16",
+        "na": "Panel nicht verbunden. Netzwerk OK? / Controller OK?",
+        "wt": "1024",
+        "ht": "28",
+        "zo": "112",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "251",
+        "rl": "0",
+        "rh": "8",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0105030402",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightRed",
+            "ct": "VeryLightYellow",
+            "ec": "#000000FF",
+            "jb": "0",
+            "bx": "13",
+            "by": "8",
+            "ji": "0",
+            "ix": "13",
+            "iy": "8",
+            "fi": "124",
+            "te": "Panel nicht verbunden. Netzwerk OK? / Controller OK?",
+            "et": "1",
+            "mr": "1"
+          },
+          {
+            "number": "2",
+            "do": "0105030402",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightRed",
+            "ct": "VeryLightYellow",
+            "ec": "#000000FF",
+            "oo": "0",
+            "jb": "0",
+            "bx": "13",
+            "by": "8",
+            "ji": "0",
+            "ix": "13",
+            "iy": "8",
+            "fi": "51",
+            "te": "Panel not connected. Network OK? / Controller OK?",
+            "et": "1",
+            "mr": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "5",
+        "na": "SoundOn",
+        "lt": "704",
+        "tp": "12",
+        "wt": "62",
+        "ht": "62",
+        "zo": "113",
+        "bs": "",
+        "fb": "blink",
+        "ap": "2",
+        "ad": "301",
+        "cp": "2",
+        "ch": "301",
+        "lp": "2",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "#000000FF",
+            "cf": "#FFFFFFFF",
+            "ct": "#302F2FFF",
+            "ec": "#000000FF",
+            "bm": "SoundOn.png",
+            "fi": "47"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "#000000FF",
+            "cf": "22",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "SoundOff.png",
+            "fi": "47"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "6",
+        "na": "Gemeinde-Walchwil-Wappen-301x345",
+        "lt": "53",
+        "tp": "198",
+        "wt": "301",
+        "ht": "345",
+        "zo": "114",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "bm": "Gemeinde-Walchwil-Wappen-301x345.png",
+            "fi": "20"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "bm": "Gemeinde-Walchwil-Wappen-301x345.png",
+            "fi": "20"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "7",
+        "na": "Die Anlage ist ausgeschaltet",
+        "lt": "407",
+        "tp": "198",
+        "wt": "565",
+        "ht": "106",
+        "zo": "115",
+        "hs": "passThru",
+        "bs": "",
+        "ch": "11",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Grey14",
+            "cf": "#FF5454FF",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "34",
+            "te": "Die Anlage ist ausgeschaltet",
+            "tx": "55",
+            "ty": "75",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Grey14",
+            "cf": "Green",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "34",
+            "te": "Die Anlage ist eingeschaltet",
+            "tx": "55",
+            "ty": "75",
+            "ww": "1"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "",
+      "cb": "",
+      "cf": "White",
+      "ct": "#222222FF",
+      "ec": "#222222FF",
+      "jb": "1",
+      "fi": "33"
+    }
+  }
+}

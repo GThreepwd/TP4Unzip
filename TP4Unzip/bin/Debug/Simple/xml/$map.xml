@@ -1,7 +1,70 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
 <root>
   <cm>
+    <me>
+      <p>1</p>
+      <c>10</c>
+      <pg>1</pg>
+      <bt>96</bt>
+      <pn>MainPage</pn>
+      <bn>BtnNone</bn>
+    </me>
+    <me>
+      <p>1</p>
+      <c>10</c>
+      <pg>1</pg>
+      <bt>97</bt>
+      <pn>MainPage</pn>
+      <bn>BtnInvertedChannel</bn>
+    </me>
+    <me>
+      <p>1</p>
+      <c>10</c>
+      <pg>1</pg>
+      <bt>98</bt>
+      <pn>MainPage</pn>
+      <bn>BtnChannel</bn>
+    </me>
+    <me>
+      <p>1</p>
+      <c>10</c>
+      <pg>1</pg>
+      <bt>99</bt>
+      <pn>MainPage</pn>
+      <bn>BtnAllwayOn</bn>
+    </me>
+    <me>
+      <p>1</p>
+      <c>10</c>
+      <pg>1</pg>
+      <bt>100</bt>
+      <pn>MainPage</pn>
+      <bn>BtnBlink</bn>
+    </me>
+    <me>
+      <p>1</p>
+      <c>10</c>
+      <pg>1</pg>
+      <bt>101</bt>
+      <pn>MainPage</pn>
+      <bn>BtnMomentary</bn>
+    </me>
+    <me>
+      <p>1</p>
+      <c>101</c>
+      <pg>1</pg>
+      <bt>102</bt>
+      <pn>MainPage</pn>
+      <bn>[Time]</bn>
+    </me>
+    <me>
+      <p>1</p>
+      <c>102</c>
+      <pg>1</pg>
+      <bt>103</bt>
+      <pn>MainPage</pn>
+      <bn>[Date]</bn>
+    </me>
     <me>
       <p>3</p>
       <c>33</c>
@@ -10,8 +73,48 @@
       <pn>MainPage</pn>
       <bn>Button A</bn>
     </me>
+    <me>
+      <p>5</p>
+      <c>55</c>
+      <pg>2</pg>
+      <bt>1</bt>
+      <pn>Page_B</pn>
+      <bn>Power-64x64</bn>
+    </me>
+    <me>
+      <p>5</p>
+      <c>55</c>
+      <pg>1</pg>
+      <bt>2</bt>
+      <pn>MainPage</pn>
+      <bn>Button B</bn>
+    </me>
+    <me>
+      <p>5</p>
+      <c>55</c>
+      <pg>2</pg>
+      <bt>10</bt>
+      <pn>Page_B</pn>
+      <bn>Power-64x64</bn>
+    </me>
   </cm>
   <am>
+    <me>
+      <p>1</p>
+      <c>101</c>
+      <pg>1</pg>
+      <bt>102</bt>
+      <pn>MainPage</pn>
+      <bn>[Time]</bn>
+    </me>
+    <me>
+      <p>1</p>
+      <c>102</c>
+      <pg>1</pg>
+      <bt>103</bt>
+      <pn>MainPage</pn>
+      <bn>[Date]</bn>
+    </me>
     <me>
       <p>2</p>
       <c>22</c>
@@ -21,17 +124,6 @@
       <bn>Button A</bn>
     </me>
   </am>
-  <lm>
-    <me>
-      <p>4</p>
-      <c>44</c>
-      <ax>0</ax>
-      <pg>1</pg>
-      <bt>1</bt>
-      <pn>MainPage</pn>
-      <bn>Button A</bn>
-    </me>
-  </lm>
   <bm>
     <im>
       <me>

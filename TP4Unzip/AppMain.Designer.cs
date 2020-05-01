@@ -36,22 +36,28 @@
       this.txt_Info = new System.Windows.Forms.TextBox();
       this.lab_Info = new System.Windows.Forms.Label();
       this.lab_FileNameTp4 = new System.Windows.Forms.Label();
-      this.grp_Xml = new System.Windows.Forms.GroupBox();
-      this.txt_XmlStyleSheetElement = new System.Windows.Forms.TextBox();
-      this.ckb_XSL = new System.Windows.Forms.CheckBox();
       this.lab_OutputDirectory = new System.Windows.Forms.Label();
       this.txt_OutputDirectory = new System.Windows.Forms.TextBox();
       this.cmd_OutputDirectoryBrowse = new System.Windows.Forms.Button();
       this.FolderDialog = new System.Windows.Forms.FolderBrowserDialog();
-      this.lab_FileNameXsltHtml = new System.Windows.Forms.Label();
-      this.txt_FileNameXsltHtml = new System.Windows.Forms.TextBox();
-      this.cmd_FileNameXsltHtmlBrowse = new System.Windows.Forms.Button();
-      this.FileNameXsltDialog = new System.Windows.Forms.OpenFileDialog();
-      this.grp_Json = new System.Windows.Forms.GroupBox();
+      this.grp_Connection = new System.Windows.Forms.GroupBox();
+      this.num_ConnPort = new System.Windows.Forms.NumericUpDown();
+      this.lab_ConnPort = new System.Windows.Forms.Label();
+      this.lab_ConnHost = new System.Windows.Forms.Label();
+      this.txt_ConnHost = new System.Windows.Forms.TextBox();
+      this.grp_Javsscript = new System.Windows.Forms.GroupBox();
+      this.txt_JsVariableName = new System.Windows.Forms.TextBox();
+      this.lab_JsVariableName = new System.Windows.Forms.Label();
+      this.lab_JsFileName = new System.Windows.Forms.Label();
+      this.txt_JsFileName = new System.Windows.Forms.TextBox();
+      this.grp_Development = new System.Windows.Forms.GroupBox();
+      this.ckb_CreateXml = new System.Windows.Forms.CheckBox();
       this.ckb_CreateJson = new System.Windows.Forms.CheckBox();
-      this.ckb_CreateJsonJs = new System.Windows.Forms.CheckBox();
-      this.grp_Xml.SuspendLayout();
-      this.grp_Json.SuspendLayout();
+      this.ckb_CreateSegmentInfo = new System.Windows.Forms.CheckBox();
+      this.grp_Connection.SuspendLayout();
+      ((System.ComponentModel.ISupportInitialize)(this.num_ConnPort)).BeginInit();
+      this.grp_Javsscript.SuspendLayout();
+      this.grp_Development.SuspendLayout();
       this.SuspendLayout();
       // 
       // cmd_FileNameTp4Browse
@@ -78,31 +84,31 @@
       // cmd_Extract
       // 
       this.cmd_Extract.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.cmd_Extract.Location = new System.Drawing.Point(21, 255);
+      this.cmd_Extract.Location = new System.Drawing.Point(21, 175);
       this.cmd_Extract.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
       this.cmd_Extract.Name = "cmd_Extract";
-      this.cmd_Extract.Size = new System.Drawing.Size(301, 60);
-      this.cmd_Extract.TabIndex = 9;
+      this.cmd_Extract.Size = new System.Drawing.Size(301, 99);
+      this.cmd_Extract.TabIndex = 6;
       this.cmd_Extract.Text = "Extrahieren";
       this.cmd_Extract.UseVisualStyleBackColor = true;
       // 
       // txt_Info
       // 
       this.txt_Info.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.txt_Info.Location = new System.Drawing.Point(21, 385);
+      this.txt_Info.Location = new System.Drawing.Point(21, 500);
       this.txt_Info.Multiline = true;
       this.txt_Info.Name = "txt_Info";
       this.txt_Info.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-      this.txt_Info.Size = new System.Drawing.Size(1134, 478);
-      this.txt_Info.TabIndex = 13;
+      this.txt_Info.Size = new System.Drawing.Size(1134, 363);
+      this.txt_Info.TabIndex = 11;
       // 
       // lab_Info
       // 
       this.lab_Info.AutoSize = true;
-      this.lab_Info.Location = new System.Drawing.Point(17, 346);
+      this.lab_Info.Location = new System.Drawing.Point(17, 463);
       this.lab_Info.Name = "lab_Info";
       this.lab_Info.Size = new System.Drawing.Size(170, 20);
-      this.lab_Info.TabIndex = 12;
+      this.lab_Info.TabIndex = 10;
       this.lab_Info.Text = "Ausgabeinformationen";
       // 
       // lab_FileNameTp4
@@ -113,38 +119,6 @@
       this.lab_FileNameTp4.Size = new System.Drawing.Size(80, 20);
       this.lab_FileNameTp4.TabIndex = 0;
       this.lab_FileNameTp4.Text = "TP4-Datei";
-      // 
-      // grp_Xml
-      // 
-      this.grp_Xml.Controls.Add(this.txt_XmlStyleSheetElement);
-      this.grp_Xml.Controls.Add(this.ckb_XSL);
-      this.grp_Xml.Location = new System.Drawing.Point(750, 255);
-      this.grp_Xml.Name = "grp_Xml";
-      this.grp_Xml.Size = new System.Drawing.Size(405, 111);
-      this.grp_Xml.TabIndex = 11;
-      this.grp_Xml.TabStop = false;
-      this.grp_Xml.Text = "XML";
-      // 
-      // txt_XmlStyleSheetElement
-      // 
-      this.txt_XmlStyleSheetElement.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.txt_XmlStyleSheetElement.Location = new System.Drawing.Point(14, 61);
-      this.txt_XmlStyleSheetElement.Name = "txt_XmlStyleSheetElement";
-      this.txt_XmlStyleSheetElement.Size = new System.Drawing.Size(377, 30);
-      this.txt_XmlStyleSheetElement.TabIndex = 2;
-      this.txt_XmlStyleSheetElement.Text = "./DefaultStyle.xslt";
-      // 
-      // ckb_XSL
-      // 
-      this.ckb_XSL.AutoSize = true;
-      this.ckb_XSL.Checked = true;
-      this.ckb_XSL.CheckState = System.Windows.Forms.CheckState.Checked;
-      this.ckb_XSL.Location = new System.Drawing.Point(14, 31);
-      this.ckb_XSL.Name = "ckb_XSL";
-      this.ckb_XSL.Size = new System.Drawing.Size(228, 24);
-      this.ckb_XSL.TabIndex = 1;
-      this.ckb_XSL.Text = "XSL Stylesheet hinzufügen";
-      this.ckb_XSL.UseVisualStyleBackColor = true;
       // 
       // lab_OutputDirectory
       // 
@@ -160,7 +134,7 @@
       this.txt_OutputDirectory.Location = new System.Drawing.Point(21, 125);
       this.txt_OutputDirectory.Name = "txt_OutputDirectory";
       this.txt_OutputDirectory.Size = new System.Drawing.Size(958, 26);
-      this.txt_OutputDirectory.TabIndex = 0;
+      this.txt_OutputDirectory.TabIndex = 4;
       this.txt_OutputDirectory.Text = "$";
       // 
       // cmd_OutputDirectoryBrowse
@@ -173,84 +147,176 @@
       this.cmd_OutputDirectoryBrowse.Text = "Durchsuchen ...";
       this.cmd_OutputDirectoryBrowse.UseVisualStyleBackColor = true;
       // 
-      // lab_FileNameXsltHtml
+      // grp_Connection
       // 
-      this.lab_FileNameXsltHtml.AutoSize = true;
-      this.lab_FileNameXsltHtml.Location = new System.Drawing.Point(17, 172);
-      this.lab_FileNameXsltHtml.Name = "lab_FileNameXsltHtml";
-      this.lab_FileNameXsltHtml.Size = new System.Drawing.Size(237, 20);
-      this.lab_FileNameXsltHtml.TabIndex = 6;
-      this.lab_FileNameXsltHtml.Text = "HTML-Transformation (Optional)";
+      this.grp_Connection.Controls.Add(this.num_ConnPort);
+      this.grp_Connection.Controls.Add(this.lab_ConnPort);
+      this.grp_Connection.Controls.Add(this.lab_ConnHost);
+      this.grp_Connection.Controls.Add(this.txt_ConnHost);
+      this.grp_Connection.Location = new System.Drawing.Point(343, 167);
+      this.grp_Connection.Name = "grp_Connection";
+      this.grp_Connection.Size = new System.Drawing.Size(812, 107);
+      this.grp_Connection.TabIndex = 7;
+      this.grp_Connection.TabStop = false;
+      this.grp_Connection.Text = "Verbindung";
       // 
-      // txt_FileNameXsltHtml
+      // num_ConnPort
       // 
-      this.txt_FileNameXsltHtml.Location = new System.Drawing.Point(21, 199);
-      this.txt_FileNameXsltHtml.Name = "txt_FileNameXsltHtml";
-      this.txt_FileNameXsltHtml.Size = new System.Drawing.Size(958, 26);
-      this.txt_FileNameXsltHtml.TabIndex = 7;
+      this.num_ConnPort.Location = new System.Drawing.Point(75, 69);
+      this.num_ConnPort.Maximum = new decimal(new int[] {
+            65535,
+            0,
+            0,
+            0});
+      this.num_ConnPort.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+      this.num_ConnPort.Name = "num_ConnPort";
+      this.num_ConnPort.Size = new System.Drawing.Size(77, 26);
+      this.num_ConnPort.TabIndex = 3;
+      this.num_ConnPort.Value = new decimal(new int[] {
+            80,
+            0,
+            0,
+            0});
       // 
-      // cmd_FileNameXsltHtmlBrowse
+      // lab_ConnPort
       // 
-      this.cmd_FileNameXsltHtmlBrowse.Location = new System.Drawing.Point(995, 196);
-      this.cmd_FileNameXsltHtmlBrowse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-      this.cmd_FileNameXsltHtmlBrowse.Name = "cmd_FileNameXsltHtmlBrowse";
-      this.cmd_FileNameXsltHtmlBrowse.Size = new System.Drawing.Size(160, 34);
-      this.cmd_FileNameXsltHtmlBrowse.TabIndex = 8;
-      this.cmd_FileNameXsltHtmlBrowse.Text = "Durchsuchen ...";
-      this.cmd_FileNameXsltHtmlBrowse.UseVisualStyleBackColor = true;
+      this.lab_ConnPort.AutoSize = true;
+      this.lab_ConnPort.Location = new System.Drawing.Point(15, 71);
+      this.lab_ConnPort.Name = "lab_ConnPort";
+      this.lab_ConnPort.Size = new System.Drawing.Size(38, 20);
+      this.lab_ConnPort.TabIndex = 2;
+      this.lab_ConnPort.Text = "Port";
       // 
-      // FileNameXsltDialog
+      // lab_ConnHost
       // 
-      this.FileNameXsltDialog.Filter = "XSLT-Dateien (*.xsl;*.xslt)|*.xsl;*.xslt|Alle Dateien (*.*)|*.*";
+      this.lab_ConnHost.AutoSize = true;
+      this.lab_ConnHost.Location = new System.Drawing.Point(15, 35);
+      this.lab_ConnHost.Name = "lab_ConnHost";
+      this.lab_ConnHost.Size = new System.Drawing.Size(43, 20);
+      this.lab_ConnHost.TabIndex = 0;
+      this.lab_ConnHost.Text = "Host";
       // 
-      // grp_Json
+      // txt_ConnHost
       // 
-      this.grp_Json.Controls.Add(this.ckb_CreateJsonJs);
-      this.grp_Json.Controls.Add(this.ckb_CreateJson);
-      this.grp_Json.Location = new System.Drawing.Point(337, 255);
-      this.grp_Json.Name = "grp_Json";
-      this.grp_Json.Size = new System.Drawing.Size(407, 111);
-      this.grp_Json.TabIndex = 10;
-      this.grp_Json.TabStop = false;
-      this.grp_Json.Text = "JSON";
+      this.txt_ConnHost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.txt_ConnHost.Location = new System.Drawing.Point(75, 28);
+      this.txt_ConnHost.Name = "txt_ConnHost";
+      this.txt_ConnHost.Size = new System.Drawing.Size(723, 30);
+      this.txt_ConnHost.TabIndex = 1;
+      this.txt_ConnHost.Text = "127.0.0.1";
+      // 
+      // grp_Javsscript
+      // 
+      this.grp_Javsscript.Controls.Add(this.txt_JsVariableName);
+      this.grp_Javsscript.Controls.Add(this.lab_JsVariableName);
+      this.grp_Javsscript.Controls.Add(this.lab_JsFileName);
+      this.grp_Javsscript.Controls.Add(this.txt_JsFileName);
+      this.grp_Javsscript.Location = new System.Drawing.Point(343, 293);
+      this.grp_Javsscript.Name = "grp_Javsscript";
+      this.grp_Javsscript.Size = new System.Drawing.Size(812, 114);
+      this.grp_Javsscript.TabIndex = 9;
+      this.grp_Javsscript.TabStop = false;
+      this.grp_Javsscript.Text = "JSON / Javascript: Projekt";
+      // 
+      // txt_JsVariableName
+      // 
+      this.txt_JsVariableName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.txt_JsVariableName.Location = new System.Drawing.Point(148, 68);
+      this.txt_JsVariableName.Name = "txt_JsVariableName";
+      this.txt_JsVariableName.Size = new System.Drawing.Size(650, 30);
+      this.txt_JsVariableName.TabIndex = 3;
+      this.txt_JsVariableName.Text = "Proj";
+      // 
+      // lab_JsVariableName
+      // 
+      this.lab_JsVariableName.AutoSize = true;
+      this.lab_JsVariableName.Location = new System.Drawing.Point(15, 75);
+      this.lab_JsVariableName.Name = "lab_JsVariableName";
+      this.lab_JsVariableName.Size = new System.Drawing.Size(116, 20);
+      this.lab_JsVariableName.TabIndex = 2;
+      this.lab_JsVariableName.Text = "Variablenname";
+      // 
+      // lab_JsFileName
+      // 
+      this.lab_JsFileName.AutoSize = true;
+      this.lab_JsFileName.Location = new System.Drawing.Point(15, 35);
+      this.lab_JsFileName.Name = "lab_JsFileName";
+      this.lab_JsFileName.Size = new System.Drawing.Size(87, 20);
+      this.lab_JsFileName.TabIndex = 0;
+      this.lab_JsFileName.Text = "Dateiname";
+      // 
+      // txt_JsFileName
+      // 
+      this.txt_JsFileName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.txt_JsFileName.Location = new System.Drawing.Point(148, 28);
+      this.txt_JsFileName.Name = "txt_JsFileName";
+      this.txt_JsFileName.Size = new System.Drawing.Size(650, 30);
+      this.txt_JsFileName.TabIndex = 1;
+      this.txt_JsFileName.Text = "project.js";
+      // 
+      // grp_Development
+      // 
+      this.grp_Development.Controls.Add(this.ckb_CreateSegmentInfo);
+      this.grp_Development.Controls.Add(this.ckb_CreateXml);
+      this.grp_Development.Controls.Add(this.ckb_CreateJson);
+      this.grp_Development.Location = new System.Drawing.Point(21, 293);
+      this.grp_Development.Name = "grp_Development";
+      this.grp_Development.Size = new System.Drawing.Size(301, 157);
+      this.grp_Development.TabIndex = 8;
+      this.grp_Development.TabStop = false;
+      this.grp_Development.Text = "Entwicklung";
+      // 
+      // ckb_CreateXml
+      // 
+      this.ckb_CreateXml.AutoSize = true;
+      this.ckb_CreateXml.Checked = true;
+      this.ckb_CreateXml.CheckState = System.Windows.Forms.CheckState.Checked;
+      this.ckb_CreateXml.Location = new System.Drawing.Point(18, 74);
+      this.ckb_CreateXml.Name = "ckb_CreateXml";
+      this.ckb_CreateXml.Size = new System.Drawing.Size(209, 24);
+      this.ckb_CreateXml.TabIndex = 1;
+      this.ckb_CreateXml.Text = "XML-Dateien generieren";
+      this.ckb_CreateXml.UseVisualStyleBackColor = true;
       // 
       // ckb_CreateJson
       // 
       this.ckb_CreateJson.AutoSize = true;
       this.ckb_CreateJson.Checked = true;
       this.ckb_CreateJson.CheckState = System.Windows.Forms.CheckState.Checked;
-      this.ckb_CreateJson.Location = new System.Drawing.Point(18, 36);
+      this.ckb_CreateJson.Location = new System.Drawing.Point(18, 34);
       this.ckb_CreateJson.Name = "ckb_CreateJson";
-      this.ckb_CreateJson.Size = new System.Drawing.Size(331, 24);
+      this.ckb_CreateJson.Size = new System.Drawing.Size(218, 24);
       this.ckb_CreateJson.TabIndex = 0;
-      this.ckb_CreateJson.Text = "JSON-Dateien generieren (inkl. ./Proj.json)";
+      this.ckb_CreateJson.Text = "JSON-Dateien generieren";
       this.ckb_CreateJson.UseVisualStyleBackColor = true;
       // 
-      // ckb_CreateJsonJs
+      // ckb_CreateSegmentInfo
       // 
-      this.ckb_CreateJsonJs.AutoSize = true;
-      this.ckb_CreateJsonJs.Checked = true;
-      this.ckb_CreateJsonJs.CheckState = System.Windows.Forms.CheckState.Checked;
-      this.ckb_CreateJsonJs.Location = new System.Drawing.Point(18, 66);
-      this.ckb_CreateJsonJs.Name = "ckb_CreateJsonJs";
-      this.ckb_CreateJsonJs.Size = new System.Drawing.Size(378, 24);
-      this.ckb_CreateJsonJs.TabIndex = 1;
-      this.ckb_CreateJsonJs.Text = "JSON-Script Variable generieren (./scripts/proj.js)";
-      this.ckb_CreateJsonJs.UseVisualStyleBackColor = true;
+      this.ckb_CreateSegmentInfo.AutoSize = true;
+      this.ckb_CreateSegmentInfo.Checked = true;
+      this.ckb_CreateSegmentInfo.CheckState = System.Windows.Forms.CheckState.Checked;
+      this.ckb_CreateSegmentInfo.Location = new System.Drawing.Point(18, 114);
+      this.ckb_CreateSegmentInfo.Name = "ckb_CreateSegmentInfo";
+      this.ckb_CreateSegmentInfo.Size = new System.Drawing.Size(221, 24);
+      this.ckb_CreateSegmentInfo.TabIndex = 2;
+      this.ckb_CreateSegmentInfo.Text = "Segement Info generieren";
+      this.ckb_CreateSegmentInfo.UseVisualStyleBackColor = true;
       // 
       // AppMain
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(1178, 890);
-      this.Controls.Add(this.grp_Json);
-      this.Controls.Add(this.lab_FileNameXsltHtml);
-      this.Controls.Add(this.txt_FileNameXsltHtml);
-      this.Controls.Add(this.cmd_FileNameXsltHtmlBrowse);
+      this.Controls.Add(this.grp_Development);
+      this.Controls.Add(this.grp_Javsscript);
+      this.Controls.Add(this.grp_Connection);
       this.Controls.Add(this.lab_OutputDirectory);
       this.Controls.Add(this.txt_OutputDirectory);
       this.Controls.Add(this.cmd_OutputDirectoryBrowse);
-      this.Controls.Add(this.grp_Xml);
       this.Controls.Add(this.lab_FileNameTp4);
       this.Controls.Add(this.lab_Info);
       this.Controls.Add(this.txt_Info);
@@ -263,10 +329,13 @@
       this.MaximizeBox = false;
       this.Name = "AppMain";
       this.Text = "TP4Unzip";
-      this.grp_Xml.ResumeLayout(false);
-      this.grp_Xml.PerformLayout();
-      this.grp_Json.ResumeLayout(false);
-      this.grp_Json.PerformLayout();
+      this.grp_Connection.ResumeLayout(false);
+      this.grp_Connection.PerformLayout();
+      ((System.ComponentModel.ISupportInitialize)(this.num_ConnPort)).EndInit();
+      this.grp_Javsscript.ResumeLayout(false);
+      this.grp_Javsscript.PerformLayout();
+      this.grp_Development.ResumeLayout(false);
+      this.grp_Development.PerformLayout();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -281,20 +350,24 @@
     private System.Windows.Forms.TextBox txt_Info;
     private System.Windows.Forms.Label lab_Info;
     private System.Windows.Forms.Label lab_FileNameTp4;
-    private System.Windows.Forms.GroupBox grp_Xml;
     private System.Windows.Forms.Label lab_OutputDirectory;
     private System.Windows.Forms.TextBox txt_OutputDirectory;
     private System.Windows.Forms.Button cmd_OutputDirectoryBrowse;
     private System.Windows.Forms.FolderBrowserDialog FolderDialog;
-    private System.Windows.Forms.TextBox txt_XmlStyleSheetElement;
-    private System.Windows.Forms.CheckBox ckb_XSL;
-    private System.Windows.Forms.Label lab_FileNameXsltHtml;
-    private System.Windows.Forms.TextBox txt_FileNameXsltHtml;
-    private System.Windows.Forms.Button cmd_FileNameXsltHtmlBrowse;
-    private System.Windows.Forms.OpenFileDialog FileNameXsltDialog;
-    private System.Windows.Forms.GroupBox grp_Json;
+    private System.Windows.Forms.GroupBox grp_Connection;
+    private System.Windows.Forms.NumericUpDown num_ConnPort;
+    private System.Windows.Forms.Label lab_ConnPort;
+    private System.Windows.Forms.Label lab_ConnHost;
+    private System.Windows.Forms.TextBox txt_ConnHost;
+    private System.Windows.Forms.GroupBox grp_Javsscript;
+    private System.Windows.Forms.TextBox txt_JsVariableName;
+    private System.Windows.Forms.Label lab_JsVariableName;
+    private System.Windows.Forms.Label lab_JsFileName;
+    private System.Windows.Forms.TextBox txt_JsFileName;
+    private System.Windows.Forms.GroupBox grp_Development;
+    private System.Windows.Forms.CheckBox ckb_CreateXml;
     private System.Windows.Forms.CheckBox ckb_CreateJson;
-    private System.Windows.Forms.CheckBox ckb_CreateJsonJs;
+    private System.Windows.Forms.CheckBox ckb_CreateSegmentInfo;
   }
 }
 

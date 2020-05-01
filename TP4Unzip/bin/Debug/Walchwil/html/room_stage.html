@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="de-DE"><head><meta charset="UTF-8" /><title>Room_Stage</title><style>
+              
+        body {
+          background-color:#FFFFFF;
+          width:1024px;
+          height:565px;
+          
+          /* -ms-transform: scale(1.5, 1.5); /* IE 9 */
+          /* -webkit-transform: scale(1.5, 1.5); /* Safari */
+          /* transform: scale(1.5, 1.5); /* Standard syntax */
+          
+          transform-origin: 0 0;
+          overflow:hidden;
+          padding:0px;
+          margin:0px;
+          border-style:solid;border-width:1px;
+        }
+        </style><meta name="viewport" content="width=device-width, initial-scale=1.0" /></head><body><button id="Leinwand" style="
+          width:72px;
+          height:30px;
+          background-color:#FF8000;
+          position: absolute;
+          left:944px;
+          top:8px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Leinwand</button><button id="Ein" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:117px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Spot 2" style="
+          width:101px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:117px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Spot 2</button><button id="Aus" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:117px;
+          top:164px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="Ein" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Spot 1" style="
+          width:101px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:8px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Spot 1</button><button id="Aus" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:164px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="M" style="
+          width:72px;
+          height:64px;
+          background-color:1;
+          position: absolute;
+          left:944px;
+          top:244px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />M</button><button id="L" style="
+          width:72px;
+          height:64px;
+          background-color:1;
+          position: absolute;
+          left:944px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />L</button><button id="B" style="
+          width:72px;
+          height:64px;
+          background-color:1;
+          position: absolute;
+          left:944px;
+          top:172px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />B</button><button id="Line_Black_V" style="
+          width:12px;
+          height:300px;
+          background-color:transparent;
+          position: absolute;
+          left:929px;
+          top:8px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Line_Black_V.png" alt="Line_Black_V.png" style="width:100%;height:auto;" /></button><button id="Ein" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:226px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Spot 3" style="
+          width:101px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:226px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Spot 3</button><button id="Aus" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:226px;
+          top:164px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="Zu" style="
+          width:72px;
+          height:64px;
+          background-color:1;
+          position: absolute;
+          left:854px;
+          top:244px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Zu</button><button id="Auf" style="
+          width:72px;
+          height:64px;
+          background-color:1;
+          position: absolute;
+          left:854px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Auf</button><button id="B" style="
+          width:72px;
+          height:64px;
+          background-color:1;
+          position: absolute;
+          left:854px;
+          top:172px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />B</button><button id="Ein" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:444px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Spot 5" style="
+          width:101px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:444px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Spot 5</button><button id="Aus" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:444px;
+          top:164px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="Ein" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:335px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Spot 4" style="
+          width:101px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:335px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Spot 4</button><button id="Aus" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:335px;
+          top:164px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="Ein" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:553px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Spot 6" style="
+          width:101px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:553px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Spot 6</button><button id="Aus" style="
+          width:101px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:553px;
+          top:164px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="Licht" style="
+          width:749px;
+          height:30px;
+          background-color:#FF8000;
+          position: absolute;
+          left:8px;
+          top:8px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Licht</button><button id="Vorhang" style="
+          width:152px;
+          height:30px;
+          background-color:#FF8000;
+          position: absolute;
+          left:774px;
+          top:8px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Vorhang</button><button id="Zu" style="
+          width:72px;
+          height:64px;
+          background-color:1;
+          position: absolute;
+          left:774px;
+          top:244px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Zu</button><button id="Auf" style="
+          width:72px;
+          height:64px;
+          background-color:1;
+          position: absolute;
+          left:774px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Auf</button><button id="B" style="
+          width:72px;
+          height:64px;
+          background-color:1;
+          position: absolute;
+          left:774px;
+          top:172px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />B</button><button id="Ein/Aus" style="
+          width:86px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:671px;
+          top:100px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein/Aus</button><button id="Probe- beleuchtung" style="
+          width:86px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:671px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Probe-
+beleuchtung</button><button id="Line_Black_V" style="
+          width:4px;
+          height:300px;
+          background-color:transparent;
+          position: absolute;
+          left:763px;
+          top:8px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Line_Black_V.png" alt="Line_Black_V.png" style="width:100%;height:auto;" /></button><button id="Grau" style="
+          width:72px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:774px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Grau</button><button id="Rot" style="
+          width:72px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:854px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Rot</button><button id="Bühne" style="
+          width:72px;
+          height:46px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:944px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Bühne</button><button id="Line_Black_V" style="
+          width:4px;
+          height:493px;
+          background-color:transparent;
+          position: absolute;
+          left:660px;
+          top:46px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Line_Black_V.png" alt="Line_Black_V.png" style="width:100%;height:auto;" /></button><button id="Ein" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:401px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Aus" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:401px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="L" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:466px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />L</button><button id="M" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:466px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />M</button><button id="Ein" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Aus" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="L" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:73px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />L</button><button id="M" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:73px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />M</button><button id="Ein" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:139px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Aus" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:139px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="L" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:204px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />L</button><button id="M" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:204px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />M</button><button id="Ein" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:270px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Aus" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:270px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="L" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:335px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />L</button><button id="M" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:335px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />M</button><button id="Rot" style="
+          width:122px;
+          height:32px;
+          background-color:#FF0000C8;
+          position: absolute;
+          left:8px;
+          top:267px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Rot</button><button id="Grün" style="
+          width:122px;
+          height:32px;
+          background-color:#00BF00C8;
+          position: absolute;
+          left:139px;
+          top:267px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Grün</button><button id="Blau" style="
+          width:122px;
+          height:32px;
+          background-color:#0000BFC8;
+          position: absolute;
+          left:270px;
+          top:267px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#FFFFFF;
+          padding:0px;
+        ">Blau</button><button id="Weiss" style="
+          width:122px;
+          height:32px;
+          background-color:#FFFFFFC8;
+          position: absolute;
+          left:401px;
+          top:267px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Weiss</button><button id="Alle Spots" style="
+          width:646px;
+          height:31px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:8px;
+          top:228px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Alle Spots</button><button id="L" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:597px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />L</button><button id="Ein" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:532px;
+          top:307px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ein</button><button id="Stroboskop" style="
+          width:122px;
+          height:32px;
+          background-color:#F4F1A0C8;
+          position: absolute;
+          left:532px;
+          top:267px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Stroboskop</button><button id="Aus" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:532px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Aus</button><button id="M" style="
+          width:57px;
+          height:57px;
+          background-color:1;
+          position: absolute;
+          left:597px;
+          top:372px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />M</button><button id="Saal hinten" style="
+          width:85px;
+          height:8px;
+          background-color:#7F7F00;
+          position: absolute;
+          left:561px;
+          top:106px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        "></button><button id="Saal hinten" style="
+          width:85px;
+          height:8px;
+          background-color:#7F7F00;
+          position: absolute;
+          left:452px;
+          top:106px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        "></button><button id="Saal hinten" style="
+          width:85px;
+          height:8px;
+          background-color:#7F7F00;
+          position: absolute;
+          left:343px;
+          top:106px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        "></button><button id="Saal hinten" style="
+          width:85px;
+          height:8px;
+          background-color:#7F7F00;
+          position: absolute;
+          left:234px;
+          top:106px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        "></button><button id="Saal hinten" style="
+          width:85px;
+          height:8px;
+          background-color:#7F7F00;
+          position: absolute;
+          left:125px;
+          top:106px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        "></button><button id="Saal hinten" style="
+          width:85px;
+          height:8px;
+          background-color:#7F7F00;
+          position: absolute;
+          left:16px;
+          top:106px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        "></button><button id="DMX Mischpult" style="
+          width:646px;
+          height:31px;
+          background-color:#DDDDDD;
+          position: absolute;
+          left:8px;
+          top:444px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">DMX Mischpult</button><button id="Nur iPad" style="
+          width:210px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:226px;
+          top:483px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Nur iPad</button><button id="iPad + Mischpult" style="
+          width:210px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:483px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />iPad + Mischpult</button><button id="Nur Mischpult" style="
+          width:210px;
+          height:56px;
+          background-color:1;
+          position: absolute;
+          left:444px;
+          top:483px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Nur Mischpult</button><script>
+          // Resizes current window (150%)
+          // window.resizeTo(1536,  847.5);
+          // window.resizeTo(1024 * 1.53, 768 * 1.805);
+          window.focus(); // Sets focus to the new window
+        </script></body></html>

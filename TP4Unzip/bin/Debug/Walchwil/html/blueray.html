@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="de-DE"><head><meta charset="UTF-8" /><title>Blueray</title><style>
+              
+        body {
+          background-color:#FFFFFF;
+          width:1024px;
+          height:565px;
+          
+          /* -ms-transform: scale(1.5, 1.5); /* IE 9 */
+          /* -webkit-transform: scale(1.5, 1.5); /* Safari */
+          /* transform: scale(1.5, 1.5); /* Standard syntax */
+          
+          transform-origin: 0 0;
+          overflow:hidden;
+          padding:0px;
+          margin:0px;
+          border-style:solid;border-width:1px;
+        }
+        </style><meta name="viewport" content="width=device-width, initial-scale=1.0" /></head><body><button id="u" style="
+          width:113px;
+          height:58px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:393px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />u</button><button id="r" style="
+          width:113px;
+          height:58px;
+          background-color:1;
+          position: absolute;
+          left:143px;
+          top:393px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />r</button><button id="q" style="
+          width:113px;
+          height:58px;
+          background-color:1;
+          position: absolute;
+          left:278px;
+          top:393px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />q</button><button id="-" style="
+          width:114px;
+          height:58px;
+          background-color:1;
+          position: absolute;
+          left:413px;
+          top:393px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />-</button><button id="=" style="
+          width:113px;
+          height:58px;
+          background-color:1;
+          position: absolute;
+          left:549px;
+          top:393px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />=</button><button id="y" style="
+          width:113px;
+          height:58px;
+          background-color:1;
+          position: absolute;
+          left:819px;
+          top:393px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />y</button><button id="e" style="
+          width:113px;
+          height:58px;
+          background-color:1;
+          position: absolute;
+          left:684px;
+          top:393px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />e</button><button id="Kapitel zurück" style="
+          width:113px;
+          height:23px;
+          background-color:transparent;
+          position: absolute;
+          left:8px;
+          top:460px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#333333;
+          padding:0px;
+        ">Kapitel zurück</button><button id="Zurückspulen" style="
+          width:113px;
+          height:23px;
+          background-color:transparent;
+          position: absolute;
+          left:143px;
+          top:460px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#333333;
+          padding:0px;
+        ">Zurückspulen</button><button id="Stop" style="
+          width:113px;
+          height:23px;
+          background-color:transparent;
+          position: absolute;
+          left:278px;
+          top:460px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#333333;
+          padding:0px;
+        ">Stop</button><button id="Start" style="
+          width:113px;
+          height:23px;
+          background-color:transparent;
+          position: absolute;
+          left:413px;
+          top:460px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#333333;
+          padding:0px;
+        ">Start</button><button id="Pause" style="
+          width:113px;
+          height:23px;
+          background-color:transparent;
+          position: absolute;
+          left:549px;
+          top:460px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#333333;
+          padding:0px;
+        ">Pause</button><button id="Vorwärtsspulen" style="
+          width:113px;
+          height:23px;
+          background-color:transparent;
+          position: absolute;
+          left:684px;
+          top:460px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#333333;
+          padding:0px;
+        ">Vorwärtsspulen</button><button id="Kapitel vorwärts" style="
+          width:113px;
+          height:23px;
+          background-color:transparent;
+          position: absolute;
+          left:819px;
+          top:460px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#333333;
+          padding:0px;
+        ">Kapitel vorwärts</button><button id="Audio" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:552px;
+          top:150px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Audio</button><button id="Zurück" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:552px;
+          top:284px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Zurück</button><button id="Untertitel" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:552px;
+          top:217px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Untertitel</button><button id="Top Menü" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:117px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Top Menü</button><button id="Setup" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:251px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Setup</button><button id="Titel Menü" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:184px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Titel Menü</button><button id="Z" style="
+          width:72px;
+          height:72px;
+          background-color:1;
+          position: absolute;
+          left:331px;
+          top:291px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Z</button><button id="C" style="
+          width:72px;
+          height:72px;
+          background-color:1;
+          position: absolute;
+          left:251px;
+          top:211px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />C</button><button id="Q" style="
+          width:72px;
+          height:72px;
+          background-color:1;
+          position: absolute;
+          left:411px;
+          top:211px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Q</button><button id="X" style="
+          width:72px;
+          height:72px;
+          background-color:1;
+          position: absolute;
+          left:331px;
+          top:131px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />X</button><button id="OK" style="
+          width:72px;
+          height:72px;
+          background-color:1;
+          position: absolute;
+          left:331px;
+          top:211px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />OK</button><button id="Wiederholen" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:8px;
+          top:318px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Wiederholen</button><button id="p" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:746px;
+          top:284px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />p</button><button id="Einschalten" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:746px;
+          top:150px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Einschalten</button><button id="Ausschalten" style="
+          width:186px;
+          height:59px;
+          background-color:1;
+          position: absolute;
+          left:746px;
+          top:217px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />Ausschalten</button><button id="Audio Sprache" style="
+          width:155px;
+          height:30px;
+          background-color:#CCCCCC;
+          position: absolute;
+          left:8px;
+          top:496px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Audio Sprache</button><button id="Untertitel" style="
+          width:279px;
+          height:30px;
+          background-color:#CCCCCC;
+          position: absolute;
+          left:165px;
+          top:496px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Untertitel</button><button id="Disktyp" style="
+          width:129px;
+          height:30px;
+          background-color:#CCCCCC;
+          position: absolute;
+          left:446px;
+          top:496px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Disktyp</button><button id="Audio Format" style="
+          width:355px;
+          height:30px;
+          background-color:#CCCCCC;
+          position: absolute;
+          left:577px;
+          top:496px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Audio Format</button><button id="***" style="
+          width:155px;
+          height:30px;
+          background-color:#FFFFFF;
+          position: absolute;
+          left:8px;
+          top:527px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">***</button><button id="***" style="
+          width:279px;
+          height:30px;
+          background-color:#FFFFFF;
+          position: absolute;
+          left:165px;
+          top:527px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">***</button><button id="***" style="
+          width:129px;
+          height:30px;
+          background-color:#FFFFFF;
+          position: absolute;
+          left:446px;
+          top:527px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">***</button><button id="***" style="
+          width:208px;
+          height:30px;
+          background-color:#FFFFFF;
+          position: absolute;
+          left:577px;
+          top:527px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">***</button><button id="***" style="
+          width:145px;
+          height:30px;
+          background-color:#FFFFFF;
+          position: absolute;
+          left:787px;
+          top:527px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">***</button><button id="Status" style="
+          width:195px;
+          height:30px;
+          background-color:#CCCCCC;
+          position: absolute;
+          left:8px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Status</button><button id="Titel" style="
+          width:436px;
+          height:30px;
+          background-color:#CCCCCC;
+          position: absolute;
+          left:206px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Titel</button><button id="Kapitel" style="
+          width:142px;
+          height:30px;
+          background-color:#CCCCCC;
+          position: absolute;
+          left:645px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Kapitel</button><button id="[Time]" style="
+          width:142px;
+          height:30px;
+          background-color:#CCCCCC;
+          position: absolute;
+          left:790px;
+          top:46px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">[Time]</button><button id="***" style="
+          width:195px;
+          height:30px;
+          background-color:#FFFFFF;
+          position: absolute;
+          left:8px;
+          top:79px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">***</button><button id="***" style="
+          width:436px;
+          height:30px;
+          background-color:#FFFFFF;
+          position: absolute;
+          left:206px;
+          top:79px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">***</button><button id="***" style="
+          width:142px;
+          height:30px;
+          background-color:#FFFFFF;
+          position: absolute;
+          left:645px;
+          top:79px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">***</button><button id="***" style="
+          width:142px;
+          height:30px;
+          background-color:#FFFFFF;
+          position: absolute;
+          left:790px;
+          top:79px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000FF;
+          padding:0px;
+        ">***</button><button id="Blu-Ray Steuerung" style="
+          width:924px;
+          height:30px;
+          background-color:#FF8000;
+          position: absolute;
+          left:8px;
+          top:8px;
+          border-style:solid;border-width:1px;
+          border-color:#000000;
+          color:#000000;
+          padding:0px;
+        ">Blu-Ray Steuerung</button><button id="P" style="
+          width:67px;
+          height:58px;
+          background-color:1;
+          position: absolute;
+          left:949px;
+          top:8px;
+          border-style:solid;border-width:Circle 15px;
+          border-color:157;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Btn-1280x70.png" alt="Btn-1280x70.png" style="width:100%;height:auto;" />P</button><button id="Line_Black_V" style="
+          width:4px;
+          height:549px;
+          background-color:transparent;
+          position: absolute;
+          left:938px;
+          top:8px;
+          border-style:solid;border-width:0px;
+          border-color:#FFFF00;
+          color:#FFFFFF;
+          padding:0px;
+        "><img src="../Images/Line_Black_V.png" alt="Line_Black_V.png" style="width:100%;height:auto;" /></button><script>
+          // Resizes current window (150%)
+          // window.resizeTo(1536,  847.5);
+          // window.resizeTo(1024 * 1.53, 768 * 1.805);
+          window.focus(); // Sets focus to the new window
+        </script></body></html>

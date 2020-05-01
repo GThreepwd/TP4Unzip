@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <page type="subpage" popupType="popup">
+    <pageID>515</pageID>
+    <name>TurnOff</name>
+    <top>91</top>
+    <width>1024</width>
+    <height>565</height>
+    <hideTime>3</hideTime>
+    <button type="general">
+      <bi>1</bi>
+      <na>Möchten Sie das System wirklich ausschalten?</na>
+      <lt>201</lt>
+      <tp>104</tp>
+      <wt>622</wt>
+      <ht>158</ht>
+      <zo>24</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>Black</ec>
+        <fi>27</fi>
+        <te>Möchten Sie das System wirklich ausschalten?</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>Black</ec>
+        <fi>27</fi>
+        <te>Möchten Sie das System wirklich ausschalten?</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>2</bi>
+      <na>Ja</na>
+      <lt>250</lt>
+      <tp>298</tp>
+      <wt>223</wt>
+      <ht>72</ht>
+      <zo>25</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <ch>12</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="sHide">TurnOff</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>55</fi>
+        <te>Ja</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>55</fi>
+        <te>Ja</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>3</bi>
+      <na>Bitte schliessen sie das iPad nach Gebrauch an das Ladekabel an.</na>
+      <lt>40</lt>
+      <tp>439</tp>
+      <wt>944</wt>
+      <ht>86</ht>
+      <zo>26</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Double Line</bs>
+        <cb>VeryLightOrange</cb>
+        <cf>#FEDE13AD</cf>
+        <ct>Black</ct>
+        <ec>Black</ec>
+        <fi>55</fi>
+        <te>Bitte schliessen sie das iPad nach Gebrauch an das Ladekabel an.</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Double Line</bs>
+        <cb>VeryLightOrange</cb>
+        <cf>#FEDE13AD</cf>
+        <ct>Black</ct>
+        <ec>Black</ec>
+        <fi>55</fi>
+        <te>Bitte schliessen sie das iPad nach Gebrauch an das Ladekabel an.</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>6</bi>
+      <na>Nein</na>
+      <lt>552</lt>
+      <tp>298</tp>
+      <wt>223</wt>
+      <ht>72</ht>
+      <zo>29</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="sHide">TurnOff</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>55</fi>
+        <te>Nein</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>55</fi>
+        <te>Nein</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>7</bi>
+      <na>System ausschalten</na>
+      <lt>40</lt>
+      <tp>24</tp>
+      <wt>944</wt>
+      <ht>50</ht>
+      <zo>30</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#FF4545BC</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>57</fi>
+        <te>System ausschalten</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#FF4545BC</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>57</fi>
+        <te>System ausschalten</te>
+      </sr>
+    </button>
+    <sr number="1">
+      <bs>Line Single</bs>
+      <cb>Black</cb>
+      <cf>White</cf>
+      <ct>White</ct>
+      <ec>#000000FF</ec>
+      <jb>4</jb>
+      <fi>45</fi>
+    </sr>
+  </page>
+</root>

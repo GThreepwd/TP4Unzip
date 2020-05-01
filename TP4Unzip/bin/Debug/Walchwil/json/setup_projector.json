@@ -1,0 +1,148 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "513",
+    "name": "Setup_Projector",
+    "top": "91",
+    "width": "1024",
+    "height": "565",
+    "group": "Setup",
+    "button": [
+      {
+        "type": "general",
+        "bi": "40",
+        "na": "P",
+        "lt": "949",
+        "tp": "8",
+        "wt": "67",
+        "ht": "58",
+        "zo": "45",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sHide",
+          "#text": "Setup_Projector"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "58",
+            "te": "P"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "58",
+            "te": "P"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "41",
+        "na": "Line_Black_V",
+        "lt": "938",
+        "tp": "8",
+        "wt": "4",
+        "ht": "549",
+        "zo": "46",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "42",
+        "na": "Projektor",
+        "lt": "8",
+        "tp": "8",
+        "wt": "924",
+        "ht": "30",
+        "zo": "47",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Projektor"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Projektor"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "Line Single",
+      "cb": "#222222FF",
+      "cf": "White",
+      "ct": "White",
+      "ec": "#000000FF",
+      "jb": "1",
+      "fi": "123"
+    }
+  }
+}

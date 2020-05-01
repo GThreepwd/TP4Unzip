@@ -1,0 +1,30 @@
+{
+  "bm": {
+    "im": {
+      "me": [
+        {
+          "i": "Camera_01",
+          "id": "1"
+        },
+        {
+          "i": "Camera_02",
+          "id": "1"
+        },
+        {
+          "i": "Bitmap-256x256.jpg"
+        },
+        {
+          "i": "Power-64x64.png"
+        },
+        {
+          "i": "Sample-50x50.png"
+        }
+      ]
+    }
+  },
+  "sm": {
+    "me": {
+      "i": "November Rain.mp3"
+    }
+  }
+}

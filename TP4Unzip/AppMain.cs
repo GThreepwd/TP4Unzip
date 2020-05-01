@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -16,34 +17,52 @@ namespace TP4Unzip
       EventService.Instance.OnMessage += OnMessage;
 
       txt_FileNameTp4.Text = Settings.Default.FileNameTp4;
+      txt_OutputDirectory.Text = Settings.Default.OutputFolder;
+      txt_ConnHost.Text = Settings.Default.ConnHost;
 
-      if(string.IsNullOrWhiteSpace(Settings.Default.OutputFolder))
-        txt_OutputDirectory.Text = "$";
-      else
-        txt_OutputDirectory.Text = Settings.Default.OutputFolder;
+      try
+      {
+        num_ConnPort.Value = Settings.Default.ConnPort; // Default
+      }
+      catch
+      {
+        // Value out of range ..
+        num_ConnPort.Value = 80; // Default
+      }
 
-      txt_FileNameXsltHtml.Text = Settings.Default.FileNameXsltHtml;
+      txt_JsFileName.Text = Settings.Default.JsFileName;
+      txt_JsVariableName.Text = Settings.Default.JsVariableName;
 
-      txt_XmlStyleSheetElement.Text = Settings.Default.XmlStyleSheetElement;
+      ckb_CreateJson.Checked = Settings.Default.CreateJson;
+      ckb_CreateXml.Checked = Settings.Default.CreateXml;
+      ckb_CreateSegmentInfo.Checked = Settings.Default.CreateSegmentInfo;
 
       cmd_FileNameTp4Browse.Click += OnFileNameTp4BrowseClick;
       cmd_OutputDirectoryBrowse.Click += OnOutputFolderBrowseClick;
-      cmd_FileNameXsltHtmlBrowse.Click += OnFileNameXsltHtmlBrowseClick;
       cmd_Extract.Click += OnExtractClick;
       FormClosing += OnClosing;
-
-      ckb_CreateJson.CheckedChanged += delegate { ckb_CreateJsonJs.Enabled = ckb_CreateJson.Checked; };
     }
 
     private void OnClosing(object sender, FormClosingEventArgs e)
+    {
+      SaveSettings();
+    }
+
+    private void SaveSettings()
     {
       Settings.Default.FileNameTp4 = txt_FileNameTp4.Text.Trim();
 
       Settings.Default.OutputFolder = txt_OutputDirectory.Text.Trim();
 
-      Settings.Default.FileNameXsltHtml = txt_FileNameXsltHtml.Text.Trim();
+      Settings.Default.ConnHost = txt_ConnHost.Text.Trim();
+      Settings.Default.ConnPort = (int)num_ConnPort.Value;
 
-      Settings.Default.XmlStyleSheetElement = txt_XmlStyleSheetElement.Text.Trim();
+      Settings.Default.JsFileName = txt_JsFileName.Text.Trim();
+      Settings.Default.JsVariableName = txt_JsVariableName.Text.Trim();
+
+      Settings.Default.CreateJson = ckb_CreateJson.Checked;
+      Settings.Default.CreateXml = ckb_CreateXml.Checked;
+      Settings.Default.CreateSegmentInfo = ckb_CreateSegmentInfo.Checked;
 
       Settings.Default.Save();
     }
@@ -95,45 +114,36 @@ namespace TP4Unzip
       }
     }
 
-    private void OnFileNameXsltHtmlBrowseClick(object sender, EventArgs e)
-    {
-      var lResult = FileNameXsltDialog.ShowDialog();
-
-      if(lResult == DialogResult.OK)
-      {
-        txt_FileNameXsltHtml.Text = FileNameXsltDialog.FileName;
-
-        Settings.Default.FileNameXsltHtml = FileNameXsltDialog.FileName;
-
-        Settings.Default.Save();
-      }
-    }
-
     private void OnExtractClick(object sender, EventArgs e)
     {
+      SaveSettings();
+
       txt_Info.Text = "";
 
       cmd_Extract.Enabled = false;
 
       try
       {
+        var lFileNameTp4 = txt_FileNameTp4.Text.Trim();
         var lOutputDirectory = txt_OutputDirectory.Text.Trim();
 
         // Folder => Filename without extension
         if(lOutputDirectory == "$")
           lOutputDirectory = "";
 
-        var lTp4File = new TP4File(txt_FileNameTp4.Text.Trim(), lOutputDirectory)
-        {
-          XmlStyleSheetHtmlFileName = txt_FileNameXsltHtml.Text.Trim(),
-          CreateJson = ckb_CreateJson.Checked,
-          CreateJsonJs = ckb_CreateJsonJs.Checked
-        };
-
-        if(ckb_XSL.Checked)
-          lTp4File.XmlStyleSheetElement = txt_XmlStyleSheetElement.Text.Trim();
+        var lTp4File = new TP4File(lFileNameTp4, lOutputDirectory);
 
         lTp4File.Extract();
+
+        // Javascrip: config.js
+        var lConfig = string.Format(Resources.Config, txt_ConnHost.Text, num_ConnPort.Value.ToString());
+
+        if(string.IsNullOrWhiteSpace(lOutputDirectory))
+          lOutputDirectory = Path.GetDirectoryName(lFileNameTp4) + @"\" + Path.GetFileNameWithoutExtension(lFileNameTp4);
+
+        var lFileNameConfig = string.Format(@"{0}\config.js", lOutputDirectory);
+
+        File.WriteAllText(lFileNameConfig, lConfig);
       }
       catch(Exception ex)
       {

@@ -20,7 +20,7 @@
     "designerId": "",
     "creationDate": "Tue May 22 08:34:48 2018",
     "revisionDate": "Tue May 22 08:34:48 2018",
-    "lastSaveDate": "Sun Jun 03 18:05:08 2018",
+    "lastSaveDate": "Sun Jun 17 16:59:41 2018",
     "fileName": "Simple.tp4",
     "colorChoice": "",
     "specifyPortCount": "0",
@@ -35,11 +35,11 @@
     "externalButtonFile": "external.xma"
   },
   "panelSetup": {
-    "portCount": "4",
+    "portCount": "5",
     "setupPort": "0",
-    "addressCount": "22",
-    "channelCount": "33",
-    "levelCount": "44",
+    "addressCount": "102",
+    "channelCount": "102",
+    "levelCount": "0",
     "powerUpPage": "MainPage",
     "feedbackBlinkRate": "5",
     "startupString": "",
@@ -176,7 +176,7 @@
   "fwFeatureList": {
     "feature": {
       "featureID": "buttonTouchStyle",
-      "usageCount": "2"
+      "usageCount": "6"
     }
   },
   "paletteList": {

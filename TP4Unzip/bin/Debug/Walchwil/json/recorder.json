@@ -1,0 +1,823 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "516",
+    "name": "Recorder",
+    "top": "91",
+    "width": "1024",
+    "height": "565",
+    "group": "Content",
+    "hideTime": "3",
+    "button": [
+      {
+        "type": "general",
+        "bi": "1",
+        "na": "Recorder",
+        "lt": "32",
+        "tp": "16",
+        "wt": "960",
+        "ht": "30",
+        "zo": "1",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Recorder"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Recorder"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "2",
+        "na": "p",
+        "lt": "754",
+        "tp": "246",
+        "wt": "135",
+        "ht": "135",
+        "zo": "2",
+        "bs": "",
+        "cp": "7",
+        "ch": "12",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 135",
+            "cb": "#222222FF",
+            "cf": "17",
+            "ct": "#AC0000FF",
+            "ec": "#63356300",
+            "fi": "63",
+            "te": "p",
+            "tx": "52",
+            "ty": "26"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 135",
+            "cb": "#222222FF",
+            "cf": "#FCAEB2FF",
+            "ct": "#E10101FF",
+            "ec": "#63356300",
+            "fi": "63",
+            "te": "p",
+            "tx": "52",
+            "ty": "26"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "3",
+        "na": "w",
+        "lt": "556",
+        "tp": "246",
+        "wt": "135",
+        "ht": "135",
+        "zo": "3",
+        "bs": "",
+        "cp": "7",
+        "ch": "11",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 135",
+            "cb": "#222222FF",
+            "cf": "17",
+            "ct": "Grey12",
+            "ec": "#63356300",
+            "fi": "63",
+            "te": "w",
+            "tx": "52",
+            "ty": "26"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 135",
+            "cb": "#222222FF",
+            "cf": "MediumLime",
+            "ct": "Grey12",
+            "ec": "#63356300",
+            "fi": "63",
+            "te": "w",
+            "tx": "52",
+            "ty": "26"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "4",
+        "na": "00:00:00",
+        "lt": "241",
+        "tp": "460",
+        "wt": "200",
+        "ht": "62",
+        "zo": "4",
+        "bs": "",
+        "ap": "7",
+        "ad": "3",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "17",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "62",
+            "te": "00:00:00",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "17",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "62",
+            "te": "00:00:00",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "5",
+        "na": "Gesammte verbleibende Aufnahmezeit",
+        "lt": "241",
+        "tp": "406",
+        "wt": "200",
+        "ht": "46",
+        "zo": "5",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Gesammte verbleibende Aufnahmezeit",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Gesammte verbleibende Aufnahmezeit",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "7",
+        "na": "Aufgezeichnete Daten werden auf das Medium geschrieben",
+        "lt": "457",
+        "tp": "62",
+        "wt": "535",
+        "ht": "119",
+        "zo": "7",
+        "bs": "",
+        "ap": "7",
+        "ad": "1",
+        "cp": "7",
+        "ch": "1",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "17",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "36",
+            "te": "Aufgezeichnete Daten werden auf das Medium geschrieben",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightRed",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "36",
+            "te": "Aufgezeichnete Daten werden auf das Medium geschrieben",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "8",
+        "na": "00:00:00",
+        "lt": "32",
+        "tp": "460",
+        "wt": "200",
+        "ht": "62",
+        "zo": "8",
+        "bs": "",
+        "ap": "7",
+        "ad": "2",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "17",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "62",
+            "te": "00:00:00",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "17",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "62",
+            "te": "00:00:00",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "9",
+        "na": "Verbleibende Aufnahmezeit (Titel)",
+        "lt": "32",
+        "tp": "406",
+        "wt": "200",
+        "ht": "46",
+        "zo": "9",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Verbleibende Aufnahmezeit (Titel)",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Verbleibende Aufnahmezeit (Titel)",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "10",
+        "na": "---",
+        "lt": "32",
+        "tp": "292",
+        "wt": "200",
+        "ht": "62",
+        "zo": "10",
+        "bs": "",
+        "ap": "7",
+        "ad": "4",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "17",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "62",
+            "te": "---",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "17",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "62",
+            "te": "---",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "11",
+        "na": "Aktuelles  Speichermedium",
+        "lt": "32",
+        "tp": "222",
+        "wt": "200",
+        "ht": "62",
+        "zo": "11",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Aktuelles \r\nSpeichermedium",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Aktuelles \r\nSpeichermedium",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "12",
+        "na": "Speichermedium",
+        "lt": "32",
+        "tp": "62",
+        "wt": "409",
+        "ht": "31",
+        "zo": "12",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Speichermedium"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Speichermedium"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "13",
+        "na": "SD",
+        "lt": "173",
+        "tp": "109",
+        "wt": "127",
+        "ht": "72",
+        "zo": "13",
+        "bs": "",
+        "ap": "7",
+        "ad": "103",
+        "cp": "7",
+        "ch": "103",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "SD"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "SD"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "14",
+        "na": "USB",
+        "lt": "32",
+        "tp": "109",
+        "wt": "127",
+        "ht": "72",
+        "zo": "14",
+        "bs": "",
+        "ap": "7",
+        "ad": "102",
+        "cp": "7",
+        "ch": "102",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "USB"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "USB"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "15",
+        "na": "CF",
+        "lt": "314",
+        "tp": "109",
+        "wt": "127",
+        "ht": "72",
+        "zo": "15",
+        "bs": "",
+        "ap": "7",
+        "ad": "100",
+        "cp": "7",
+        "ch": "100",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "CF"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "CF"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "18",
+        "na": "Warning",
+        "lt": "420",
+        "tp": "495",
+        "wt": "42",
+        "ht": "44",
+        "zo": "18",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "blink",
+        "ap": "7",
+        "ad": "99",
+        "cp": "7",
+        "ch": "99",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "bm": "symbolWarningYellow40Red_shadow.png",
+            "by": "11",
+            "fi": "20",
+            "ty": "32",
+            "et": "25"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "by": "11",
+            "fi": "20",
+            "ty": "32",
+            "et": "25"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "19",
+        "na": "Aufnahme starten",
+        "lt": "754",
+        "tp": "406",
+        "wt": "135",
+        "ht": "46",
+        "zo": "19",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Aufnahme\r\nstarten",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Aufnahme\r\nstarten",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "20",
+        "na": "Aufnahme stoppen",
+        "lt": "556",
+        "tp": "406",
+        "wt": "135",
+        "ht": "46",
+        "zo": "20",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Aufnahme\r\nstoppen",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#63356300",
+            "ct": "Black",
+            "ec": "#63356300",
+            "fi": "116",
+            "te": "Aufnahme\r\nstoppen",
+            "tx": "42",
+            "ty": "19",
+            "ww": "1"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "21",
+        "na": "Warning",
+        "lt": "942",
+        "tp": "129",
+        "wt": "42",
+        "ht": "44",
+        "zo": "21",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "blink",
+        "ap": "7",
+        "ad": "98",
+        "cp": "7",
+        "ch": "98",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "bm": "symbolWarningYellow40Red_shadow.png",
+            "by": "11",
+            "fi": "20",
+            "ty": "32",
+            "et": "25"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Transparent",
+            "ec": "Transparent",
+            "by": "11",
+            "fi": "20",
+            "ty": "32",
+            "et": "25"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "",
+      "cb": "#222222FF",
+      "cf": "White",
+      "ct": "#222222FF",
+      "ec": "#222222FF",
+      "jb": "1",
+      "fi": "45"
+    }
+  }
+}

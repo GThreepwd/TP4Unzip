@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <page type="subpage" popupType="popup">
+    <pageID>513</pageID>
+    <name>Setup_Projector</name>
+    <top>91</top>
+    <width>1024</width>
+    <height>565</height>
+    <group>Setup</group>
+    <button type="general">
+      <bi>40</bi>
+      <na>P</na>
+      <lt>949</lt>
+      <tp>8</tp>
+      <wt>67</wt>
+      <ht>58</ht>
+      <zo>45</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="sHide">Setup_Projector</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>58</fi>
+        <te>P</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>58</fi>
+        <te>P</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>41</bi>
+      <na>Line_Black_V</na>
+      <lt>938</lt>
+      <tp>8</tp>
+      <wt>4</wt>
+      <ht>549</ht>
+      <zo>46</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_V.png</bm>
+        <fi>123</fi>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_V.png</bm>
+        <fi>123</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>42</bi>
+      <na>Projektor</na>
+      <lt>8</lt>
+      <tp>8</tp>
+      <wt>924</wt>
+      <ht>30</ht>
+      <zo>47</zo>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Projektor</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Projektor</te>
+      </sr>
+    </button>
+    <sr number="1">
+      <bs>Line Single</bs>
+      <cb>#222222FF</cb>
+      <cf>White</cf>
+      <ct>White</ct>
+      <ec>#000000FF</ec>
+      <jb>1</jb>
+      <fi>123</fi>
+    </sr>
+  </page>
+</root>

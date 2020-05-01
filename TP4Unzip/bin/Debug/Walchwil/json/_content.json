@@ -1,0 +1,23 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "506",
+    "name": "_Content",
+    "width": "15",
+    "height": "15",
+    "group": "Content",
+    "timeout": "2",
+    "hideTime": "2",
+    "sr": {
+      "number": "1",
+      "bs": "Line Single",
+      "cb": "Black",
+      "cf": "Transparent",
+      "ct": "Transparent",
+      "ec": "Transparent",
+      "jb": "1",
+      "fi": "45"
+    }
+  }
+}

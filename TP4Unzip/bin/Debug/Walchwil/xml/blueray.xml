@@ -1,0 +1,1794 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <page type="subpage" popupType="popup">
+    <pageID>503</pageID>
+    <name>Blueray</name>
+    <top>91</top>
+    <width>1024</width>
+    <height>565</height>
+    <hideTime>3</hideTime>
+    <button type="general">
+      <bi>1</bi>
+      <na>u</na>
+      <lt>8</lt>
+      <tp>393</tp>
+      <wt>113</wt>
+      <ht>58</ht>
+      <zo>30</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>5</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>u</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>u</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>2</bi>
+      <na>r</na>
+      <lt>143</lt>
+      <tp>393</tp>
+      <wt>113</wt>
+      <ht>58</ht>
+      <zo>31</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <cp>5</cp>
+      <ch>8</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>r</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>r</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>3</bi>
+      <na>q</na>
+      <lt>278</lt>
+      <tp>393</tp>
+      <wt>113</wt>
+      <ht>58</ht>
+      <zo>32</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <cp>5</cp>
+      <ch>2</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>q</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>q</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>4</bi>
+      <na>-</na>
+      <lt>413</lt>
+      <tp>393</tp>
+      <wt>114</wt>
+      <ht>58</ht>
+      <zo>33</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <cp>5</cp>
+      <ch>1</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>-</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>-</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>5</bi>
+      <na>=</na>
+      <lt>549</lt>
+      <tp>393</tp>
+      <wt>113</wt>
+      <ht>58</ht>
+      <zo>34</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <cp>5</cp>
+      <ch>3</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>=</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>=</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>6</bi>
+      <na>y</na>
+      <lt>819</lt>
+      <tp>393</tp>
+      <wt>113</wt>
+      <ht>58</ht>
+      <zo>35</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>4</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>y</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>y</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>7</bi>
+      <na>e</na>
+      <lt>684</lt>
+      <tp>393</tp>
+      <wt>113</wt>
+      <ht>58</ht>
+      <zo>36</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <cp>5</cp>
+      <ch>7</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>e</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>e</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>8</bi>
+      <na>Kapitel zurück</na>
+      <lt>8</lt>
+      <tp>460</tp>
+      <wt>113</wt>
+      <ht>23</ht>
+      <zo>63</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Kapitel zurück</te>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Kapitel zurück</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>9</bi>
+      <na>Zurückspulen</na>
+      <lt>143</lt>
+      <tp>460</tp>
+      <wt>113</wt>
+      <ht>23</ht>
+      <zo>64</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Zurückspulen</te>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Zurückspulen</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>10</bi>
+      <na>Stop</na>
+      <lt>278</lt>
+      <tp>460</tp>
+      <wt>113</wt>
+      <ht>23</ht>
+      <zo>65</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Stop</te>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Stop</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>11</bi>
+      <na>Start</na>
+      <lt>413</lt>
+      <tp>460</tp>
+      <wt>113</wt>
+      <ht>23</ht>
+      <zo>66</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Start</te>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Start</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>12</bi>
+      <na>Pause</na>
+      <lt>549</lt>
+      <tp>460</tp>
+      <wt>113</wt>
+      <ht>23</ht>
+      <zo>67</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Pause</te>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Pause</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>13</bi>
+      <na>Vorwärtsspulen</na>
+      <lt>684</lt>
+      <tp>460</tp>
+      <wt>113</wt>
+      <ht>23</ht>
+      <zo>68</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Vorwärtsspulen</te>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Vorwärtsspulen</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>14</bi>
+      <na>Kapitel vorwärts</na>
+      <lt>819</lt>
+      <tp>460</tp>
+      <wt>113</wt>
+      <ht>23</ht>
+      <zo>69</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Kapitel vorwärts</te>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Grey12</ct>
+        <ec>Transparent</ec>
+        <fi>125</fi>
+        <te>Kapitel vorwärts</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>15</bi>
+      <na>Audio</na>
+      <lt>552</lt>
+      <tp>150</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>71</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>22</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Audio</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Audio</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>16</bi>
+      <na>Zurück</na>
+      <lt>552</lt>
+      <tp>284</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>72</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>10</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Zurück</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Zurück</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>17</bi>
+      <na>Untertitel</na>
+      <lt>552</lt>
+      <tp>217</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>73</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <cp>5</cp>
+      <ch>23</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Untertitel</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Untertitel</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>18</bi>
+      <na>Top Menü</na>
+      <lt>8</lt>
+      <tp>117</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>74</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>9</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Top Menü</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Top Menü</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>19</bi>
+      <na>Setup</na>
+      <lt>8</lt>
+      <tp>251</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>75</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <cp>5</cp>
+      <ch>11</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Setup</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Setup</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>20</bi>
+      <na>Titel Menü</na>
+      <lt>8</lt>
+      <tp>184</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>76</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>21</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Titel Menü</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Titel Menü</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>21</bi>
+      <na>Z</na>
+      <lt>331</lt>
+      <tp>291</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>83</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>13</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>9</fi>
+        <te>Z</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>9</fi>
+        <te>Z</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>22</bi>
+      <na>C</na>
+      <lt>251</lt>
+      <tp>211</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>84</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>14</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>9</fi>
+        <te>C</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>9</fi>
+        <te>C</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>23</bi>
+      <na>Q</na>
+      <lt>411</lt>
+      <tp>211</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>85</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>15</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>9</fi>
+        <te>Q</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>9</fi>
+        <te>Q</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>24</bi>
+      <na>X</na>
+      <lt>331</lt>
+      <tp>131</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>86</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>12</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>9</fi>
+        <te>X</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>9</fi>
+        <te>X</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>25</bi>
+      <na>OK</na>
+      <lt>331</lt>
+      <tp>211</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>87</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>16</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>OK</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>OK</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>28</bi>
+      <na>Wiederholen</na>
+      <lt>8</lt>
+      <tp>318</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>95</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <cp>5</cp>
+      <ch>17</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Wiederholen</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Wiederholen</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>29</bi>
+      <na>p</na>
+      <lt>746</lt>
+      <tp>284</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>99</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>6</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>p</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>71</fi>
+        <te>p</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>30</bi>
+      <na>Einschalten</na>
+      <lt>746</lt>
+      <tp>150</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>100</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>18</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Einschalten</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Einschalten</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>31</bi>
+      <na>Ausschalten</na>
+      <lt>746</lt>
+      <tp>217</tp>
+      <wt>186</wt>
+      <ht>59</ht>
+      <zo>101</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>5</cp>
+      <ch>19</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Ausschalten</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Ausschalten</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>32</bi>
+      <na>Audio Sprache</na>
+      <lt>8</lt>
+      <tp>496</tp>
+      <wt>155</wt>
+      <ht>30</ht>
+      <zo>102</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Audio Sprache</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Audio Sprache</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>33</bi>
+      <na>Untertitel</na>
+      <lt>165</lt>
+      <tp>496</tp>
+      <wt>279</wt>
+      <ht>30</ht>
+      <zo>103</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Untertitel</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Untertitel</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>34</bi>
+      <na>Disktyp</na>
+      <lt>446</lt>
+      <tp>496</tp>
+      <wt>129</wt>
+      <ht>30</ht>
+      <zo>104</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Disktyp</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Disktyp</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>35</bi>
+      <na>Audio Format</na>
+      <lt>577</lt>
+      <tp>496</tp>
+      <wt>355</wt>
+      <ht>30</ht>
+      <zo>105</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Audio Format</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Audio Format</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>36</bi>
+      <na>***</na>
+      <lt>8</lt>
+      <tp>527</tp>
+      <wt>155</wt>
+      <ht>30</ht>
+      <zo>106</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>33</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>37</bi>
+      <na>***</na>
+      <lt>165</lt>
+      <tp>527</tp>
+      <wt>279</wt>
+      <ht>30</ht>
+      <zo>107</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>34</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>38</bi>
+      <na>***</na>
+      <lt>446</lt>
+      <tp>527</tp>
+      <wt>129</wt>
+      <ht>30</ht>
+      <zo>108</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>30</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>39</bi>
+      <na>***</na>
+      <lt>577</lt>
+      <tp>527</tp>
+      <wt>208</wt>
+      <ht>30</ht>
+      <zo>109</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>31</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>40</bi>
+      <na>***</na>
+      <lt>787</lt>
+      <tp>527</tp>
+      <wt>145</wt>
+      <ht>30</ht>
+      <zo>110</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>32</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>41</bi>
+      <na>Status</na>
+      <lt>8</lt>
+      <tp>46</tp>
+      <wt>195</wt>
+      <ht>30</ht>
+      <zo>111</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Status</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Status</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>42</bi>
+      <na>Titel</na>
+      <lt>206</lt>
+      <tp>46</tp>
+      <wt>436</wt>
+      <ht>30</ht>
+      <zo>112</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Titel</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Titel</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>43</bi>
+      <na>Kapitel</na>
+      <lt>645</lt>
+      <tp>46</tp>
+      <wt>142</wt>
+      <ht>30</ht>
+      <zo>113</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Kapitel</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Kapitel</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>44</bi>
+      <na>[Time]</na>
+      <lt>790</lt>
+      <tp>46</tp>
+      <wt>142</wt>
+      <ht>30</ht>
+      <zo>114</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>29</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>[Time]</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey3</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>[Time]</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>45</bi>
+      <na>***</na>
+      <lt>8</lt>
+      <tp>79</tp>
+      <wt>195</wt>
+      <ht>30</ht>
+      <zo>115</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>25</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>46</bi>
+      <na>***</na>
+      <lt>206</lt>
+      <tp>79</tp>
+      <wt>436</wt>
+      <ht>30</ht>
+      <zo>116</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>26</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>47</bi>
+      <na>***</na>
+      <lt>645</lt>
+      <tp>79</tp>
+      <wt>142</wt>
+      <ht>30</ht>
+      <zo>117</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>27</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>48</bi>
+      <na>***</na>
+      <lt>790</lt>
+      <tp>79</tp>
+      <wt>142</wt>
+      <ht>30</ht>
+      <zo>118</zo>
+      <bs>
+      </bs>
+      <ap>5</ap>
+      <ad>28</ad>
+      <cp>5</cp>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>White</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>***</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>49</bi>
+      <na>Blu-Ray Steuerung</na>
+      <lt>8</lt>
+      <tp>8</tp>
+      <wt>924</wt>
+      <ht>30</ht>
+      <zo>119</zo>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Blu-Ray Steuerung</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Blu-Ray Steuerung</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>26</bi>
+      <na>P</na>
+      <lt>949</lt>
+      <tp>8</tp>
+      <wt>67</wt>
+      <ht>58</ht>
+      <zo>120</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="sHide">Blueray</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>58</fi>
+        <te>P</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>58</fi>
+        <te>P</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>27</bi>
+      <na>Line_Black_V</na>
+      <lt>938</lt>
+      <tp>8</tp>
+      <wt>4</wt>
+      <ht>549</ht>
+      <zo>121</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_V.png</bm>
+        <fi>123</fi>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_V.png</bm>
+        <fi>123</fi>
+      </sr>
+    </button>
+    <sr number="1">
+      <bs>Line Single</bs>
+      <cb>#222222FF</cb>
+      <cf>White</cf>
+      <ct>#222222FF</ct>
+      <ec>#222222FF</ec>
+      <jb>1</jb>
+      <fi>45</fi>
+    </sr>
+  </page>
+</root>

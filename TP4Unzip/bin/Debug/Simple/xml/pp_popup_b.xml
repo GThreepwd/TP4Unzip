@@ -1,20 +1,19 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
 <root>
   <page type="subpage" popupType="popup">
     <pageID>505</pageID>
     <name>PP_Popup_B</name>
-    <left>280</left>
-    <top>606</top>
-    <width>728</width>
-    <height>72</height>
+    <left>297</left>
+    <top>679</top>
+    <width>711</width>
+    <height>64</height>
     <button type="general">
       <bi>1</bi>
       <na>Button</na>
       <li>1</li>
       <lt>158</lt>
       <tp>8</tp>
-      <wt>277</wt>
+      <wt>269</wt>
       <ht>48</ht>
       <zo>1</zo>
       <bs>
@@ -45,9 +44,9 @@
       <bi>2</bi>
       <na>Button</na>
       <li>1</li>
-      <lt>443</lt>
+      <lt>434</lt>
       <tp>8</tp>
-      <wt>277</wt>
+      <wt>269</wt>
       <ht>48</ht>
       <zo>2</zo>
       <bs>
@@ -81,7 +80,7 @@
       <lt>8</lt>
       <tp>8</tp>
       <wt>141</wt>
-      <ht>53</ht>
+      <ht>48</ht>
       <zo>3</zo>
       <bs>
       </bs>

@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
 <root>
   <paletteData name="Palette 1">
     <color index="0" name="VeryLightRed">#FF0000FF</color>

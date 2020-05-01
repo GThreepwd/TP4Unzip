@@ -1,0 +1,2008 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <page type="subpage" popupType="popup">
+    <pageID>504</pageID>
+    <name>Setup</name>
+    <top>91</top>
+    <width>1024</width>
+    <height>565</height>
+    <hideTime>3</hideTime>
+    <button type="general">
+      <bi>8</bi>
+      <na>Informatikdienste: 043 305 (6001)</na>
+      <lt>8</lt>
+      <tp>211</tp>
+      <wt>408</wt>
+      <ht>346</ht>
+      <zo>1</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Grey9</cb>
+        <cf>Transparent</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Grey9</cb>
+        <cf>89</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>9</bi>
+      <na>Hausdienst: Michael von Rickenbach Tel: 079 522 97 05  IT Gemeinde: Peter Haupt Tel: 079 440 96 59</na>
+      <lt>8</lt>
+      <tp>46</tp>
+      <wt>408</wt>
+      <ht>157</ht>
+      <zo>2</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>16</cf>
+        <ct>0</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <jt>1</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>16</cf>
+        <ct>0</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <jt>1</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>14</bi>
+      <na>AVS Systeme AG Bösch 45 6331 Hünenberg  www.avs.ch</na>
+      <lt>267</lt>
+      <tp>445</tp>
+      <wt>137</wt>
+      <ht>102</ht>
+      <zo>6</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>#FFFF00FF</cb>
+        <cf>#63356300</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>AVS Systeme AG
+Bösch 45
+6331 Hünenberg
+
+www.avs.ch</te>
+        <jt>1</jt>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>#0000DFFF</cb>
+        <cf>#63356300</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>AVS Systeme AG
+Bösch 45
+6331 Hünenberg
+
+www.avs.ch</te>
+        <jt>1</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>3</bi>
+      <na>Reboot Controller (3 Sek)</na>
+      <lt>17</lt>
+      <tp>220</tp>
+      <wt>191</wt>
+      <ht>74</ht>
+      <zo>211</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <ch>21</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Reboot
+Controller
+(3 Sek)</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Reboot
+Controller
+(3 Sek)</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>5</bi>
+      <na>Projektor ...</na>
+      <lt>17</lt>
+      <tp>302</tp>
+      <wt>191</wt>
+      <ht>74</ht>
+      <zo>213</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <hd>1</hd>
+      <fb>momentary</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="sShow">Setup_Projector</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Projektor ...</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Projektor ...</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>6</bi>
+      <na>P</na>
+      <lt>949</lt>
+      <tp>8</tp>
+      <wt>67</wt>
+      <ht>58</ht>
+      <zo>214</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <ch>50</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="sHide">Setup</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>58</fi>
+        <te>P</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>58</fi>
+        <te>P</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>7</bi>
+      <na>Line_Black_V</na>
+      <lt>938</lt>
+      <tp>8</tp>
+      <wt>4</wt>
+      <ht>549</ht>
+      <zo>215</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_V.png</bm>
+        <fi>123</fi>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_V.png</bm>
+        <fi>123</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>22</bi>
+      <na>Soundweb DSP</na>
+      <lt>424</lt>
+      <tp>279</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>224</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Soundweb DSP</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Soundweb DSP</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>23</bi>
+      <na>Nicht verbunden</na>
+      <lt>682</lt>
+      <tp>279</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>225</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>271</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Nicht verbunden</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Verbunden</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>26</bi>
+      <na>Sony Projektor</na>
+      <lt>424</lt>
+      <tp>307</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>228</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Sony Projektor</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Sony Projektor</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>27</bi>
+      <na>Nicht verbunden</na>
+      <lt>682</lt>
+      <tp>307</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>229</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>272</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Nicht verbunden</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Verbunden</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>11</bi>
+      <na>Hilfe / Support</na>
+      <lt>8</lt>
+      <tp>8</tp>
+      <wt>924</wt>
+      <ht>30</ht>
+      <zo>236</zo>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Hilfe / Support</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Hilfe / Support</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>33</bi>
+      <na>AMX AXB-IO16S (Relais 1)</na>
+      <lt>424</lt>
+      <tp>195</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>244</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>AMX AXB-IO16S (Relais 1)</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>AMX AXB-IO16S (Relais 1)</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>34</bi>
+      <na>Nicht verbunden</na>
+      <lt>682</lt>
+      <tp>195</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>245</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>261</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Nicht verbunden</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Verbunden</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>10</bi>
+      <na>AMX AXB-IO16S (Relais 2)</na>
+      <lt>424</lt>
+      <tp>223</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>246</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>AMX AXB-IO16S (Relais 2)</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>AMX AXB-IO16S (Relais 2)</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>12</bi>
+      <na>Nicht verbunden</na>
+      <lt>682</lt>
+      <tp>223</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>247</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>262</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Nicht verbunden</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Verbunden</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>17</bi>
+      <na>NetBooter</na>
+      <lt>424</lt>
+      <tp>335</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>248</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>NetBooter</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>NetBooter</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>18</bi>
+      <na>Nicht verbunden</na>
+      <lt>682</lt>
+      <tp>335</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>249</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>273</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Nicht verbunden</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Verbunden</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>13</bi>
+      <na>Hausdienst: Michael von Rickenbach Tel: 079 522 97 05  IT Gemeinde: Peter Haupt Tel: 079 440 96 59</na>
+      <lt>16</lt>
+      <tp>54</tp>
+      <wt>392</wt>
+      <ht>141</ht>
+      <zo>250</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>0</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Hausdienst:
+Michael von Rickenbach
+Tel: 079 522 97 05
+
+IT Gemeinde:
+Peter Haupt
+Tel: 079 440 96 59</te>
+        <jt>1</jt>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>0</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Hausdienst:
+Michael von Rickenbach
+Tel: 079 522 97 05
+
+IT Gemeinde:
+Peter Haupt
+Tel: 079 440 96 59</te>
+        <jt>1</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>19</bi>
+      <na>Netbooter ...</na>
+      <lt>216</lt>
+      <tp>220</tp>
+      <wt>191</wt>
+      <ht>74</ht>
+      <zo>251</zo>
+      <hs>bounding</hs>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="sShow">Setup_NetBooter</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Netbooter ...</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>116</fi>
+        <te>Netbooter ...</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>20</bi>
+      <na>Soundweb CPU</na>
+      <lt>216</lt>
+      <tp>302</tp>
+      <wt>191</wt>
+      <ht>35</ht>
+      <zo>252</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey1</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <jb>2</jb>
+        <ji>4</ji>
+        <fi>125</fi>
+        <te>Soundweb CPU</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey1</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <jb>2</jb>
+        <ji>4</ji>
+        <fi>125</fi>
+        <te>Soundweb CPU</te>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>25</bi>
+      <na>50%</na>
+      <lt>216</lt>
+      <tp>341</tp>
+      <wt>191</wt>
+      <ht>35</ht>
+      <zo>255</zo>
+      <bs>
+      </bs>
+      <dr>horizontal</dr>
+      <ad>101</ad>
+      <lv>101</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey1</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <jb>2</jb>
+        <ji>4</ji>
+        <fi>125</fi>
+        <te>50%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <jb>2</jb>
+        <ji>4</ji>
+        <fi>125</fi>
+        <te>50%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>28</bi>
+      <na>AMX AXB-DMX512</na>
+      <lt>424</lt>
+      <tp>251</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>256</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>AMX AXB-DMX512</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>AMX AXB-DMX512</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>29</bi>
+      <na>Nicht verbunden</na>
+      <lt>682</lt>
+      <tp>251</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>257</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>263</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Nicht verbunden</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Verbunden</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>31</bi>
+      <na>Decoder 0031 - 192.168.39.31</na>
+      <lt>682</lt>
+      <tp>421</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>259</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>291</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Decoder 0031 - 192.168.39.31</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Decoder 0031 - 192.168.39.31</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>35</bi>
+      <na>Decoder 0032 - 192.168.39.32</na>
+      <lt>682</lt>
+      <tp>449</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>261</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>292</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Decoder 0032 - 192.168.39.32</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Decoder 0032 - 192.168.39.32</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>37</bi>
+      <na>Decoder 0033 - 192.168.39.33</na>
+      <lt>682</lt>
+      <tp>477</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>263</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>293</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Decoder 0033 - 192.168.39.33</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Decoder 0033 - 192.168.39.33</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>39</bi>
+      <na>Decoder 0034- 192.168.39.34</na>
+      <lt>682</lt>
+      <tp>505</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>265</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>294</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Decoder 0034- 192.168.39.34</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Decoder 0034- 192.168.39.34</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>4</bi>
+      <na>Encoder 0041 - 192.168.39.41</na>
+      <lt>424</lt>
+      <tp>421</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>266</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>281</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0041 - 192.168.39.41</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0041 - 192.168.39.41</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>30</bi>
+      <na>Encoder 0042 - 192.168.39.42</na>
+      <lt>424</lt>
+      <tp>449</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>267</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>282</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0042 - 192.168.39.42</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0042 - 192.168.39.42</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>32</bi>
+      <na>Encoder 0043 - 192.168.39.43</na>
+      <lt>424</lt>
+      <tp>477</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>268</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>283</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0043 - 192.168.39.43</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0043 - 192.168.39.43</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>36</bi>
+      <na>Encoder 0044 - 192.168.39.44</na>
+      <lt>424</lt>
+      <tp>505</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>269</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>284</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0044 - 192.168.39.44</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0044 - 192.168.39.44</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>38</bi>
+      <na>Encoder 0045 - 192.168.39.45</na>
+      <lt>424</lt>
+      <tp>533</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>270</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <ch>285</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0045 - 192.168.39.45</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Encoder 0045 - 192.168.39.45</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>40</bi>
+      <na>Decoder</na>
+      <lt>682</lt>
+      <tp>382</tp>
+      <wt>250</wt>
+      <ht>20</ht>
+      <zo>271</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>Decoder</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>Decoder</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>41</bi>
+      <na>Encoder</na>
+      <lt>424</lt>
+      <tp>382</tp>
+      <wt>250</wt>
+      <ht>20</ht>
+      <zo>272</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>Encoder</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>Encoder</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>44</bi>
+      <na>Line_Black_H</na>
+      <lt>424</lt>
+      <tp>369</tp>
+      <wt>508</wt>
+      <ht>4</ht>
+      <zo>275</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_H.png</bm>
+        <fi>123</fi>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_H.png</bm>
+        <fi>123</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>45</bi>
+      <na>Line_Black_H</na>
+      <lt>424</lt>
+      <tp>410</tp>
+      <wt>508</wt>
+      <ht>4</ht>
+      <zo>276</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_H.png</bm>
+        <fi>123</fi>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_H.png</bm>
+        <fi>123</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>43</bi>
+      <na>Line_Black_H</na>
+      <lt>424</lt>
+      <tp>44</tp>
+      <wt>508</wt>
+      <ht>4</ht>
+      <zo>277</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_H.png</bm>
+        <fi>123</fi>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_H.png</bm>
+        <fi>123</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>21</bi>
+      <na>Nicht verbunden</na>
+      <lt>682</lt>
+      <tp>55</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>278</zo>
+      <bs>
+      </bs>
+      <ch>251</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>#DF0000FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Nicht verbunden</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>125</fi>
+        <te>Verbunden</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>24</bi>
+      <na>---</na>
+      <lt>682</lt>
+      <tp>83</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>279</zo>
+      <bs>
+      </bs>
+      <ad>252</ad>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>#000000FF</cb>
+        <cf>Grey3</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>---</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>#000000FF</cb>
+        <cf>Grey3</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>---</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>46</bi>
+      <na>---</na>
+      <lt>682</lt>
+      <tp>167</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>280</zo>
+      <bs>
+      </bs>
+      <ad>255</ad>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>#000000FF</cb>
+        <cf>Grey3</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>---</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>#000000FF</cb>
+        <cf>Grey3</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>---</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>47</bi>
+      <na>Status</na>
+      <lt>424</lt>
+      <tp>55</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>281</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Status</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Status</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>48</bi>
+      <na>Device Nr.</na>
+      <lt>424</lt>
+      <tp>83</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>282</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Device Nr.</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Device Nr.</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>49</bi>
+      <na>Standort</na>
+      <lt>424</lt>
+      <tp>167</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>283</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Standort</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Standort</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>50</bi>
+      <na>---</na>
+      <lt>682</lt>
+      <tp>111</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>284</zo>
+      <bs>
+      </bs>
+      <ad>253</ad>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>#000000FF</cb>
+        <cf>Grey3</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>---</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>#000000FF</cb>
+        <cf>Grey3</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>---</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>51</bi>
+      <na>IP Address</na>
+      <lt>424</lt>
+      <tp>111</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>285</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>IP Address</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>IP Address</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>52</bi>
+      <na>---</na>
+      <lt>682</lt>
+      <tp>139</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>286</zo>
+      <bs>
+      </bs>
+      <ad>254</ad>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>#000000FF</cb>
+        <cf>Grey3</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>---</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>#000000FF</cb>
+        <cf>Grey3</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>125</fi>
+        <te>---</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>53</bi>
+      <na>IP Master</na>
+      <lt>424</lt>
+      <tp>139</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>287</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>IP Master</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>IP Master</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>54</bi>
+      <na>Btn-1280x70</na>
+      <lt>17</lt>
+      <tp>476</tp>
+      <wt>88</wt>
+      <ht>72</ht>
+      <zo>288</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>305</ad>
+      <cp>2</cp>
+      <ch>305</ch>
+      <lp>2</lp>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>16</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>19</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>55</bi>
+      <na>Btn-1280x70</na>
+      <lt>113</lt>
+      <tp>476</tp>
+      <wt>88</wt>
+      <ht>72</ht>
+      <zo>289</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>306</ad>
+      <cp>2</cp>
+      <ch>306</ch>
+      <lp>2</lp>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>16</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>19</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>56</bi>
+      <na>HDMI 1 Jack Regie</na>
+      <lt>17</lt>
+      <tp>411</tp>
+      <wt>88</wt>
+      <ht>56</ht>
+      <zo>290</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>HDMI 1
+Jack
+Regie</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>HDMI 1
+Jack
+Regie</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>57</bi>
+      <na>HDMI 2 Jack Regie</na>
+      <lt>113</lt>
+      <tp>411</tp>
+      <wt>88</wt>
+      <ht>56</ht>
+      <zo>291</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>HDMI 2
+Jack
+Regie</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>HDMI 2
+Jack
+Regie</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>60</bi>
+      <na>Status</na>
+      <lt>424</lt>
+      <tp>55</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>294</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Status</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Status</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>64</bi>
+      <na>Status</na>
+      <lt>424</lt>
+      <tp>55</tp>
+      <wt>250</wt>
+      <ht>24</ht>
+      <zo>298</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Status</te>
+        <jt>4</jt>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Transparent</cf>
+        <ct>1</ct>
+        <ec>#000000FF</ec>
+        <ji>6</ji>
+        <fi>125</fi>
+        <te>Status</te>
+        <jt>4</jt>
+      </sr>
+    </button>
+    <sr number="1">
+      <bs>Line Single</bs>
+      <cb>#222222FF</cb>
+      <cf>White</cf>
+      <ct>#222222FF</ct>
+      <ec>#222222FF</ec>
+      <jb>1</jb>
+      <by>3</by>
+      <fi>45</fi>
+    </sr>
+  </page>
+</root>

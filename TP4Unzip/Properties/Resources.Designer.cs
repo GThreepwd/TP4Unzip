@@ -71,6 +71,22 @@ namespace TP4Unzip.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die /**   __      _______  __          __  _      _____            _             _
+        ///     /\ \    / / ____| \ \        / / | |    / ____|          | |           | |
+        ///    /  \ \  / / (___    \ \  /\  / /__| |__ | |     ___  _ __ | |_ _ __ ___ | |
+        ///   / /\ \ \/ / \___ \    \ \/  \/ / _ \ &apos;_ \| |    / _ \| &apos;_ \| __| &apos;__/ _ \| |
+        ///  / ____ \  /  ____) |    \  /\  /  __/ |_) | |___| (_) | | | | |_| | | (_) | |
+        /// /_/    \_\/  |_____/      \/  \/ \___|_.__/ \_____\___/|_| |_|\__|_|  \___/|_|
+        ///
+        ///@Description: Global Conf [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+        /// </summary>
+        internal static string Config {
+            get {
+                return ResourceManager.GetString("Config", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot;?&gt;
         ///&lt;root&gt;
         ///    &lt;fontList&gt;
@@ -86,8 +102,7 @@ namespace TP4Unzip.Properties {
         ///            &lt;file&gt;cour.ttf&lt;/file&gt;
         ///            &lt;name&gt;Courier New&lt;/name&gt;
         ///            &lt;subFamily&gt;Regular&lt;/subFamily&gt;
-        ///            &lt;fullName&gt;Courier New&lt;/fullName&gt;
-        ///            &lt; [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+        ///            &lt;fullName&gt;Courier New&lt;/fullName [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
         /// </summary>
         internal static string SysFonts {
             get {

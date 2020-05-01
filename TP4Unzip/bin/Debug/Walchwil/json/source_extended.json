@@ -1,0 +1,3592 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "517",
+    "name": "Source_Extended",
+    "top": "91",
+    "width": "1024",
+    "height": "565",
+    "group": "Content",
+    "hideTime": "3",
+    "button": [
+      {
+        "type": "general",
+        "bi": "1",
+        "na": "Projektor Links (Extern)",
+        "lt": "7",
+        "tp": "8",
+        "wt": "262",
+        "ht": "30",
+        "zo": "242",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Projektor Links (Extern)"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Projektor Links (Extern)"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "2",
+        "na": "...",
+        "lt": "473",
+        "tp": "371",
+        "wt": "75",
+        "ht": "57",
+        "zo": "243",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "Blueray"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "3",
+        "na": "                       HDMI Rack",
+        "lt": "286",
+        "tp": "306",
+        "wt": "262",
+        "ht": "57",
+        "zo": "244",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "15",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI Rack",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI Rack",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "4",
+        "na": "                       HDMI 2 Regie",
+        "lt": "286",
+        "tp": "111",
+        "wt": "262",
+        "ht": "57",
+        "zo": "245",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "12",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 2 Regie",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 2 Regie",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "5",
+        "na": "                       HDMI 1 Regie",
+        "lt": "286",
+        "tp": "46",
+        "wt": "262",
+        "ht": "57",
+        "zo": "246",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "11",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 1 Regie",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 1 Regie",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "6",
+        "na": "               Blu-Ray / DVD",
+        "lt": "286",
+        "tp": "371",
+        "wt": "179",
+        "ht": "57",
+        "zo": "247",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "16",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Blu-Ray / DVD",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Blu-Ray / DVD",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "7",
+        "na": "Line_Black_V",
+        "lt": "634",
+        "tp": "8",
+        "wt": "4",
+        "ht": "549",
+        "zo": "248",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "8",
+        "na": "Status",
+        "lt": "924",
+        "tp": "501",
+        "wt": "92",
+        "ht": "27",
+        "zo": "249",
+        "hs": "passThru",
+        "bs": "",
+        "lp": "5",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Grey13",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Status"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Grey13",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Status"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "9",
+        "na": "<status>",
+        "lt": "924",
+        "tp": "531",
+        "wt": "92",
+        "ht": "27",
+        "zo": "250",
+        "hs": "passThru",
+        "bs": "",
+        "ap": "4",
+        "ad": "12",
+        "ch": "272",
+        "lp": "5",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "#000000FF",
+            "cf": "#C1000072",
+            "ct": "Grey13",
+            "ec": "#000000FF",
+            "fi": "19",
+            "te": "<status>"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "#000000FF",
+            "cf": "#00C10272",
+            "ct": "Grey13",
+            "ec": "#000000FF",
+            "fi": "19",
+            "te": "<status>"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "10",
+        "na": "Bluray-40x40",
+        "lt": "302",
+        "tp": "379",
+        "wt": "40",
+        "ht": "40",
+        "zo": "251",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "va": "1",
+        "rv": "5",
+        "rl": "0",
+        "rh": "100",
+        "lu": "5",
+        "ld": "5",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Bluray-40x40.png",
+            "fi": "41"
+          },
+          {
+            "number": "2",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Bluray-40x40.png",
+            "fi": "41"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "11",
+        "na": "HDMI-32",
+        "lt": "302",
+        "tp": "312",
+        "wt": "83",
+        "ht": "44",
+        "zo": "252",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "12",
+        "na": "HDMI-32",
+        "lt": "302",
+        "tp": "52",
+        "wt": "83",
+        "ht": "44",
+        "zo": "253",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "16",
+        "na": "Kein Bild",
+        "lt": "924",
+        "tp": "371",
+        "wt": "92",
+        "ht": "57",
+        "zo": "257",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "blink",
+        "cp": "4",
+        "ch": "7",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "125",
+            "te": "Kein Bild"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "125",
+            "te": "Kein Bild"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "18",
+        "na": "Leinwand",
+        "lt": "924",
+        "tp": "8",
+        "wt": "92",
+        "ht": "30",
+        "zo": "259",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Leinwand"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Leinwand"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "19",
+        "na": "...",
+        "lt": "473",
+        "tp": "436",
+        "wt": "75",
+        "ht": "57",
+        "zo": "260",
+        "hs": "bounding",
+        "bs": "",
+        "da": "1",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "Blueray"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "oo": "120",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "oo": "120",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "22",
+        "na": "               TV Tuner",
+        "lt": "286",
+        "tp": "436",
+        "wt": "179",
+        "ht": "57",
+        "zo": "261",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "17",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               TV Tuner",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               TV Tuner",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "24",
+        "na": "TV-40x40",
+        "lt": "302",
+        "tp": "444",
+        "wt": "40",
+        "ht": "40",
+        "zo": "262",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "va": "1",
+        "rv": "5",
+        "rl": "0",
+        "rh": "100",
+        "lu": "5",
+        "ld": "5",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "TV-40x40.png",
+            "fi": "41"
+          },
+          {
+            "number": "2",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "TV-40x40.png",
+            "fi": "41"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "25",
+        "na": "...",
+        "lt": "473",
+        "tp": "501",
+        "wt": "75",
+        "ht": "57",
+        "zo": "263",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "AppleTv"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "26",
+        "na": "               Apple TV",
+        "lt": "286",
+        "tp": "501",
+        "wt": "179",
+        "ht": "57",
+        "zo": "264",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "18",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Apple TV",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Apple TV",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "27",
+        "na": "Apple-TV-WS-40x40",
+        "lt": "302",
+        "tp": "509",
+        "wt": "40",
+        "ht": "40",
+        "zo": "265",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "va": "1",
+        "rv": "5",
+        "rl": "0",
+        "rh": "100",
+        "lu": "5",
+        "ld": "5",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Apple-TV-WS-40x40.png",
+            "fi": "41"
+          },
+          {
+            "number": "2",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Apple-TV-WS-40x40.png",
+            "fi": "41"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "28",
+        "na": "HDMI-32",
+        "lt": "302",
+        "tp": "117",
+        "wt": "83",
+        "ht": "44",
+        "zo": "266",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "29",
+        "na": "                       Bühne Boden",
+        "lt": "286",
+        "tp": "176",
+        "wt": "262",
+        "ht": "57",
+        "zo": "267",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "13",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Boden",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Boden",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "30",
+        "na": "HDMI-32",
+        "lt": "302",
+        "tp": "182",
+        "wt": "83",
+        "ht": "44",
+        "zo": "268",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "31",
+        "na": "Audio",
+        "lt": "556",
+        "tp": "8",
+        "wt": "72",
+        "ht": "30",
+        "zo": "269",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Audio"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Audio"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "32",
+        "na": "Btn-1280x70",
+        "lt": "556",
+        "tp": "306",
+        "wt": "72",
+        "ht": "57",
+        "zo": "270",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "45",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "33",
+        "na": "Btn-1280x70",
+        "lt": "556",
+        "tp": "46",
+        "wt": "72",
+        "ht": "57",
+        "zo": "271",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "41",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "34",
+        "na": "Btn-1280x70",
+        "lt": "556",
+        "tp": "111",
+        "wt": "72",
+        "ht": "57",
+        "zo": "272",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "42",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "35",
+        "na": "Btn-1280x70",
+        "lt": "556",
+        "tp": "176",
+        "wt": "72",
+        "ht": "57",
+        "zo": "273",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "43",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "36",
+        "na": "Btn-1280x70",
+        "lt": "556",
+        "tp": "241",
+        "wt": "72",
+        "ht": "57",
+        "zo": "274",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "44",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "37",
+        "na": "Btn-1280x70",
+        "lt": "556",
+        "tp": "371",
+        "wt": "72",
+        "ht": "57",
+        "zo": "275",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "46",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "38",
+        "na": "Btn-1280x70",
+        "lt": "556",
+        "tp": "436",
+        "wt": "72",
+        "ht": "57",
+        "zo": "276",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "47",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "39",
+        "na": "Line_Black_V",
+        "lt": "913",
+        "tp": "8",
+        "wt": "4",
+        "ht": "549",
+        "zo": "277",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "40",
+        "na": "Projektor Rechts (Extern)",
+        "lt": "645",
+        "tp": "8",
+        "wt": "262",
+        "ht": "30",
+        "zo": "278",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Projektor Rechts (Extern)"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Projektor Rechts (Extern)"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "42",
+        "na": "                       Bühne Wand",
+        "lt": "286",
+        "tp": "241",
+        "wt": "262",
+        "ht": "57",
+        "zo": "280",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "14",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Wand",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Wand",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "43",
+        "na": "HDMI-32",
+        "lt": "302",
+        "tp": "247",
+        "wt": "83",
+        "ht": "44",
+        "zo": "281",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "44",
+        "na": "Btn-1280x70",
+        "lt": "556",
+        "tp": "501",
+        "wt": "72",
+        "ht": "57",
+        "zo": "282",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "48",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "ii": "16",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "20",
+        "na": "Projektor mitte",
+        "lt": "286",
+        "tp": "8",
+        "wt": "262",
+        "ht": "30",
+        "zo": "283",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Projektor mitte"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Projektor mitte"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "23",
+        "na": "Line_Black_V",
+        "lt": "275",
+        "tp": "8",
+        "wt": "4",
+        "ht": "549",
+        "zo": "285",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "47",
+        "na": "Projektor mitte",
+        "lt": "924",
+        "tp": "309",
+        "wt": "92",
+        "ht": "54",
+        "zo": "289",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "17",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "40",
+            "te": "Projektor\r\nmitte"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "17",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "40",
+            "te": "Projektor\r\nmitte"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "21",
+        "na": "...",
+        "lt": "194",
+        "tp": "371",
+        "wt": "75",
+        "ht": "57",
+        "zo": "290",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "Blueray"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "41",
+        "na": "                       HDMI Rack",
+        "lt": "7",
+        "tp": "306",
+        "wt": "262",
+        "ht": "57",
+        "zo": "291",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "25",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI Rack",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI Rack",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "48",
+        "na": "                       HDMI 2 Regie",
+        "lt": "7",
+        "tp": "111",
+        "wt": "262",
+        "ht": "57",
+        "zo": "292",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "22",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 2 Regie",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 2 Regie",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "49",
+        "na": "                       HDMI 1 Regie",
+        "lt": "7",
+        "tp": "46",
+        "wt": "262",
+        "ht": "57",
+        "zo": "293",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "21",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 1 Regie",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 1 Regie",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "50",
+        "na": "               Blu-Ray / DVD",
+        "lt": "7",
+        "tp": "371",
+        "wt": "179",
+        "ht": "57",
+        "zo": "294",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "26",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Blu-Ray / DVD",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Blu-Ray / DVD",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "51",
+        "na": "Bluray-40x40",
+        "lt": "23",
+        "tp": "379",
+        "wt": "40",
+        "ht": "40",
+        "zo": "295",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "va": "1",
+        "rv": "5",
+        "rl": "0",
+        "rh": "100",
+        "lu": "5",
+        "ld": "5",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Bluray-40x40.png",
+            "fi": "41"
+          },
+          {
+            "number": "2",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Bluray-40x40.png",
+            "fi": "41"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "52",
+        "na": "HDMI-32",
+        "lt": "23",
+        "tp": "312",
+        "wt": "83",
+        "ht": "44",
+        "zo": "296",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "53",
+        "na": "HDMI-32",
+        "lt": "23",
+        "tp": "52",
+        "wt": "83",
+        "ht": "44",
+        "zo": "297",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "54",
+        "na": "...",
+        "lt": "194",
+        "tp": "436",
+        "wt": "75",
+        "ht": "57",
+        "zo": "298",
+        "hs": "bounding",
+        "bs": "",
+        "da": "1",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "Blueray"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "oo": "120",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "oo": "120",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "55",
+        "na": "               TV Tuner",
+        "lt": "7",
+        "tp": "436",
+        "wt": "179",
+        "ht": "57",
+        "zo": "299",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "27",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               TV Tuner",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               TV Tuner",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "56",
+        "na": "TV-40x40",
+        "lt": "23",
+        "tp": "444",
+        "wt": "40",
+        "ht": "40",
+        "zo": "300",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "va": "1",
+        "rv": "5",
+        "rl": "0",
+        "rh": "100",
+        "lu": "5",
+        "ld": "5",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "TV-40x40.png",
+            "fi": "41"
+          },
+          {
+            "number": "2",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "TV-40x40.png",
+            "fi": "41"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "57",
+        "na": "...",
+        "lt": "194",
+        "tp": "501",
+        "wt": "75",
+        "ht": "57",
+        "zo": "301",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "AppleTv"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "58",
+        "na": "               Apple TV",
+        "lt": "7",
+        "tp": "501",
+        "wt": "179",
+        "ht": "57",
+        "zo": "302",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "28",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Apple TV",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Apple TV",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "59",
+        "na": "Apple-TV-WS-40x40",
+        "lt": "23",
+        "tp": "509",
+        "wt": "40",
+        "ht": "40",
+        "zo": "303",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "va": "1",
+        "rv": "5",
+        "rl": "0",
+        "rh": "100",
+        "lu": "5",
+        "ld": "5",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Apple-TV-WS-40x40.png",
+            "fi": "41"
+          },
+          {
+            "number": "2",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Apple-TV-WS-40x40.png",
+            "fi": "41"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "60",
+        "na": "HDMI-32",
+        "lt": "23",
+        "tp": "117",
+        "wt": "83",
+        "ht": "44",
+        "zo": "304",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "61",
+        "na": "                       Bühne Boden",
+        "lt": "7",
+        "tp": "176",
+        "wt": "262",
+        "ht": "57",
+        "zo": "305",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "23",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Boden",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Boden",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "62",
+        "na": "HDMI-32",
+        "lt": "23",
+        "tp": "182",
+        "wt": "83",
+        "ht": "44",
+        "zo": "306",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "63",
+        "na": "                       Bühne Wand",
+        "lt": "7",
+        "tp": "241",
+        "wt": "262",
+        "ht": "57",
+        "zo": "307",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "24",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Wand",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Wand",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "64",
+        "na": "HDMI-32",
+        "lt": "23",
+        "tp": "247",
+        "wt": "83",
+        "ht": "44",
+        "zo": "308",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "45",
+        "na": "...",
+        "lt": "832",
+        "tp": "371",
+        "wt": "75",
+        "ht": "57",
+        "zo": "309",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "Blueray"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "46",
+        "na": "                       HDMI Rack",
+        "lt": "645",
+        "tp": "306",
+        "wt": "262",
+        "ht": "57",
+        "zo": "310",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "35",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI Rack",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI Rack",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "65",
+        "na": "                       HDMI 2 Regie",
+        "lt": "645",
+        "tp": "111",
+        "wt": "262",
+        "ht": "57",
+        "zo": "311",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "32",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 2 Regie",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 2 Regie",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "66",
+        "na": "                       HDMI 1 Regie",
+        "lt": "645",
+        "tp": "46",
+        "wt": "262",
+        "ht": "57",
+        "zo": "312",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "31",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 1 Regie",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       HDMI 1 Regie",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "67",
+        "na": "               Blu-Ray / DVD",
+        "lt": "645",
+        "tp": "371",
+        "wt": "179",
+        "ht": "57",
+        "zo": "313",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "36",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Blu-Ray / DVD",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Blu-Ray / DVD",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "68",
+        "na": "Bluray-40x40",
+        "lt": "661",
+        "tp": "379",
+        "wt": "40",
+        "ht": "40",
+        "zo": "314",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "va": "1",
+        "rv": "5",
+        "rl": "0",
+        "rh": "100",
+        "lu": "5",
+        "ld": "5",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Bluray-40x40.png",
+            "fi": "41"
+          },
+          {
+            "number": "2",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Bluray-40x40.png",
+            "fi": "41"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "69",
+        "na": "HDMI-32",
+        "lt": "661",
+        "tp": "312",
+        "wt": "83",
+        "ht": "44",
+        "zo": "315",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "70",
+        "na": "HDMI-32",
+        "lt": "661",
+        "tp": "52",
+        "wt": "83",
+        "ht": "44",
+        "zo": "316",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "71",
+        "na": "...",
+        "lt": "832",
+        "tp": "436",
+        "wt": "75",
+        "ht": "57",
+        "zo": "317",
+        "hs": "bounding",
+        "bs": "",
+        "da": "1",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "Blueray"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "oo": "120",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "oo": "120",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "72",
+        "na": "               TV Tuner",
+        "lt": "645",
+        "tp": "436",
+        "wt": "179",
+        "ht": "57",
+        "zo": "318",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "37",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               TV Tuner",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               TV Tuner",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "73",
+        "na": "TV-40x40",
+        "lt": "661",
+        "tp": "444",
+        "wt": "40",
+        "ht": "40",
+        "zo": "319",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "va": "1",
+        "rv": "5",
+        "rl": "0",
+        "rh": "100",
+        "lu": "5",
+        "ld": "5",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "TV-40x40.png",
+            "fi": "41"
+          },
+          {
+            "number": "2",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "TV-40x40.png",
+            "fi": "41"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "74",
+        "na": "...",
+        "lt": "832",
+        "tp": "501",
+        "wt": "75",
+        "ht": "57",
+        "zo": "320",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "AppleTv"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "..."
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "75",
+        "na": "               Apple TV",
+        "lt": "645",
+        "tp": "501",
+        "wt": "179",
+        "ht": "57",
+        "zo": "321",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "38",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Apple TV",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "40",
+            "te": "               Apple TV",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "76",
+        "na": "Apple-TV-WS-40x40",
+        "lt": "661",
+        "tp": "509",
+        "wt": "40",
+        "ht": "40",
+        "zo": "322",
+        "hs": "passThru",
+        "bs": "",
+        "fb": "none",
+        "va": "1",
+        "rv": "5",
+        "rl": "0",
+        "rh": "100",
+        "lu": "5",
+        "ld": "5",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Apple-TV-WS-40x40.png",
+            "fi": "41"
+          },
+          {
+            "number": "2",
+            "do": "0201030405",
+            "bs": "",
+            "cb": "Grey7",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#63356300",
+            "bm": "Apple-TV-WS-40x40.png",
+            "fi": "41"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "77",
+        "na": "HDMI-32",
+        "lt": "661",
+        "tp": "117",
+        "wt": "83",
+        "ht": "44",
+        "zo": "323",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "78",
+        "na": "                       Bühne Boden",
+        "lt": "645",
+        "tp": "176",
+        "wt": "262",
+        "ht": "57",
+        "zo": "324",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "33",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Boden",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Boden",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "79",
+        "na": "HDMI-32",
+        "lt": "661",
+        "tp": "182",
+        "wt": "83",
+        "ht": "44",
+        "zo": "325",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "80",
+        "na": "                       Bühne Wand",
+        "lt": "645",
+        "tp": "241",
+        "wt": "262",
+        "ht": "57",
+        "zo": "326",
+        "hs": "bounding",
+        "bs": "",
+        "cp": "3",
+        "ch": "34",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Wand",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "                       Bühne Wand",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "81",
+        "na": "HDMI-32",
+        "lt": "661",
+        "tp": "247",
+        "wt": "83",
+        "ht": "44",
+        "zo": "327",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Grey3",
+            "ec": "#000000FF",
+            "bm": "HDMI-32.png",
+            "fi": "123",
+            "jt": "8"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "82",
+        "na": "Projektor ausschalten",
+        "lt": "924",
+        "tp": "436",
+        "wt": "92",
+        "ht": "57",
+        "zo": "328",
+        "bs": "",
+        "cp": "4",
+        "ch": "6",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "VeryLightRed",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "125",
+            "te": "Projektor\r\nausschalten"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "MediumGreen",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "125",
+            "te": "Projektor\r\naus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "83",
+        "na": "Btn-1280x70",
+        "lt": "924",
+        "tp": "436",
+        "wt": "92",
+        "ht": "57",
+        "zo": "329",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "on",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sShow",
+          "#text": "MsgBox_ProjectorOff"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "157",
+            "cf": "#F1990C44",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "23"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "157",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "23"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "13",
+        "na": "M",
+        "lt": "924",
+        "tp": "194",
+        "wt": "92",
+        "ht": "66",
+        "zo": "330",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "232",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "53",
+            "te": "M"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "53",
+            "te": "M"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "14",
+        "na": "L",
+        "lt": "924",
+        "tp": "46",
+        "wt": "92",
+        "ht": "66",
+        "zo": "331",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "231",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "53",
+            "te": "L"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "53",
+            "te": "L"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "15",
+        "na": "B",
+        "lt": "924",
+        "tp": "120",
+        "wt": "92",
+        "ht": "66",
+        "zo": "332",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "233",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "54",
+            "te": "B"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "54",
+            "te": "B"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "",
+      "cb": "#222222FF",
+      "cf": "White",
+      "ct": "#222222FF",
+      "ec": "#222222FF",
+      "jb": "1",
+      "fi": "125"
+    }
+  }
+}

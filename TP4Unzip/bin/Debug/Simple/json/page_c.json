@@ -9,14 +9,14 @@
       {
         "type": "general",
         "bi": "1",
-        "na": "Button B",
-        "li": "1",
+        "na": "PAGE_C",
         "lt": "175",
         "tp": "217",
         "wt": "675",
         "ht": "334",
         "zo": "1",
         "bs": "",
+        "fb": "none",
         "rl": "0",
         "rh": "255",
         "ac": {

@@ -1,34 +1,131 @@
 {
   "cm": {
-    "me": {
-      "p": "3",
-      "c": "33",
-      "pg": "1",
-      "bt": "1",
-      "pn": "MainPage",
-      "bn": "Button A"
-    }
+    "me": [
+      {
+        "p": "1",
+        "c": "10",
+        "pg": "1",
+        "bt": "96",
+        "pn": "MainPage",
+        "bn": "BtnNone"
+      },
+      {
+        "p": "1",
+        "c": "10",
+        "pg": "1",
+        "bt": "97",
+        "pn": "MainPage",
+        "bn": "BtnInvertedChannel"
+      },
+      {
+        "p": "1",
+        "c": "10",
+        "pg": "1",
+        "bt": "98",
+        "pn": "MainPage",
+        "bn": "BtnChannel"
+      },
+      {
+        "p": "1",
+        "c": "10",
+        "pg": "1",
+        "bt": "99",
+        "pn": "MainPage",
+        "bn": "BtnAllwayOn"
+      },
+      {
+        "p": "1",
+        "c": "10",
+        "pg": "1",
+        "bt": "100",
+        "pn": "MainPage",
+        "bn": "BtnBlink"
+      },
+      {
+        "p": "1",
+        "c": "10",
+        "pg": "1",
+        "bt": "101",
+        "pn": "MainPage",
+        "bn": "BtnMomentary"
+      },
+      {
+        "p": "1",
+        "c": "101",
+        "pg": "1",
+        "bt": "102",
+        "pn": "MainPage",
+        "bn": "[Time]"
+      },
+      {
+        "p": "1",
+        "c": "102",
+        "pg": "1",
+        "bt": "103",
+        "pn": "MainPage",
+        "bn": "[Date]"
+      },
+      {
+        "p": "3",
+        "c": "33",
+        "pg": "1",
+        "bt": "1",
+        "pn": "MainPage",
+        "bn": "Button A"
+      },
+      {
+        "p": "5",
+        "c": "55",
+        "pg": "2",
+        "bt": "1",
+        "pn": "Page_B",
+        "bn": "Power-64x64"
+      },
+      {
+        "p": "5",
+        "c": "55",
+        "pg": "1",
+        "bt": "2",
+        "pn": "MainPage",
+        "bn": "Button B"
+      },
+      {
+        "p": "5",
+        "c": "55",
+        "pg": "2",
+        "bt": "10",
+        "pn": "Page_B",
+        "bn": "Power-64x64"
+      }
+    ]
   },
   "am": {
-    "me": {
-      "p": "2",
-      "c": "22",
-      "pg": "1",
-      "bt": "1",
-      "pn": "MainPage",
-      "bn": "Button A"
-    }
-  },
-  "lm": {
-    "me": {
-      "p": "4",
-      "c": "44",
-      "ax": "0",
-      "pg": "1",
-      "bt": "1",
-      "pn": "MainPage",
-      "bn": "Button A"
-    }
+    "me": [
+      {
+        "p": "1",
+        "c": "101",
+        "pg": "1",
+        "bt": "102",
+        "pn": "MainPage",
+        "bn": "[Time]"
+      },
+      {
+        "p": "1",
+        "c": "102",
+        "pg": "1",
+        "bt": "103",
+        "pn": "MainPage",
+        "bn": "[Date]"
+      },
+      {
+        "p": "2",
+        "c": "22",
+        "pg": "1",
+        "bt": "1",
+        "pn": "MainPage",
+        "bn": "Button A"
+      }
+    ]
   },
   "bm": {
     "im": {

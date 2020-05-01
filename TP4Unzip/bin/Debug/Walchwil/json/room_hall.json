@@ -1,0 +1,1848 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "519",
+    "name": "Room_Hall",
+    "top": "91",
+    "width": "1024",
+    "height": "565",
+    "group": "Content",
+    "hideTime": "3",
+    "button": [
+      {
+        "type": "general",
+        "bi": "8",
+        "na": "Ein/Aus",
+        "lt": "215",
+        "tp": "99",
+        "wt": "91",
+        "ht": "72",
+        "zo": "1",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "31",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "4",
+        "na": "Ein/Aus",
+        "lt": "106",
+        "tp": "99",
+        "wt": "91",
+        "ht": "72",
+        "zo": "100",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "21",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "5",
+        "na": "Hinten",
+        "lt": "106",
+        "tp": "45",
+        "wt": "91",
+        "ht": "46",
+        "zo": "101",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "9",
+        "na": "Ein/Aus",
+        "lt": "8",
+        "tp": "99",
+        "wt": "91",
+        "ht": "72",
+        "zo": "118",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "11",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "10",
+        "na": "Vorne",
+        "lt": "8",
+        "tp": "45",
+        "wt": "91",
+        "ht": "46",
+        "zo": "119",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Vorne"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Vorne"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "12",
+        "na": "Dimmen +",
+        "lt": "8",
+        "tp": "189",
+        "wt": "189",
+        "ht": "72",
+        "zo": "121",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "311",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen +"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen +"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "13",
+        "na": "Dimmen -",
+        "lt": "8",
+        "tp": "269",
+        "wt": "189",
+        "ht": "72",
+        "zo": "122",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "312",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen -"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen -"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "22",
+        "na": "Ein/Aus",
+        "lt": "313",
+        "tp": "99",
+        "wt": "91",
+        "ht": "72",
+        "zo": "142",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "41",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "23",
+        "na": "Vorne Rechts",
+        "lt": "313",
+        "tp": "45",
+        "wt": "91",
+        "ht": "46",
+        "zo": "143",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Vorne\r\nRechts"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Vorne\r\nRechts"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "39",
+        "na": "Ein/Aus",
+        "lt": "411",
+        "tp": "99",
+        "wt": "91",
+        "ht": "72",
+        "zo": "204",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "61",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "40",
+        "na": "Hinten Links",
+        "lt": "411",
+        "tp": "45",
+        "wt": "91",
+        "ht": "46",
+        "zo": "205",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten\r\nLinks"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten\r\nLinks"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "44",
+        "na": "Ein/Aus",
+        "lt": "509",
+        "tp": "99",
+        "wt": "91",
+        "ht": "72",
+        "zo": "209",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "51",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "45",
+        "na": "Hinten Mitte",
+        "lt": "509",
+        "tp": "45",
+        "wt": "91",
+        "ht": "46",
+        "zo": "210",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten\r\nMitte"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten\r\nMitte"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "49",
+        "na": "Ein/Aus",
+        "lt": "607",
+        "tp": "99",
+        "wt": "91",
+        "ht": "72",
+        "zo": "214",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "71",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "50",
+        "na": "Hinten Rechts",
+        "lt": "607",
+        "tp": "45",
+        "wt": "91",
+        "ht": "46",
+        "zo": "215",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten\r\nRechts"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten\r\nRechts"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "54",
+        "na": "Wandleuchten",
+        "lt": "215",
+        "tp": "8",
+        "wt": "483",
+        "ht": "30",
+        "zo": "219",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Wandleuchten"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Wandleuchten"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "3",
+        "na": "Himmel",
+        "lt": "8",
+        "tp": "8",
+        "wt": "189",
+        "ht": "30",
+        "zo": "220",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Himmel"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Himmel"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "7",
+        "na": "Dimmen Stop",
+        "lt": "8",
+        "tp": "349",
+        "wt": "189",
+        "ht": "72",
+        "zo": "221",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "310",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen Stop"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen Stop"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "14",
+        "na": "Vorne Links",
+        "lt": "215",
+        "tp": "45",
+        "wt": "91",
+        "ht": "46",
+        "zo": "222",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Vorne\r\nLinks"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Vorne\r\nLinks"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "16",
+        "na": "Dimmen +",
+        "lt": "215",
+        "tp": "189",
+        "wt": "189",
+        "ht": "72",
+        "zo": "224",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "321",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen +"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen +"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "25",
+        "na": "Dimmen -",
+        "lt": "215",
+        "tp": "269",
+        "wt": "189",
+        "ht": "72",
+        "zo": "225",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "322",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen -"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen -"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "26",
+        "na": "Dimmen Stop",
+        "lt": "215",
+        "tp": "349",
+        "wt": "189",
+        "ht": "72",
+        "zo": "226",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "320",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen Stop"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "23",
+            "te": "Dimmen Stop"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "27",
+        "na": "Ein/Aus",
+        "lt": "814",
+        "tp": "99",
+        "wt": "91",
+        "ht": "72",
+        "zo": "227",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "131",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "28",
+        "na": "Hinten",
+        "lt": "814",
+        "tp": "45",
+        "wt": "91",
+        "ht": "46",
+        "zo": "228",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Hinten"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "36",
+        "na": "Ein/Aus",
+        "lt": "716",
+        "tp": "99",
+        "wt": "91",
+        "ht": "72",
+        "zo": "230",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "121",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "22",
+            "te": "Ein/Aus"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "37",
+        "na": "Vorne",
+        "lt": "716",
+        "tp": "45",
+        "wt": "91",
+        "ht": "46",
+        "zo": "231",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Vorne"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey2",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125",
+            "te": "Vorne"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "47",
+        "na": "Downlights",
+        "lt": "716",
+        "tp": "8",
+        "wt": "189",
+        "ht": "30",
+        "zo": "235",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Downlights"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Downlights"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "2",
+        "na": "Storen",
+        "lt": "923",
+        "tp": "8",
+        "wt": "91",
+        "ht": "30",
+        "zo": "237",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Storen"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Storen"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "17",
+        "na": "M",
+        "lt": "923",
+        "tp": "117",
+        "wt": "91",
+        "ht": "64",
+        "zo": "238",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "112",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "53",
+            "te": "M"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "53",
+            "te": "M"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "18",
+        "na": "L",
+        "lt": "923",
+        "tp": "45",
+        "wt": "91",
+        "ht": "64",
+        "zo": "239",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "9",
+        "ch": "111",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "53",
+            "te": "L"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "53",
+            "te": "L"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "53",
+        "na": "Line_Black_V",
+        "lt": "204",
+        "tp": "8",
+        "wt": "4",
+        "ht": "413",
+        "zo": "244",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "55",
+        "na": "Line_Black_V",
+        "lt": "705",
+        "tp": "8",
+        "wt": "4",
+        "ht": "413",
+        "zo": "245",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "19",
+        "na": "Saal hinten",
+        "lt": "114",
+        "tp": "105",
+        "wt": "75",
+        "ht": "11",
+        "zo": "246",
+        "hs": "passThru",
+        "bs": "",
+        "cp": "9",
+        "ch": "20",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey1",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "LightYellow",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "20",
+        "na": "Saal Vorne",
+        "lt": "16",
+        "tp": "105",
+        "wt": "75",
+        "ht": "11",
+        "zo": "247",
+        "hs": "passThru",
+        "bs": "",
+        "cp": "9",
+        "ch": "10",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey1",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "LightYellow",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "21",
+        "na": "Saal hinten",
+        "lt": "321",
+        "tp": "105",
+        "wt": "75",
+        "ht": "11",
+        "zo": "248",
+        "hs": "passThru",
+        "bs": "",
+        "cp": "9",
+        "ch": "40",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey1",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "LightYellow",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "30",
+        "na": "Saal Mitte",
+        "lt": "419",
+        "tp": "105",
+        "wt": "75",
+        "ht": "11",
+        "zo": "249",
+        "hs": "passThru",
+        "bs": "",
+        "cp": "9",
+        "ch": "60",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey1",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "LightYellow",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "31",
+        "na": "Saal Seite",
+        "lt": "517",
+        "tp": "105",
+        "wt": "75",
+        "ht": "11",
+        "zo": "250",
+        "hs": "passThru",
+        "bs": "",
+        "cp": "9",
+        "ch": "50",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey1",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "LightYellow",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "32",
+        "na": "Bühne",
+        "lt": "615",
+        "tp": "105",
+        "wt": "75",
+        "ht": "11",
+        "zo": "251",
+        "hs": "passThru",
+        "bs": "",
+        "cp": "9",
+        "ch": "70",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey1",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "LightYellow",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "34",
+        "na": "Saal hinten",
+        "lt": "822",
+        "tp": "105",
+        "wt": "75",
+        "ht": "11",
+        "zo": "253",
+        "hs": "passThru",
+        "bs": "",
+        "cp": "9",
+        "ch": "130",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey1",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "LightYellow",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "35",
+        "na": "Saal Vorne",
+        "lt": "724",
+        "tp": "105",
+        "wt": "75",
+        "ht": "11",
+        "zo": "254",
+        "hs": "passThru",
+        "bs": "",
+        "cp": "9",
+        "ch": "120",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey1",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "LightYellow",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "1",
+        "na": "Line_Black_V",
+        "lt": "912",
+        "tp": "8",
+        "wt": "4",
+        "ht": "413",
+        "zo": "255",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "57",
+        "na": "Line_Black_H",
+        "lt": "8",
+        "tp": "177",
+        "wt": "189",
+        "ht": "4",
+        "zo": "257",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "56",
+        "na": "Line_Black_H",
+        "lt": "215",
+        "tp": "177",
+        "wt": "483",
+        "ht": "4",
+        "zo": "260",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "131",
+        "na": "Saal hinten",
+        "lt": "223",
+        "tp": "105",
+        "wt": "75",
+        "ht": "11",
+        "zo": "333",
+        "hs": "passThru",
+        "bs": "",
+        "cp": "9",
+        "ch": "30",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Grey1",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "LightYellow",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "125"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "6",
+        "na": "Line_Black_H",
+        "lt": "716",
+        "tp": "177",
+        "wt": "189",
+        "ht": "4",
+        "zo": "334",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_H.png",
+            "fi": "123"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "Line Single",
+      "cb": "#222222FF",
+      "cf": "White",
+      "ct": "#222222FF",
+      "ec": "#222222FF",
+      "jb": "1",
+      "fi": "45"
+    }
+  }
+}

@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <fontList>
+    <font number="32">
+      <file>seguisym.ttf</file>
+      <fileSize>2454648</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Segoe UI Symbol</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Segoe UI Symbol</fullName>
+      <size>18</size>
+      <usageCount>8</usageCount>
+    </font>
+    <font number="33">
+      <file>arial.ttf</file>
+      <fileSize>1027192</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Arial</fullName>
+      <size>17</size>
+      <usageCount>1</usageCount>
+    </font>
+    <font number="34">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>20</size>
+      <usageCount>4</usageCount>
+    </font>
+    <font number="35">
+      <file>avenirltstd-book.ttf</file>
+      <fileSize>32824</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Avenir LT Std 45 Book</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AvenirLTStd-Book</fullName>
+      <size>11</size>
+      <usageCount>36</usageCount>
+    </font>
+    <font number="36">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>16</size>
+      <usageCount>2</usageCount>
+    </font>
+    <font number="37">
+      <file>amxbold_.ttf</file>
+      <fileSize>13748</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>AMX Bold</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AMX Bold</fullName>
+      <size>18</size>
+      <usageCount>10</usageCount>
+    </font>
+    <font number="38">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>36</size>
+      <usageCount>2</usageCount>
+    </font>
+    <font number="39">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>22</size>
+      <usageCount>4</usageCount>
+    </font>
+    <font number="40">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>11</size>
+      <usageCount>115</usageCount>
+    </font>
+    <font number="41">
+      <file>handgotn.ttf</file>
+      <fileSize>33120</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>HandelGothic BT</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Handel Gothic BT</fullName>
+      <size>20</size>
+      <usageCount>26</usageCount>
+    </font>
+    <font number="42">
+      <file>tahoma.ttf</file>
+      <fileSize>901676</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Tahoma</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Tahoma</fullName>
+      <size>18</size>
+      <usageCount>28</usageCount>
+    </font>
+    <font number="43">
+      <file>arial.ttf</file>
+      <fileSize>1027192</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Arial</fullName>
+      <size>13</size>
+      <usageCount>2</usageCount>
+    </font>
+    <font number="44">
+      <file>crestron simple icons.ttf</file>
+      <fileSize>34772</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Crestron Simple Icons</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Crestron Simple Icons</fullName>
+      <size>48</size>
+      <usageCount>4</usageCount>
+    </font>
+    <font number="45">
+      <file>calibri.ttf</file>
+      <fileSize>1331944</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Calibri</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Calibri</fullName>
+      <size>20</size>
+      <usageCount>11</usageCount>
+    </font>
+    <font number="46">
+      <file>crestron av.ttf</file>
+      <fileSize>56684</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Crestron AV</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Crestron AV</fullName>
+      <size>14</size>
+      <usageCount>2</usageCount>
+    </font>
+    <font number="47">
+      <file>segoeui.ttf</file>
+      <fileSize>925736</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Segoe UI</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Segoe UI</fullName>
+      <size>15</size>
+      <usageCount>2</usageCount>
+    </font>
+    <font number="48">
+      <file>verdanab.ttf</file>
+      <fileSize>211316</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Verdana</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Verdana Bold</fullName>
+      <size>8</size>
+      <usageCount>2</usageCount>
+    </font>
+    <font number="49">
+      <file>xiva symbol.ttf</file>
+      <fileSize>25060</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>XiVA Symbol</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>XiVA Symbol</fullName>
+      <size>16</size>
+      <usageCount>52</usageCount>
+    </font>
+    <font number="50">
+      <file>avenirltstd-book.ttf</file>
+      <fileSize>32824</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Avenir LT Std 45 Book</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AvenirLTStd-Book</fullName>
+      <size>14</size>
+      <usageCount>16</usageCount>
+    </font>
+    <font number="51">
+      <file>verdanab.ttf</file>
+      <fileSize>211316</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Verdana</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Verdana Bold</fullName>
+      <size>9</size>
+      <usageCount>1</usageCount>
+    </font>
+    <font number="52">
+      <file>amx_icons.ttf</file>
+      <fileSize>11864</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>AMX Icon</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AMX Icon</fullName>
+      <size>24</size>
+      <usageCount>4</usageCount>
+    </font>
+    <font number="53">
+      <file>amx_icons.ttf</file>
+      <fileSize>11864</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>AMX Icon</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AMX Icon</fullName>
+      <size>28</size>
+      <usageCount>12</usageCount>
+    </font>
+    <font number="54">
+      <file>amx_icons.ttf</file>
+      <fileSize>11864</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>AMX Icon</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AMX Icon</fullName>
+      <size>26</size>
+      <usageCount>4</usageCount>
+    </font>
+    <font number="55">
+      <file>arial.ttf</file>
+      <fileSize>1027192</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Arial</fullName>
+      <size>22</size>
+      <usageCount>6</usageCount>
+    </font>
+    <font number="56">
+      <file>corbel.ttf</file>
+      <fileSize>275372</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Corbel</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Corbel</fullName>
+      <size>16</size>
+      <usageCount>2</usageCount>
+    </font>
+    <font number="57">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>18</size>
+      <usageCount>2</usageCount>
+    </font>
+    <font number="58">
+      <file>xiva symbol.ttf</file>
+      <fileSize>25060</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>XiVA Symbol</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>XiVA Symbol</fullName>
+      <size>20</size>
+      <usageCount>12</usageCount>
+    </font>
+    <font number="60">
+      <file>amxicon3.ttf</file>
+      <fileSize>5496</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>AMX Icon 3</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AMX Icon 3</fullName>
+      <size>14</size>
+      <usageCount>4</usageCount>
+    </font>
+    <font number="61">
+      <file>avenirltstd-book.ttf</file>
+      <fileSize>32824</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Avenir LT Std 45 Book</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AvenirLTStd-Book</fullName>
+      <size>36</size>
+      <usageCount>4</usageCount>
+    </font>
+    <font number="62">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>24</size>
+      <usageCount>6</usageCount>
+    </font>
+    <font number="63">
+      <file>amxicon3.ttf</file>
+      <fileSize>5496</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>AMX Icon 3</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AMX Icon 3</fullName>
+      <size>72</size>
+      <usageCount>4</usageCount>
+    </font>
+    <font number="64">
+      <file>avenirltstd-book.ttf</file>
+      <fileSize>32824</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Avenir LT Std 45 Book</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AvenirLTStd-Book</fullName>
+      <size>13</size>
+      <usageCount>20</usageCount>
+    </font>
+    <font number="66">
+      <file>verdana.ttf</file>
+      <fileSize>243284</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Verdana</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Verdana</fullName>
+      <size>14</size>
+      <usageCount>22</usageCount>
+    </font>
+    <font number="67">
+      <file>verdana.ttf</file>
+      <fileSize>243284</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Verdana</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Verdana</fullName>
+      <size>16</size>
+      <usageCount>36</usageCount>
+    </font>
+    <font number="68">
+      <file>amx_icons.ttf</file>
+      <fileSize>11864</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>AMX Icon</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AMX Icon</fullName>
+      <size>18</size>
+      <usageCount>20</usageCount>
+    </font>
+    <font number="69">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>9</size>
+      <usageCount>8</usageCount>
+    </font>
+    <font number="70">
+      <file>verdana.ttf</file>
+      <fileSize>243284</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Verdana</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Verdana</fullName>
+      <size>8</size>
+      <usageCount>12</usageCount>
+    </font>
+    <font number="71">
+      <file>crestron av.ttf</file>
+      <fileSize>56684</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Crestron AV</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Crestron AV</fullName>
+      <size>28</size>
+      <usageCount>16</usageCount>
+    </font>
+    <font number="72">
+      <file>amx_icons.ttf</file>
+      <fileSize>11864</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>AMX Icon</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AMX Icon</fullName>
+      <size>20</size>
+      <usageCount>6</usageCount>
+    </font>
+    <font number="74">
+      <file>avenirltstd-book.ttf</file>
+      <fileSize>32824</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Avenir LT Std 45 Book</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>AvenirLTStd-Book</fullName>
+      <size>26</size>
+      <usageCount>4</usageCount>
+    </font>
+    <font number="116">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>12</size>
+      <usageCount>281</usageCount>
+    </font>
+    <font number="123">
+      <file>arial.ttf</file>
+      <fileSize>1027192</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Regular</subfamilyName>
+      <fullName>Arial</fullName>
+      <size>7</size>
+      <usageCount>94</usageCount>
+    </font>
+    <font number="124">
+      <file>verdanab.ttf</file>
+      <fileSize>211316</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Verdana</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Verdana Bold</fullName>
+      <size>10</size>
+      <usageCount>1</usageCount>
+    </font>
+    <font number="125">
+      <file>arial-boldatc.ttf</file>
+      <fileSize>622396</fileSize>
+      <faceIndex>0</faceIndex>
+      <name>Arial</name>
+      <subfamilyName>Bold</subfamilyName>
+      <fullName>Arial Bold ATC</fullName>
+      <size>10</size>
+      <usageCount>168</usageCount>
+    </font>
+  </fontList>
+</root>

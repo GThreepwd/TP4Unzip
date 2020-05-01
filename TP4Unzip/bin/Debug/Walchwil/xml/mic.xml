@@ -1,0 +1,2193 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <page type="subpage" popupType="popup">
+    <pageID>511</pageID>
+    <name>Mic</name>
+    <top>91</top>
+    <width>1024</width>
+    <height>565</height>
+    <group>Content</group>
+    <hideTime>3</hideTime>
+    <button type="general">
+      <bi>4</bi>
+      <na>Mic 1</na>
+      <lt>20</lt>
+      <tp>70</tp>
+      <wt>72</wt>
+      <ht>41</ht>
+      <zo>13</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightYellow</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Mic 1</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightYellow</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Mic 1</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>5</bi>
+      <na>Mic 2</na>
+      <lt>108</lt>
+      <tp>70</tp>
+      <wt>72</wt>
+      <ht>41</ht>
+      <zo>14</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Mic 2</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Mic 2</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>6</bi>
+      <na>Mic 3</na>
+      <lt>196</lt>
+      <tp>70</tp>
+      <wt>72</wt>
+      <ht>41</ht>
+      <zo>15</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Mic 3</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightAqua</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Mic 3</te>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>7</bi>
+      <na>100%</na>
+      <lt>20</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>16</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>211</ad>
+      <cp>2</cp>
+      <ch>211</ch>
+      <lp>2</lp>
+      <lv>211</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>8</bi>
+      <na>m</na>
+      <lt>20</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>17</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>211</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>211</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>9</bi>
+      <na>n</na>
+      <lt>20</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>18</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>211</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>211</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>10</bi>
+      <na>Btn-1280x70</na>
+      <lt>20</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>19</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>311</ad>
+      <cp>2</cp>
+      <ch>311</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>48</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>49</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>11</bi>
+      <na>100%</na>
+      <lt>108</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>20</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>212</ad>
+      <cp>2</cp>
+      <ch>212</ch>
+      <lp>2</lp>
+      <lv>212</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>12</bi>
+      <na>m</na>
+      <lt>108</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>21</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>212</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>212</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>13</bi>
+      <na>n</na>
+      <lt>108</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>22</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>212</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>212</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>14</bi>
+      <na>Btn-1280x70</na>
+      <lt>108</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>23</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>312</ad>
+      <cp>2</cp>
+      <ch>312</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>50</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>56</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>15</bi>
+      <na>100%</na>
+      <lt>196</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>24</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>213</ad>
+      <cp>2</cp>
+      <ch>213</ch>
+      <lp>2</lp>
+      <lv>213</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>16</bi>
+      <na>m</na>
+      <lt>196</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>25</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>213</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>213</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>17</bi>
+      <na>n</na>
+      <lt>196</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>26</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>213</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>213</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>18</bi>
+      <na>Btn-1280x70</na>
+      <lt>196</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>27</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>313</ad>
+      <cp>2</cp>
+      <ch>313</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>57</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>58</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>25</bi>
+      <na>Funkmikrofone</na>
+      <lt>20</lt>
+      <tp>24</tp>
+      <wt>512</wt>
+      <ht>30</ht>
+      <zo>40</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Funkmikrofone</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Funkmikrofone</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>29</bi>
+      <na>Mic 6</na>
+      <lt>460</lt>
+      <tp>70</tp>
+      <wt>72</wt>
+      <ht>41</ht>
+      <zo>44</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightPink</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Mic 6</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightPink</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Mic 6</te>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>30</bi>
+      <na>100%</na>
+      <lt>460</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>45</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>216</ad>
+      <cp>2</cp>
+      <ch>216</ch>
+      <lp>2</lp>
+      <lv>216</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>31</bi>
+      <na>m</na>
+      <lt>460</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>46</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>216</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>216</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>32</bi>
+      <na>n</na>
+      <lt>460</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>47</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>216</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>216</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>33</bi>
+      <na>Btn-1280x70</na>
+      <lt>460</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>48</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>316</ad>
+      <cp>2</cp>
+      <ch>316</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>64</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>70</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>34</bi>
+      <na>Mic 5</na>
+      <lt>372</lt>
+      <tp>70</tp>
+      <wt>72</wt>
+      <ht>41</ht>
+      <zo>49</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Mic 5</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Mic 5</te>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>35</bi>
+      <na>100%</na>
+      <lt>372</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>50</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>215</ad>
+      <cp>2</cp>
+      <ch>215</ch>
+      <lp>2</lp>
+      <lv>215</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>36</bi>
+      <na>m</na>
+      <lt>372</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>51</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>215</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>215</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>37</bi>
+      <na>n</na>
+      <lt>372</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>52</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>215</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>215</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>38</bi>
+      <na>Btn-1280x70</na>
+      <lt>372</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>53</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>315</ad>
+      <cp>2</cp>
+      <ch>315</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>64</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>70</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>39</bi>
+      <na>Mic 4</na>
+      <lt>284</lt>
+      <tp>70</tp>
+      <wt>72</wt>
+      <ht>41</ht>
+      <zo>54</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Mic 4</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Mic 4</te>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>40</bi>
+      <na>100%</na>
+      <lt>284</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>55</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>214</ad>
+      <cp>2</cp>
+      <ch>214</ch>
+      <lp>2</lp>
+      <lv>214</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>41</bi>
+      <na>m</na>
+      <lt>284</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>56</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>214</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>214</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>42</bi>
+      <na>n</na>
+      <lt>284</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>57</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>214</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>214</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>43</bi>
+      <na>Btn-1280x70</na>
+      <lt>284</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>58</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>314</ad>
+      <cp>2</cp>
+      <ch>314</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>64</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>70</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>45</bi>
+      <na>Mic 3</na>
+      <lt>757</lt>
+      <tp>70</tp>
+      <wt>72</wt>
+      <ht>41</ht>
+      <zo>60</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryDarkPink</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Mic 3</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryDarkPink</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Mic 3</te>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>46</bi>
+      <na>100%</na>
+      <lt>757</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>61</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>219</ad>
+      <cp>2</cp>
+      <ch>219</ch>
+      <lp>2</lp>
+      <lv>219</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>47</bi>
+      <na>m</na>
+      <lt>757</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>62</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>219</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>219</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>48</bi>
+      <na>n</na>
+      <lt>757</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>63</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>219</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>219</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>49</bi>
+      <na>Btn-1280x70</na>
+      <lt>757</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>64</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>319</ad>
+      <cp>2</cp>
+      <ch>319</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>64</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>70</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>55</bi>
+      <na>Rednerpult</na>
+      <lt>581</lt>
+      <tp>70</tp>
+      <wt>96</wt>
+      <ht>41</ht>
+      <zo>70</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkOrange</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Rednerpult</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>DarkOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Rednerpult</te>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>56</bi>
+      <na>100%</na>
+      <lt>581</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>71</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>217</ad>
+      <cp>2</cp>
+      <ch>217</ch>
+      <lp>2</lp>
+      <lv>217</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>57</bi>
+      <na>m</na>
+      <lt>581</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>72</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>217</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>217</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>58</bi>
+      <na>n</na>
+      <lt>581</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>73</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>217</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>217</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>59</bi>
+      <na>Btn-1280x70</na>
+      <lt>581</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>74</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>317</ad>
+      <cp>2</cp>
+      <ch>317</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>64</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>70</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>2</bi>
+      <na>Kabelmikrofone</na>
+      <lt>581</lt>
+      <tp>24</tp>
+      <wt>424</wt>
+      <ht>30</ht>
+      <zo>82</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Kabelmikrofone</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Kabelmikrofone</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>27</bi>
+      <na>Line_Black_V</na>
+      <lt>554</lt>
+      <tp>24</tp>
+      <wt>4</wt>
+      <ht>517</ht>
+      <zo>94</zo>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_V.png</bm>
+        <fi>123</fi>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Line_Black_V.png</bm>
+        <fi>123</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>1</bi>
+      <na>Mic 5</na>
+      <lt>933</lt>
+      <tp>70</tp>
+      <wt>72</wt>
+      <ht>41</ht>
+      <zo>95</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryDarkGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Mic 5</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryDarkGreen</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Mic 5</te>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>3</bi>
+      <na>100%</na>
+      <lt>933</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>96</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>221</ad>
+      <cp>2</cp>
+      <ch>221</ch>
+      <lp>2</lp>
+      <lv>221</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>19</bi>
+      <na>m</na>
+      <lt>933</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>97</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>221</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>221</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>20</bi>
+      <na>n</na>
+      <lt>933</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>98</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>221</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>221</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>21</bi>
+      <na>Btn-1280x70</na>
+      <lt>933</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>99</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>321</ad>
+      <cp>2</cp>
+      <ch>321</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>64</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>70</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>22</bi>
+      <na>Mic 4</na>
+      <lt>845</lt>
+      <tp>70</tp>
+      <wt>72</wt>
+      <ht>41</ht>
+      <zo>100</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>MediumAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>40</fi>
+        <te>Mic 4</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>MediumAqua</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Mic 4</te>
+      </sr>
+    </button>
+    <button type="bargraph">
+      <bi>23</bi>
+      <na>100%</na>
+      <lt>845</lt>
+      <tp>215</tp>
+      <wt>72</wt>
+      <ht>150</ht>
+      <zo>101</zo>
+      <bs>
+      </bs>
+      <ap>2</ap>
+      <ad>220</ad>
+      <cp>2</cp>
+      <ch>220</ch>
+      <lp>2</lp>
+      <lv>220</lv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <rn>256</rn>
+      <sc>VeryLightYellow</sc>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-Off.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>157</cb>
+        <cf>Transparent</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <bm>Volume-V-On.png</bm>
+        <fi>116</fi>
+        <te>100%</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>24</bi>
+      <na>m</na>
+      <lt>845</lt>
+      <tp>127</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>102</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>220</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>220</lv>
+      <va>1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>m</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>26</bi>
+      <na>n</na>
+      <lt>845</lt>
+      <tp>381</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>103</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>2</cp>
+      <ch>220</ch>
+      <vt>rel</vt>
+      <lp>2</lp>
+      <lv>220</lv>
+      <va>-1</va>
+      <rv>60</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>49</fi>
+        <te>n</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>28</bi>
+      <na>Btn-1280x70</na>
+      <lt>845</lt>
+      <tp>469</tp>
+      <wt>72</wt>
+      <ht>72</ht>
+      <zo>104</zo>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>2</ap>
+      <ad>320</ad>
+      <cp>2</cp>
+      <ch>320</ch>
+      <va>-1</va>
+      <rv>7</rv>
+      <rl>0</rl>
+      <rh>100</rh>
+      <lu>1</lu>
+      <ld>1</ld>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>64</ii>
+        <fi>116</fi>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <ii>70</ii>
+        <fi>116</fi>
+      </sr>
+    </button>
+    <sr number="1">
+      <bs>Line Single</bs>
+      <cb>#222222FF</cb>
+      <cf>White</cf>
+      <ct>#222222FF</ct>
+      <ec>#222222FF</ec>
+      <jb>1</jb>
+      <fi>45</fi>
+    </sr>
+  </page>
+</root>

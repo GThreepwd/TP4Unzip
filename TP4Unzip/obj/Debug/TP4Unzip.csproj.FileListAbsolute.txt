@@ -1,0 +1,10 @@
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\bin\Debug\TP4Unzip.exe.config
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\bin\Debug\TP4Unzip.exe
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\bin\Debug\TP4Unzip.pdb
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\obj\Debug\TP4Unzip.csprojAssemblyReference.cache
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\obj\Debug\TP4Unzip.AppMain.resources
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\obj\Debug\TP4Unzip.Properties.Resources.resources
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\obj\Debug\TP4Unzip.csproj.GenerateResource.cache
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\obj\Debug\TP4Unzip.csproj.CopyComplete
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\obj\Debug\TP4Unzip.exe
+C:\Users\donald.peter\Documents\Visual Studio 2017\Projects\TP4Unzip\TP4Unzip\obj\Debug\TP4Unzip.pdb

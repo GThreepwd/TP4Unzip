@@ -49,25 +49,85 @@ namespace TP4Unzip.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string FileNameXsltHtml {
+        [global::System.Configuration.DefaultSettingValueAttribute("127.0.0.1")]
+        public string ConnHost {
             get {
-                return ((string)(this["FileNameXsltHtml"]));
+                return ((string)(this["ConnHost"]));
             }
             set {
-                this["FileNameXsltHtml"] = value;
+                this["ConnHost"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("<?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?>")]
-        public string XmlStyleSheetElement {
+        [global::System.Configuration.DefaultSettingValueAttribute("80")]
+        public int ConnPort {
             get {
-                return ((string)(this["XmlStyleSheetElement"]));
+                return ((int)(this["ConnPort"]));
             }
             set {
-                this["XmlStyleSheetElement"] = value;
+                this["ConnPort"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string JsFileName {
+            get {
+                return ((string)(this["JsFileName"]));
+            }
+            set {
+                this["JsFileName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string JsVariableName {
+            get {
+                return ((string)(this["JsVariableName"]));
+            }
+            set {
+                this["JsVariableName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CreateJson {
+            get {
+                return ((bool)(this["CreateJson"]));
+            }
+            set {
+                this["CreateJson"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CreateXml {
+            get {
+                return ((bool)(this["CreateXml"]));
+            }
+            set {
+                this["CreateXml"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CreateSegmentInfo {
+            get {
+                return ((bool)(this["CreateSegmentInfo"]));
+            }
+            set {
+                this["CreateSegmentInfo"] = value;
             }
         }
     }

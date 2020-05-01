@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <iconList>
+    <maxIcons>500</maxIcons>
+    <icon number="11">
+      <file>Laptop_50.png</file>
+    </icon>
+    <icon number="16">
+      <file>SoundOn.png</file>
+    </icon>
+    <icon number="19">
+      <file>SoundOff.png</file>
+    </icon>
+    <icon number="25">
+      <file>realvista_multimedia_wave_amplify_amplitude_48.png</file>
+    </icon>
+    <icon number="28">
+      <file>SoundMicOn.png</file>
+    </icon>
+    <icon number="47">
+      <file>SoundMicOff.png</file>
+    </icon>
+    <icon number="48">
+      <file>SoundMicOn.png</file>
+    </icon>
+    <icon number="49">
+      <file>SoundMicOff.png</file>
+    </icon>
+    <icon number="50">
+      <file>SoundMicOn.png</file>
+    </icon>
+    <icon number="56">
+      <file>SoundMicOff.png</file>
+    </icon>
+    <icon number="57">
+      <file>SoundMicOn.png</file>
+    </icon>
+    <icon number="58">
+      <file>SoundMicOff.png</file>
+    </icon>
+    <icon number="64">
+      <file>SoundMicOn.png</file>
+    </icon>
+    <icon number="70">
+      <file>SoundMicOff.png</file>
+    </icon>
+    <icon number="71">
+      <file>SoundMicOn.png</file>
+    </icon>
+    <icon number="72">
+      <file>SoundMicOff.png</file>
+    </icon>
+  </iconList>
+</root>

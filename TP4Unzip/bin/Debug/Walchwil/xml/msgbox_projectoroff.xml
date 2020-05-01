@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <page type="subpage" popupType="popup">
+    <pageID>505</pageID>
+    <name>MsgBox_ProjectorOff</name>
+    <width>1024</width>
+    <height>768</height>
+    <group>MsgBox</group>
+    <timeout>100</timeout>
+    <modal>1</modal>
+    <button type="general">
+      <bi>1</bi>
+      <na>Button 1</na>
+      <lt>136</lt>
+      <tp>156</tp>
+      <wt>752</wt>
+      <ht>435</ht>
+      <zo>1</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Double Line</bs>
+        <cb>LightOrange</cb>
+        <cf>#004E82FF</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <fi>23</fi>
+      </sr>
+      <sr number="2">
+        <bs>Double Line</bs>
+        <cb>LightOrange</cb>
+        <cf>#004E82FF</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>23</fi>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>2</bi>
+      <na>Der Projektor wird ausgeschaltet. Wollen sie fortfahren?</na>
+      <lt>171</lt>
+      <tp>299</tp>
+      <wt>682</wt>
+      <ht>101</ht>
+      <zo>2</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Grey3</cb>
+        <cf>Transparent</cf>
+        <ct>LightYellow</ct>
+        <ec>Transparent</ec>
+        <fi>34</fi>
+        <te>Der Projektor wird ausgeschaltet.
+Wollen sie fortfahren?</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Grey3</cb>
+        <cf>Transparent</cf>
+        <ct>LightYellow</ct>
+        <ec>Transparent</ec>
+        <fi>34</fi>
+        <te>Der Projektor wird ausgeschaltet.
+Wollen sie fortfahren?</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>3</bi>
+      <na>OK</na>
+      <lt>281</lt>
+      <tp>443</tp>
+      <wt>199</wt>
+      <ht>72</ht>
+      <zo>3</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <cp>3</cp>
+      <ch>99</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="scGroup">MsgBox</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>88</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>39</fi>
+        <te>OK</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>39</fi>
+        <te>OK</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>4</bi>
+      <na>Abbrechen</na>
+      <lt>545</lt>
+      <tp>443</tp>
+      <wt>199</wt>
+      <ht>72</ht>
+      <zo>4</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="scGroup">MsgBox</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>88</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>39</fi>
+        <te>Abbrechen</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>39</fi>
+        <te>Abbrechen</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>5</bi>
+      <na>Projektor ausschalten</na>
+      <lt>231</lt>
+      <tp>206</tp>
+      <wt>562</wt>
+      <ht>69</ht>
+      <zo>5</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Grey3</cb>
+        <cf>Transparent</cf>
+        <ct>#CACACAFF</ct>
+        <ec>Transparent</ec>
+        <fi>38</fi>
+        <te>Projektor ausschalten</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Grey3</cb>
+        <cf>Transparent</cf>
+        <ct>#CACACAFF</ct>
+        <ec>Transparent</ec>
+        <fi>38</fi>
+        <te>Projektor ausschalten</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>6</bi>
+      <na>P</na>
+      <lt>805</lt>
+      <tp>172</tp>
+      <wt>67</wt>
+      <ht>58</ht>
+      <zo>6</zo>
+      <bs>
+      </bs>
+      <fb>momentary</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <pf type="scGroup">MsgBox</pf>
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>88</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>58</fi>
+        <te>P</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>58</fi>
+        <te>P</te>
+      </sr>
+    </button>
+    <sr number="1">
+      <bs>
+      </bs>
+      <cb>Grey12</cb>
+      <cf>#1E1E1E7D</cf>
+      <ct>White</ct>
+      <ec>#000000FF</ec>
+      <fi>21</fi>
+    </sr>
+  </page>
+</root>

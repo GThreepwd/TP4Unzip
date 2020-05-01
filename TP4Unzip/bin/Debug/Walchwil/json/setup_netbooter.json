@@ -1,0 +1,1779 @@
+{
+  "page": {
+    "type": "subpage",
+    "popupType": "popup",
+    "pageID": "507",
+    "name": "Setup_NetBooter",
+    "top": "91",
+    "width": "1024",
+    "height": "565",
+    "group": "Setup",
+    "button": [
+      {
+        "type": "general",
+        "bi": "1",
+        "na": "Controller",
+        "lt": "181",
+        "tp": "91",
+        "wt": "141",
+        "ht": "43",
+        "zo": "1",
+        "bs": "",
+        "da": "1",
+        "cp": "8",
+        "ch": "1",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Controller"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Controller"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "2",
+        "na": "Reserve",
+        "lt": "181",
+        "tp": "138",
+        "wt": "141",
+        "ht": "43",
+        "zo": "2",
+        "bs": "",
+        "cp": "8",
+        "ch": "2",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Reserve"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Reserve"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "3",
+        "na": "Dauerhauft",
+        "lt": "181",
+        "tp": "185",
+        "wt": "141",
+        "ht": "43",
+        "zo": "3",
+        "bs": "",
+        "cp": "8",
+        "ch": "3",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Dauerhauft"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Dauerhauft"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "4",
+        "na": "Geschaltet",
+        "lt": "181",
+        "tp": "232",
+        "wt": "141",
+        "ht": "43",
+        "zo": "4",
+        "bs": "",
+        "cp": "8",
+        "ch": "4",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Geschaltet"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Geschaltet"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "5",
+        "na": "DSP",
+        "lt": "181",
+        "tp": "279",
+        "wt": "141",
+        "ht": "43",
+        "zo": "5",
+        "bs": "",
+        "cp": "8",
+        "ch": "5",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "DSP"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "DSP"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "6",
+        "na": "AMP",
+        "lt": "181",
+        "tp": "326",
+        "wt": "141",
+        "ht": "43",
+        "zo": "6",
+        "bs": "",
+        "cp": "8",
+        "ch": "6",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "AMP"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "AMP"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "7",
+        "na": "Induktion",
+        "lt": "181",
+        "tp": "373",
+        "wt": "141",
+        "ht": "43",
+        "zo": "7",
+        "bs": "",
+        "cp": "8",
+        "ch": "7",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Induktion"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Induktion"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "8",
+        "na": "Reserve",
+        "lt": "181",
+        "tp": "420",
+        "wt": "141",
+        "ht": "43",
+        "zo": "8",
+        "bs": "",
+        "cp": "8",
+        "ch": "8",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Reserve"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Reserve"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "9",
+        "na": "Controller",
+        "lt": "337",
+        "tp": "91",
+        "wt": "141",
+        "ht": "43",
+        "zo": "9",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "8",
+        "ch": "11",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Controller"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Controller"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "10",
+        "na": "Reserve",
+        "lt": "337",
+        "tp": "138",
+        "wt": "141",
+        "ht": "43",
+        "zo": "10",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "8",
+        "ch": "12",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Reserve"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Reserve"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "11",
+        "na": "Dauerhauft",
+        "lt": "337",
+        "tp": "185",
+        "wt": "141",
+        "ht": "43",
+        "zo": "11",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "8",
+        "ch": "13",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Dauerhauft"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Dauerhauft"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "12",
+        "na": "Geschaltet",
+        "lt": "337",
+        "tp": "232",
+        "wt": "141",
+        "ht": "43",
+        "zo": "12",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "8",
+        "ch": "14",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Geschaltet"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Geschaltet"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "13",
+        "na": "DSP",
+        "lt": "337",
+        "tp": "279",
+        "wt": "141",
+        "ht": "43",
+        "zo": "13",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "8",
+        "ch": "15",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "DSP"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "DSP"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "14",
+        "na": "AMP",
+        "lt": "337",
+        "tp": "326",
+        "wt": "141",
+        "ht": "43",
+        "zo": "14",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "8",
+        "ch": "16",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "AMP"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "AMP"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "15",
+        "na": "Induktion",
+        "lt": "337",
+        "tp": "373",
+        "wt": "141",
+        "ht": "43",
+        "zo": "15",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "8",
+        "ch": "17",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Induktion"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Induktion"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "16",
+        "na": "Reserve",
+        "lt": "337",
+        "tp": "420",
+        "wt": "141",
+        "ht": "43",
+        "zo": "16",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "8",
+        "ch": "18",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Reserve"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Reserve"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "17",
+        "na": "Port 2",
+        "lt": "16",
+        "tp": "138",
+        "wt": "161",
+        "ht": "43",
+        "zo": "17",
+        "bs": "",
+        "ap": "8",
+        "ad": "2",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 2",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 2",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "18",
+        "na": "Port 3",
+        "lt": "16",
+        "tp": "185",
+        "wt": "161",
+        "ht": "43",
+        "zo": "18",
+        "bs": "",
+        "ap": "8",
+        "ad": "3",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 3",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 3",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "19",
+        "na": "Port 4",
+        "lt": "16",
+        "tp": "232",
+        "wt": "161",
+        "ht": "43",
+        "zo": "19",
+        "bs": "",
+        "ap": "8",
+        "ad": "4",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 4",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 4",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "20",
+        "na": "Port 5",
+        "lt": "16",
+        "tp": "279",
+        "wt": "161",
+        "ht": "43",
+        "zo": "20",
+        "bs": "",
+        "ap": "8",
+        "ad": "5",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 5",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 5",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "21",
+        "na": "Port 6",
+        "lt": "16",
+        "tp": "326",
+        "wt": "161",
+        "ht": "43",
+        "zo": "21",
+        "bs": "",
+        "ap": "8",
+        "ad": "6",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 6",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 6",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "22",
+        "na": "Port 7",
+        "lt": "16",
+        "tp": "373",
+        "wt": "161",
+        "ht": "43",
+        "zo": "22",
+        "bs": "",
+        "ap": "8",
+        "ad": "7",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 7",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 7",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "23",
+        "na": "Port 8",
+        "lt": "16",
+        "tp": "420",
+        "wt": "161",
+        "ht": "43",
+        "zo": "23",
+        "bs": "",
+        "ap": "8",
+        "ad": "8",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 8",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 8",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "24",
+        "na": "Port 1",
+        "lt": "16",
+        "tp": "91",
+        "wt": "161",
+        "ht": "43",
+        "zo": "24",
+        "bs": "",
+        "ap": "8",
+        "ad": "1",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 1",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Port 1",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "25",
+        "na": "Switch",
+        "lt": "181",
+        "tp": "56",
+        "wt": "141",
+        "ht": "27",
+        "zo": "25",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Switch"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Switch"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "26",
+        "na": "Reboot",
+        "lt": "337",
+        "tp": "56",
+        "wt": "141",
+        "ht": "27",
+        "zo": "26",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Reboot"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Reboot"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "27",
+        "na": "Low",
+        "lt": "532",
+        "tp": "292",
+        "wt": "75",
+        "ht": "67",
+        "zo": "27",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#00DF00FF",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28",
+            "te": "Low"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#00DF00FF",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28",
+            "te": "Low"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "28",
+        "na": "Medium",
+        "lt": "532",
+        "tp": "225",
+        "wt": "75",
+        "ht": "67",
+        "zo": "28",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#DFDF00FF",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28",
+            "te": "Medium"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#DFDF00FF",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28",
+            "te": "Medium"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "29",
+        "na": "Critical",
+        "lt": "532",
+        "tp": "91",
+        "wt": "75",
+        "ht": "67",
+        "zo": "29",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#FF0000FF",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28",
+            "te": "Critical"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#FF0000FF",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28",
+            "te": "Critical"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "30",
+        "na": "High",
+        "lt": "532",
+        "tp": "158",
+        "wt": "75",
+        "ht": "67",
+        "zo": "30",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#DF7000FF",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28",
+            "te": "High"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "#DF7000FF",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28",
+            "te": "High"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "31",
+        "na": "--",
+        "lt": "660",
+        "tp": "121",
+        "wt": "264",
+        "ht": "35",
+        "zo": "31",
+        "bs": "Double Line",
+        "ap": "8",
+        "ad": "101",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "#000000FF",
+            "cf": "Grey4",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "--"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "#000000FF",
+            "cf": "Grey4",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "--"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "32",
+        "na": "Leistung (Watt)",
+        "lt": "660",
+        "tp": "81",
+        "wt": "264",
+        "ht": "35",
+        "zo": "32",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Leistung (Watt)",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Leistung (Watt)",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "33",
+        "na": "--",
+        "lt": "660",
+        "tp": "217",
+        "wt": "264",
+        "ht": "35",
+        "zo": "33",
+        "bs": "Double Line",
+        "ap": "8",
+        "ad": "102",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "#000000FF",
+            "cf": "Grey4",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "--"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "#000000FF",
+            "cf": "Grey4",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "--"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "34",
+        "na": "Netzwerkfehler",
+        "lt": "660",
+        "tp": "177",
+        "wt": "264",
+        "ht": "35",
+        "zo": "34",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Netzwerkfehler",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Netzwerkfehler",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "35",
+        "na": "Restart Network",
+        "lt": "660",
+        "tp": "396",
+        "wt": "264",
+        "ht": "59",
+        "zo": "35",
+        "bs": "",
+        "fb": "momentary",
+        "cp": "8",
+        "ch": "10",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Restart Network"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "116",
+            "te": "Restart Network"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "36",
+        "na": "Critical",
+        "lt": "532",
+        "tp": "91",
+        "wt": "75",
+        "ht": "268",
+        "zo": "36",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "28"
+          }
+        ]
+      },
+      {
+        "type": "bargraph",
+        "bi": "37",
+        "na": "Button 45",
+        "lt": "532",
+        "tp": "76",
+        "wt": "75",
+        "ht": "296",
+        "zo": "37",
+        "bs": "",
+        "lp": "8",
+        "lv": "101",
+        "rl": "0",
+        "rh": "100",
+        "rn": "256",
+        "sd": "Precision",
+        "sc": "Black",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "fi": "116"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "38",
+        "na": "--",
+        "lt": "660",
+        "tp": "321",
+        "wt": "264",
+        "ht": "35",
+        "zo": "40",
+        "bs": "Double Line",
+        "ap": "8",
+        "ad": "100",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Double Line",
+            "cb": "#000000FF",
+            "cf": "Grey4",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "--"
+          },
+          {
+            "number": "2",
+            "bs": "Double Line",
+            "cb": "#000000FF",
+            "cf": "Grey4",
+            "ct": "#000000FF",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "--"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "39",
+        "na": "Temperatur",
+        "lt": "660",
+        "tp": "281",
+        "wt": "264",
+        "ht": "35",
+        "zo": "41",
+        "bs": "",
+        "rl": "0",
+        "rh": "100",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Temperatur",
+            "jt": "4"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "Black",
+            "cf": "Transparent",
+            "ct": "1",
+            "ec": "#000000FF",
+            "ji": "6",
+            "fi": "116",
+            "te": "Temperatur",
+            "jt": "4"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "40",
+        "na": "P",
+        "lt": "949",
+        "tp": "8",
+        "wt": "67",
+        "ht": "58",
+        "zo": "45",
+        "hs": "bounding",
+        "bs": "",
+        "fb": "momentary",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "pf": {
+          "type": "sHide",
+          "#text": "Setup_NetBooter"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Circle 15",
+            "cb": "157",
+            "cf": "1",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "58",
+            "te": "P"
+          },
+          {
+            "number": "2",
+            "bs": "Circle 15",
+            "cb": "Black",
+            "cf": "MediumGreen",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Btn-1280x70.png",
+            "fi": "58",
+            "te": "P"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "42",
+        "na": "Line_Black_V",
+        "lt": "938",
+        "tp": "8",
+        "wt": "4",
+        "ht": "549",
+        "zo": "46",
+        "hs": "passThru",
+        "bs": "",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "",
+            "cb": "VeryLightYellow",
+            "cf": "Transparent",
+            "ct": "White",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          },
+          {
+            "number": "2",
+            "bs": "",
+            "cb": "LightBlue",
+            "cf": "Transparent",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "bm": "Line_Black_V.png",
+            "fi": "123"
+          }
+        ]
+      },
+      {
+        "type": "general",
+        "bi": "43",
+        "na": "Netbooter",
+        "lt": "8",
+        "tp": "8",
+        "wt": "924",
+        "ht": "30",
+        "zo": "47",
+        "bs": "",
+        "fb": "none",
+        "rl": "0",
+        "rh": "255",
+        "ac": {
+          "di": "0"
+        },
+        "sr": [
+          {
+            "number": "1",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Netbooter"
+          },
+          {
+            "number": "2",
+            "bs": "Single Line",
+            "cb": "Black",
+            "cf": "VeryLightOrange",
+            "ct": "Black",
+            "ec": "#000000FF",
+            "fi": "116",
+            "te": "Netbooter"
+          }
+        ]
+      }
+    ],
+    "sr": {
+      "number": "1",
+      "bs": "Line Single",
+      "cb": "#222222FF",
+      "cf": "White",
+      "ct": "White",
+      "ec": "#000000FF",
+      "jb": "1",
+      "fi": "123"
+    }
+  }
+}

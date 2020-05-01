@@ -3,6 +3,8 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 
+using TP4Unzip.Properties;
+
 namespace TP4Unzip
 {
   static class Program
@@ -22,6 +24,8 @@ namespace TP4Unzip
     [STAThread]
     static void Main(string[] args)
     {
+      var lSettings = Settings.Default;
+
       // Add the event handler for handling UI thread exceptions to the event.
       Application.ThreadException += OnThreadException;
 
@@ -30,6 +34,22 @@ namespace TP4Unzip
 
       // Add the event handler for handling non-UI thread exceptions to the event. 
       AppDomain.CurrentDomain.UnhandledException += OnUnhandledException;
+
+      // Set default settings ...
+      if(string.IsNullOrWhiteSpace(lSettings.OutputFolder))
+        lSettings.OutputFolder = "$";
+
+      if(string.IsNullOrWhiteSpace(lSettings.ConnHost))
+        lSettings.ConnHost = "127.0.0.1";
+
+      if(lSettings.ConnPort == 0 || lSettings.ConnPort > 65535)
+        Settings.Default.ConnPort= 80;
+
+      if(string.IsNullOrWhiteSpace(lSettings.JsFileName))
+        lSettings.JsFileName = "project.js";
+
+      if(string.IsNullOrWhiteSpace(lSettings.JsVariableName))
+        lSettings.JsVariableName = "Proj";
 
       if(args.Length > 0)
       {

@@ -21,7 +21,7 @@ var Proj = {
       "designerId": "",
       "creationDate": "Tue May 22 08:34:48 2018",
       "revisionDate": "Tue May 22 08:34:48 2018",
-      "lastSaveDate": "Sun Jun 03 18:05:08 2018",
+      "lastSaveDate": "Sun Jun 17 16:59:41 2018",
       "fileName": "Simple.tp4",
       "colorChoice": "",
       "specifyPortCount": "0",
@@ -36,11 +36,11 @@ var Proj = {
       "externalButtonFile": "external.xma"
     },
     "panelSetup": {
-      "portCount": "4",
+      "portCount": "5",
       "setupPort": "0",
-      "addressCount": "22",
-      "channelCount": "33",
-      "levelCount": "44",
+      "addressCount": "102",
+      "channelCount": "102",
+      "levelCount": "0",
       "powerUpPage": "MainPage",
       "feedbackBlinkRate": "5",
       "startupString": "",
@@ -177,7 +177,7 @@ var Proj = {
     "fwFeatureList": {
       "feature": {
         "featureID": "buttonTouchStyle",
-        "usageCount": "2"
+        "usageCount": "6"
       }
     },
     "paletteList": {
@@ -223,9 +223,6 @@ var Proj = {
             "ad": "22",
             "cp": "3",
             "ch": "33",
-            "vt": "rel",
-            "lp": "4",
-            "lv": "44",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -234,26 +231,26 @@ var Proj = {
             "sr": [
               {
                 "number": "1",
-                "bs": "",
-                "cb": "Grey7",
+                "bs": "Single Line",
+                "cb": "Black",
                 "cf": "VeryLightOrange",
                 "ct": "Black",
                 "ec": "#000000FF",
-                "fi": "32",
-                "te": "Button A",
+                "fi": "35",
+                "te": "Button A\r\nMomentary",
                 "jt": "1",
                 "ww": "1"
               },
               {
                 "number": "2",
-                "bs": "",
-                "cb": "Grey7",
-                "cf": "VeryLightOrange",
-                "ct": "Black",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "VeryLightBlue",
+                "ct": "White",
                 "ec": "#000000FF",
-                "fi": "32",
-                "te": "Button A",
-                "jt": "1",
+                "fi": "35",
+                "te": "Button A\r\nMomentary Down",
+                "jt": "9",
                 "ww": "1"
               }
             ]
@@ -270,6 +267,7 @@ var Proj = {
             "zo": "3",
             "hs": "passThru",
             "bs": "",
+            "fb": "momentary",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -283,18 +281,20 @@ var Proj = {
                 "cf": "LightAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "39",
-                "te": "Button C"
+                "fi": "43",
+                "te": "Button C\r\nMomentary",
+                "ww": "1"
               },
               {
                 "number": "2",
                 "bs": "Single Line",
                 "cb": "Black",
-                "cf": "LightAqua",
+                "cf": "Green",
                 "ct": "Black",
                 "ec": "#000000FF",
-                "fi": "39",
-                "te": "Button C"
+                "fi": "43",
+                "te": "Button C\r\nMomentary\r\nDown",
+                "ww": "1"
               }
             ]
           },
@@ -350,6 +350,7 @@ var Proj = {
             "ht": "70",
             "zo": "5",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -389,6 +390,7 @@ var Proj = {
             "ht": "141",
             "zo": "6",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -428,6 +430,7 @@ var Proj = {
             "ht": "40",
             "zo": "7",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -465,6 +468,7 @@ var Proj = {
             "ht": "40",
             "zo": "8",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -502,6 +506,7 @@ var Proj = {
             "ht": "40",
             "zo": "9",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -539,6 +544,7 @@ var Proj = {
             "ht": "40",
             "zo": "10",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -576,6 +582,7 @@ var Proj = {
             "ht": "40",
             "zo": "11",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -613,6 +620,7 @@ var Proj = {
             "ht": "40",
             "zo": "12",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -650,6 +658,7 @@ var Proj = {
             "ht": "40",
             "zo": "13",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -687,6 +696,7 @@ var Proj = {
             "ht": "40",
             "zo": "14",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -724,6 +734,7 @@ var Proj = {
             "ht": "40",
             "zo": "15",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -761,6 +772,7 @@ var Proj = {
             "ht": "40",
             "zo": "16",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -798,6 +810,7 @@ var Proj = {
             "ht": "40",
             "zo": "17",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -835,6 +848,7 @@ var Proj = {
             "ht": "40",
             "zo": "18",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -872,6 +886,7 @@ var Proj = {
             "ht": "40",
             "zo": "19",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -909,6 +924,7 @@ var Proj = {
             "ht": "40",
             "zo": "20",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -946,6 +962,7 @@ var Proj = {
             "ht": "40",
             "zo": "21",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -983,6 +1000,7 @@ var Proj = {
             "ht": "40",
             "zo": "22",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1020,6 +1038,7 @@ var Proj = {
             "ht": "40",
             "zo": "23",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1057,6 +1076,7 @@ var Proj = {
             "ht": "40",
             "zo": "24",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1094,6 +1114,7 @@ var Proj = {
             "ht": "40",
             "zo": "25",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1131,6 +1152,7 @@ var Proj = {
             "ht": "40",
             "zo": "26",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1168,6 +1190,7 @@ var Proj = {
             "ht": "40",
             "zo": "27",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1205,6 +1228,7 @@ var Proj = {
             "ht": "40",
             "zo": "28",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1242,6 +1266,7 @@ var Proj = {
             "ht": "40",
             "zo": "29",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1279,6 +1304,7 @@ var Proj = {
             "ht": "40",
             "zo": "30",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1316,6 +1342,7 @@ var Proj = {
             "ht": "40",
             "zo": "31",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1353,6 +1380,7 @@ var Proj = {
             "ht": "40",
             "zo": "32",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1390,6 +1418,7 @@ var Proj = {
             "ht": "40",
             "zo": "33",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1427,6 +1456,7 @@ var Proj = {
             "ht": "40",
             "zo": "34",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1464,6 +1494,7 @@ var Proj = {
             "ht": "40",
             "zo": "35",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1501,6 +1532,7 @@ var Proj = {
             "ht": "40",
             "zo": "36",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1538,6 +1570,7 @@ var Proj = {
             "ht": "40",
             "zo": "37",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1575,6 +1608,7 @@ var Proj = {
             "ht": "40",
             "zo": "38",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1612,6 +1646,7 @@ var Proj = {
             "ht": "40",
             "zo": "39",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1649,6 +1684,7 @@ var Proj = {
             "ht": "40",
             "zo": "40",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1686,6 +1722,7 @@ var Proj = {
             "ht": "40",
             "zo": "41",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1723,6 +1760,7 @@ var Proj = {
             "ht": "40",
             "zo": "42",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1760,6 +1798,7 @@ var Proj = {
             "ht": "40",
             "zo": "43",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1797,6 +1836,7 @@ var Proj = {
             "ht": "40",
             "zo": "44",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1834,6 +1874,7 @@ var Proj = {
             "ht": "40",
             "zo": "45",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1871,6 +1912,7 @@ var Proj = {
             "ht": "40",
             "zo": "46",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1908,6 +1950,7 @@ var Proj = {
             "ht": "40",
             "zo": "47",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1945,6 +1988,7 @@ var Proj = {
             "ht": "40",
             "zo": "48",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -1982,6 +2026,7 @@ var Proj = {
             "ht": "40",
             "zo": "49",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2019,6 +2064,7 @@ var Proj = {
             "ht": "40",
             "zo": "50",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2056,6 +2102,7 @@ var Proj = {
             "ht": "40",
             "zo": "51",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2093,6 +2140,7 @@ var Proj = {
             "ht": "40",
             "zo": "52",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2130,6 +2178,7 @@ var Proj = {
             "ht": "40",
             "zo": "53",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2167,6 +2216,7 @@ var Proj = {
             "ht": "40",
             "zo": "54",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2204,6 +2254,7 @@ var Proj = {
             "ht": "40",
             "zo": "55",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2241,6 +2292,7 @@ var Proj = {
             "ht": "40",
             "zo": "56",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2278,6 +2330,7 @@ var Proj = {
             "ht": "40",
             "zo": "57",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2315,6 +2368,7 @@ var Proj = {
             "ht": "40",
             "zo": "58",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2352,6 +2406,7 @@ var Proj = {
             "ht": "40",
             "zo": "59",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2389,6 +2444,7 @@ var Proj = {
             "ht": "40",
             "zo": "60",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2426,6 +2482,7 @@ var Proj = {
             "ht": "40",
             "zo": "61",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2463,6 +2520,7 @@ var Proj = {
             "ht": "40",
             "zo": "62",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2500,6 +2558,7 @@ var Proj = {
             "ht": "40",
             "zo": "63",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2537,6 +2596,7 @@ var Proj = {
             "ht": "40",
             "zo": "64",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2574,6 +2634,7 @@ var Proj = {
             "ht": "40",
             "zo": "65",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2611,6 +2672,7 @@ var Proj = {
             "ht": "40",
             "zo": "66",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2648,6 +2710,7 @@ var Proj = {
             "ht": "40",
             "zo": "67",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2685,6 +2748,7 @@ var Proj = {
             "ht": "40",
             "zo": "68",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2722,6 +2786,7 @@ var Proj = {
             "ht": "40",
             "zo": "69",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2759,6 +2824,7 @@ var Proj = {
             "ht": "40",
             "zo": "70",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2796,6 +2862,7 @@ var Proj = {
             "ht": "40",
             "zo": "71",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2833,6 +2900,7 @@ var Proj = {
             "ht": "40",
             "zo": "72",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2870,6 +2938,7 @@ var Proj = {
             "ht": "40",
             "zo": "73",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2907,6 +2976,7 @@ var Proj = {
             "ht": "40",
             "zo": "74",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2944,6 +3014,7 @@ var Proj = {
             "ht": "40",
             "zo": "75",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -2981,6 +3052,7 @@ var Proj = {
             "ht": "40",
             "zo": "76",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3018,6 +3090,7 @@ var Proj = {
             "ht": "40",
             "zo": "77",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3055,6 +3128,7 @@ var Proj = {
             "ht": "40",
             "zo": "78",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3092,6 +3166,7 @@ var Proj = {
             "ht": "40",
             "zo": "79",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3129,6 +3204,7 @@ var Proj = {
             "ht": "40",
             "zo": "80",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3166,6 +3242,7 @@ var Proj = {
             "ht": "40",
             "zo": "81",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3203,6 +3280,7 @@ var Proj = {
             "ht": "40",
             "zo": "82",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3240,6 +3318,7 @@ var Proj = {
             "ht": "40",
             "zo": "83",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3277,6 +3356,7 @@ var Proj = {
             "ht": "40",
             "zo": "84",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3314,6 +3394,7 @@ var Proj = {
             "ht": "40",
             "zo": "85",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3351,6 +3432,7 @@ var Proj = {
             "ht": "40",
             "zo": "86",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3388,6 +3470,7 @@ var Proj = {
             "ht": "40",
             "zo": "87",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3425,6 +3508,7 @@ var Proj = {
             "ht": "40",
             "zo": "88",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3462,6 +3546,7 @@ var Proj = {
             "ht": "40",
             "zo": "89",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3499,6 +3584,7 @@ var Proj = {
             "ht": "40",
             "zo": "90",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3536,6 +3622,7 @@ var Proj = {
             "ht": "40",
             "zo": "91",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3573,6 +3660,7 @@ var Proj = {
             "ht": "40",
             "zo": "92",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3610,6 +3698,7 @@ var Proj = {
             "ht": "40",
             "zo": "93",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3647,6 +3736,7 @@ var Proj = {
             "ht": "40",
             "zo": "94",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3684,6 +3774,7 @@ var Proj = {
             "ht": "40",
             "zo": "95",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3721,6 +3812,9 @@ var Proj = {
             "ht": "125",
             "zo": "96",
             "bs": "",
+            "fb": "momentary",
+            "cp": "5",
+            "ch": "55",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3729,23 +3823,370 @@ var Proj = {
             "sr": [
               {
                 "number": "1",
-                "bs": "Double Line",
+                "bs": "Single Line",
                 "cb": "Black",
                 "cf": "DarkLime",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "38",
-                "te": "Button B"
+                "fi": "36",
+                "te": "Button B\r\nMomentary",
+                "ww": "1"
               },
               {
                 "number": "2",
-                "bs": "Double Line",
+                "bs": "Single Line",
                 "cb": "Black",
-                "cf": "DarkLime",
+                "cf": "VeryLightYellow",
                 "ct": "Black",
                 "ec": "#000000FF",
-                "fi": "38",
-                "te": "Button B"
+                "fi": "36",
+                "te": "Button B\r\nMomentary Down",
+                "ww": "1"
+              }
+            ]
+          },
+          {
+            "type": "general",
+            "bi": "96",
+            "na": "BtnNone",
+            "li": "1",
+            "lt": "297",
+            "tp": "242",
+            "wt": "125",
+            "ht": "125",
+            "zo": "97",
+            "hs": "bounding",
+            "bs": "",
+            "da": "1",
+            "hd": "1",
+            "fb": "none",
+            "ch": "10",
+            "rl": "0",
+            "rh": "255",
+            "ac": {
+              "di": "0"
+            },
+            "sr": [
+              {
+                "number": "1",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "LightAqua",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "None",
+                "ww": "1"
+              },
+              {
+                "number": "2",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "VeryLightOrange",
+                "ct": "Black",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "None",
+                "ww": "1"
+              }
+            ]
+          },
+          {
+            "type": "general",
+            "bi": "97",
+            "na": "BtnInvertedChannel",
+            "li": "1",
+            "lt": "569",
+            "tp": "242",
+            "wt": "125",
+            "ht": "125",
+            "zo": "98",
+            "hs": "passThru",
+            "bs": "",
+            "fb": "inverted",
+            "ch": "10",
+            "rl": "0",
+            "rh": "255",
+            "ac": {
+              "di": "0"
+            },
+            "sr": [
+              {
+                "number": "1",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "LightAqua",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Inverted Channel",
+                "ww": "1"
+              },
+              {
+                "number": "2",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "VeryLightOrange",
+                "ct": "Black",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Inverted Channel",
+                "ww": "1"
+              }
+            ]
+          },
+          {
+            "type": "general",
+            "bi": "98",
+            "na": "BtnChannel",
+            "li": "1",
+            "lt": "433",
+            "tp": "242",
+            "wt": "125",
+            "ht": "125",
+            "zo": "99",
+            "bs": "",
+            "ch": "10",
+            "rl": "0",
+            "rh": "255",
+            "ac": {
+              "di": "0"
+            },
+            "sr": [
+              {
+                "number": "1",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "LightAqua",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Channel",
+                "ww": "1"
+              },
+              {
+                "number": "2",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "VeryLightOrange",
+                "ct": "Black",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Channel",
+                "ww": "1"
+              }
+            ]
+          },
+          {
+            "type": "general",
+            "bi": "99",
+            "na": "BtnAllwayOn",
+            "li": "1",
+            "lt": "297",
+            "tp": "378",
+            "wt": "125",
+            "ht": "125",
+            "zo": "100",
+            "hs": "bounding",
+            "bs": "",
+            "da": "1",
+            "hd": "1",
+            "fb": "on",
+            "ch": "10",
+            "rl": "0",
+            "rh": "255",
+            "ac": {
+              "di": "0"
+            },
+            "sr": [
+              {
+                "number": "1",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "LightAqua",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Always on",
+                "ww": "1"
+              },
+              {
+                "number": "2",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "VeryLightOrange",
+                "ct": "Black",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Always on",
+                "ww": "1"
+              }
+            ]
+          },
+          {
+            "type": "general",
+            "bi": "100",
+            "na": "BtnBlink",
+            "li": "1",
+            "lt": "569",
+            "tp": "378",
+            "wt": "125",
+            "ht": "125",
+            "zo": "101",
+            "hs": "passThru",
+            "bs": "",
+            "fb": "blink",
+            "ch": "10",
+            "rl": "0",
+            "rh": "255",
+            "ac": {
+              "di": "0"
+            },
+            "sr": [
+              {
+                "number": "1",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "LightAqua",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Blink",
+                "ww": "1"
+              },
+              {
+                "number": "2",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "VeryLightOrange",
+                "ct": "Black",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Blink",
+                "ww": "1"
+              }
+            ]
+          },
+          {
+            "type": "general",
+            "bi": "101",
+            "na": "BtnMomentary",
+            "li": "1",
+            "lt": "433",
+            "tp": "378",
+            "wt": "125",
+            "ht": "125",
+            "zo": "102",
+            "bs": "",
+            "fb": "momentary",
+            "ch": "10",
+            "rl": "0",
+            "rh": "255",
+            "ac": {
+              "di": "0"
+            },
+            "sr": [
+              {
+                "number": "1",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "LightAqua",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Momentary",
+                "ww": "1"
+              },
+              {
+                "number": "2",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "VeryLightOrange",
+                "ct": "Black",
+                "ec": "#000000FF",
+                "fi": "34",
+                "te": "Momentary",
+                "ww": "1"
+              }
+            ]
+          },
+          {
+            "type": "general",
+            "bi": "102",
+            "na": "[Time]",
+            "lt": "776",
+            "tp": "16",
+            "wt": "232",
+            "ht": "46",
+            "zo": "103",
+            "bs": "",
+            "ad": "101",
+            "ch": "101",
+            "rl": "0",
+            "rh": "255",
+            "ac": {
+              "di": "0"
+            },
+            "sr": [
+              {
+                "number": "1",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "DarkCyan",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "33",
+                "te": "[Time]"
+              },
+              {
+                "number": "2",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "MediumAqua",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "33",
+                "te": "[Time]"
+              }
+            ]
+          },
+          {
+            "type": "general",
+            "bi": "103",
+            "na": "[Date]",
+            "lt": "776",
+            "tp": "72",
+            "wt": "232",
+            "ht": "46",
+            "zo": "104",
+            "bs": "",
+            "ad": "102",
+            "ch": "102",
+            "rl": "0",
+            "rh": "255",
+            "ac": {
+              "di": "0"
+            },
+            "sr": [
+              {
+                "number": "1",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "DarkCyan",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "33",
+                "te": "[Date]"
+              },
+              {
+                "number": "2",
+                "bs": "Single Line",
+                "cb": "Black",
+                "cf": "MediumAqua",
+                "ct": "White",
+                "ec": "#000000FF",
+                "fi": "33",
+                "te": "[Date]"
               }
             ]
           }
@@ -3772,14 +4213,15 @@ var Proj = {
           {
             "type": "general",
             "bi": "1",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "136",
             "tp": "86",
             "wt": "112",
             "ht": "112",
             "zo": "1",
             "bs": "",
+            "cp": "5",
+            "ch": "55",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -3813,8 +4255,7 @@ var Proj = {
           {
             "type": "general",
             "bi": "2",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "256",
             "tp": "86",
             "wt": "112",
@@ -3854,8 +4295,7 @@ var Proj = {
           {
             "type": "general",
             "bi": "3",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "376",
             "tp": "86",
             "wt": "112",
@@ -3895,8 +4335,7 @@ var Proj = {
           {
             "type": "general",
             "bi": "4",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "136",
             "tp": "206",
             "wt": "112",
@@ -3936,8 +4375,7 @@ var Proj = {
           {
             "type": "general",
             "bi": "5",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "256",
             "tp": "206",
             "wt": "112",
@@ -3975,8 +4413,7 @@ var Proj = {
           {
             "type": "general",
             "bi": "6",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "376",
             "tp": "206",
             "wt": "112",
@@ -4016,8 +4453,7 @@ var Proj = {
           {
             "type": "general",
             "bi": "7",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "136",
             "tp": "326",
             "wt": "112",
@@ -4057,8 +4493,7 @@ var Proj = {
           {
             "type": "general",
             "bi": "8",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "256",
             "tp": "326",
             "wt": "112",
@@ -4098,8 +4533,7 @@ var Proj = {
           {
             "type": "general",
             "bi": "9",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "376",
             "tp": "326",
             "wt": "112",
@@ -4139,14 +4573,15 @@ var Proj = {
           {
             "type": "general",
             "bi": "10",
-            "na": "Button B",
-            "li": "1",
+            "na": "Power-64x64",
             "lt": "16",
             "tp": "86",
             "wt": "112",
             "ht": "112",
             "zo": "10",
             "bs": "",
+            "cp": "5",
+            "ch": "55",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -4184,14 +4619,14 @@ var Proj = {
           {
             "type": "general",
             "bi": "11",
-            "na": "Button B",
-            "li": "1",
+            "na": "Bitmap Justification",
             "lt": "16",
             "tp": "16",
             "wt": "472",
             "ht": "62",
             "zo": "11",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -4223,14 +4658,14 @@ var Proj = {
           {
             "type": "general",
             "bi": "12",
-            "na": "Button B",
-            "li": "1",
+            "na": "Text Justification",
             "lt": "512",
             "tp": "16",
             "wt": "472",
             "ht": "62",
             "zo": "12",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -4245,7 +4680,7 @@ var Proj = {
                 "ct": "Black",
                 "ec": "#000000FF",
                 "fi": "34",
-                "te": "VeryLightOrange"
+                "te": "Text Justification"
               },
               {
                 "number": "2",
@@ -4262,8 +4697,7 @@ var Proj = {
           {
             "type": "general",
             "bi": "13",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Top Left",
             "lt": "632",
             "tp": "86",
             "wt": "112",
@@ -4283,9 +4717,10 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Top Left",
-                "jt": "1"
+                "fi": "33",
+                "te": "This Text is\r\nTop Left",
+                "jt": "1",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4294,17 +4729,17 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Top Left",
-                "jt": "1"
+                "fi": "33",
+                "te": "This Text is\r\nTop Left",
+                "jt": "1",
+                "ww": "1"
               }
             ]
           },
           {
             "type": "general",
             "bi": "14",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Top Middle",
             "lt": "752",
             "tp": "86",
             "wt": "112",
@@ -4324,9 +4759,10 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Top Middle",
-                "jt": "2"
+                "fi": "33",
+                "te": "This Text is\r\nTop Middle",
+                "jt": "2",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4335,17 +4771,17 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Top Middle",
-                "jt": "2"
+                "fi": "33",
+                "te": "This Text is\r\nTop Middle",
+                "jt": "2",
+                "ww": "1"
               }
             ]
           },
           {
             "type": "general",
             "bi": "15",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Top Right",
             "lt": "872",
             "tp": "86",
             "wt": "112",
@@ -4365,9 +4801,10 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Top Right",
-                "jt": "3"
+                "fi": "33",
+                "te": "This Text is\r\nTop Right",
+                "jt": "3",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4376,17 +4813,17 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Top Right",
-                "jt": "3"
+                "fi": "33",
+                "te": "This Text is\r\nTop Right",
+                "jt": "3",
+                "ww": "1"
               }
             ]
           },
           {
             "type": "general",
             "bi": "16",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Absolute 20x20",
             "lt": "512",
             "tp": "86",
             "wt": "112",
@@ -4408,11 +4845,12 @@ var Proj = {
                 "ec": "#000000FF",
                 "bx": "20",
                 "by": "20",
-                "fi": "35",
-                "te": "Absolute",
+                "fi": "33",
+                "te": "This Text is\r\nAbsolute 20x20",
                 "jt": "0",
                 "tx": "20",
-                "ty": "20"
+                "ty": "20",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4423,19 +4861,19 @@ var Proj = {
                 "ec": "#000000FF",
                 "bx": "20",
                 "by": "20",
-                "fi": "35",
-                "te": "Absolute",
+                "fi": "33",
+                "te": "This Text is\r\nAbsolute 20x20",
                 "jt": "0",
                 "tx": "20",
-                "ty": "20"
+                "ty": "20",
+                "ww": "1"
               }
             ]
           },
           {
             "type": "general",
             "bi": "17",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Center Left",
             "lt": "632",
             "tp": "206",
             "wt": "112",
@@ -4455,9 +4893,10 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Center Left",
-                "jt": "4"
+                "fi": "33",
+                "te": "This Text is\r\nCenter Left",
+                "jt": "4",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4466,17 +4905,17 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Center Left",
-                "jt": "4"
+                "fi": "33",
+                "te": "This Text is\r\nCenter Left",
+                "jt": "4",
+                "ww": "1"
               }
             ]
           },
           {
             "type": "general",
             "bi": "18",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Center Middle",
             "lt": "752",
             "tp": "206",
             "wt": "112",
@@ -4496,8 +4935,9 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Center Middle"
+                "fi": "33",
+                "te": "This Text is\r\nCenter Middle",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4506,16 +4946,16 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Center Middle"
+                "fi": "33",
+                "te": "This Text is\r\nCenter Middle",
+                "ww": "1"
               }
             ]
           },
           {
             "type": "general",
             "bi": "19",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Center Right",
             "lt": "872",
             "tp": "206",
             "wt": "112",
@@ -4535,9 +4975,10 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Center Right",
-                "jt": "6"
+                "fi": "33",
+                "te": "This Text is\r\nCenter Right",
+                "jt": "6",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4546,17 +4987,17 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Center Right",
-                "jt": "6"
+                "fi": "33",
+                "te": "This Text is\r\nCenter Right",
+                "jt": "6",
+                "ww": "1"
               }
             ]
           },
           {
             "type": "general",
             "bi": "20",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Bottom Left",
             "lt": "632",
             "tp": "326",
             "wt": "112",
@@ -4576,9 +5017,10 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Bottom Left",
-                "jt": "7"
+                "fi": "33",
+                "te": "This Text is\r\nBottom Left",
+                "jt": "7",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4587,17 +5029,17 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Bottom Left",
-                "jt": "7"
+                "fi": "33",
+                "te": "This Text is\r\nBottom Left",
+                "jt": "7",
+                "ww": "1"
               }
             ]
           },
           {
             "type": "general",
             "bi": "21",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Bottom Middle",
             "lt": "752",
             "tp": "326",
             "wt": "112",
@@ -4617,9 +5059,10 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Bottom Middle",
-                "jt": "8"
+                "fi": "33",
+                "te": "This Text is\r\nBottom Middle",
+                "jt": "8",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4628,17 +5071,17 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Bottom Middle",
-                "jt": "8"
+                "fi": "33",
+                "te": "This Text is\r\nBottom Middle",
+                "jt": "8",
+                "ww": "1"
               }
             ]
           },
           {
             "type": "general",
             "bi": "22",
-            "na": "Button B",
-            "li": "1",
+            "na": "This Text is Bottom Right",
             "lt": "872",
             "tp": "326",
             "wt": "112",
@@ -4658,9 +5101,10 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Bottom Right",
-                "jt": "9"
+                "fi": "33",
+                "te": "This Text is\r\nBottom Right",
+                "jt": "9",
+                "ww": "1"
               },
               {
                 "number": "2",
@@ -4669,9 +5113,10 @@ var Proj = {
                 "cf": "VeryDarkAqua",
                 "ct": "White",
                 "ec": "#000000FF",
-                "fi": "35",
-                "te": "Bottom Right",
-                "jt": "9"
+                "fi": "33",
+                "te": "This Text is\r\nBottom Right",
+                "jt": "9",
+                "ww": "1"
               }
             ]
           }
@@ -4696,10 +5141,10 @@ var Proj = {
         "popupType": "popup",
         "pageID": "502",
         "name": "PP_Navigation_On",
-        "left": "280",
-        "top": "224",
-        "width": "728",
-        "height": "152",
+        "left": "297",
+        "top": "519",
+        "width": "711",
+        "height": "64",
         "group": "Navigation",
         "button": [
           {
@@ -4709,8 +5154,8 @@ var Proj = {
             "li": "1",
             "lt": "158",
             "tp": "8",
-            "wt": "277",
-            "ht": "136",
+            "wt": "269",
+            "ht": "48",
             "zo": "1",
             "bs": "",
             "rl": "0",
@@ -4746,10 +5191,10 @@ var Proj = {
             "bi": "2",
             "na": "Button",
             "li": "1",
-            "lt": "443",
+            "lt": "434",
             "tp": "8",
-            "wt": "277",
-            "ht": "136",
+            "wt": "269",
+            "ht": "48",
             "zo": "2",
             "bs": "",
             "rl": "0",
@@ -4788,7 +5233,7 @@ var Proj = {
             "lt": "8",
             "tp": "8",
             "wt": "141",
-            "ht": "53",
+            "ht": "48",
             "zo": "3",
             "bs": "",
             "rl": "0",
@@ -4837,10 +5282,10 @@ var Proj = {
         "popupType": "popup",
         "pageID": "503",
         "name": "PP_Navigation_Off",
-        "left": "280",
-        "top": "378",
-        "width": "728",
-        "height": "152",
+        "left": "297",
+        "top": "519",
+        "width": "711",
+        "height": "64",
         "group": "Navigation",
         "button": [
           {
@@ -4850,8 +5295,8 @@ var Proj = {
             "li": "1",
             "lt": "158",
             "tp": "8",
-            "wt": "277",
-            "ht": "136",
+            "wt": "269",
+            "ht": "48",
             "zo": "1",
             "bs": "",
             "rl": "0",
@@ -4887,10 +5332,10 @@ var Proj = {
             "bi": "2",
             "na": "Button",
             "li": "1",
-            "lt": "443",
+            "lt": "434",
             "tp": "8",
-            "wt": "277",
-            "ht": "136",
+            "wt": "269",
+            "ht": "48",
             "zo": "2",
             "bs": "",
             "rl": "0",
@@ -4929,7 +5374,7 @@ var Proj = {
             "lt": "8",
             "tp": "8",
             "wt": "141",
-            "ht": "53",
+            "ht": "48",
             "zo": "3",
             "bs": "",
             "rl": "0",
@@ -4978,10 +5423,10 @@ var Proj = {
         "popupType": "popup",
         "pageID": "504",
         "name": "PP_Popup_A",
-        "left": "280",
-        "top": "532",
-        "width": "728",
-        "height": "72",
+        "left": "297",
+        "top": "599",
+        "width": "711",
+        "height": "64",
         "button": [
           {
             "type": "general",
@@ -4990,7 +5435,7 @@ var Proj = {
             "li": "1",
             "lt": "158",
             "tp": "8",
-            "wt": "277",
+            "wt": "269",
             "ht": "48",
             "zo": "1",
             "bs": "",
@@ -5027,9 +5472,9 @@ var Proj = {
             "bi": "2",
             "na": "Button",
             "li": "1",
-            "lt": "443",
+            "lt": "434",
             "tp": "8",
-            "wt": "277",
+            "wt": "269",
             "ht": "48",
             "zo": "2",
             "bs": "",
@@ -5069,7 +5514,7 @@ var Proj = {
             "lt": "8",
             "tp": "8",
             "wt": "141",
-            "ht": "53",
+            "ht": "48",
             "zo": "3",
             "bs": "",
             "rl": "0",
@@ -5118,10 +5563,10 @@ var Proj = {
         "popupType": "popup",
         "pageID": "505",
         "name": "PP_Popup_B",
-        "left": "280",
-        "top": "606",
-        "width": "728",
-        "height": "72",
+        "left": "297",
+        "top": "679",
+        "width": "711",
+        "height": "64",
         "button": [
           {
             "type": "general",
@@ -5130,7 +5575,7 @@ var Proj = {
             "li": "1",
             "lt": "158",
             "tp": "8",
-            "wt": "277",
+            "wt": "269",
             "ht": "48",
             "zo": "1",
             "bs": "",
@@ -5167,9 +5612,9 @@ var Proj = {
             "bi": "2",
             "na": "Button",
             "li": "1",
-            "lt": "443",
+            "lt": "434",
             "tp": "8",
-            "wt": "277",
+            "wt": "269",
             "ht": "48",
             "zo": "2",
             "bs": "",
@@ -5209,7 +5654,7 @@ var Proj = {
             "lt": "8",
             "tp": "8",
             "wt": "141",
-            "ht": "53",
+            "ht": "48",
             "zo": "3",
             "bs": "",
             "rl": "0",
@@ -5263,14 +5708,14 @@ var Proj = {
           {
             "type": "general",
             "bi": "1",
-            "na": "Button B",
-            "li": "1",
+            "na": "PAGE_C",
             "lt": "175",
             "tp": "217",
             "wt": "675",
             "ht": "334",
             "zo": "1",
             "bs": "",
+            "fb": "none",
             "rl": "0",
             "rh": "255",
             "ac": {
@@ -5314,35 +5759,132 @@ var Proj = {
   ],
   "map": {
     "cm": {
-      "me": {
-        "p": "3",
-        "c": "33",
-        "pg": "1",
-        "bt": "1",
-        "pn": "MainPage",
-        "bn": "Button A"
-      }
+      "me": [
+        {
+          "p": "1",
+          "c": "10",
+          "pg": "1",
+          "bt": "96",
+          "pn": "MainPage",
+          "bn": "BtnNone"
+        },
+        {
+          "p": "1",
+          "c": "10",
+          "pg": "1",
+          "bt": "97",
+          "pn": "MainPage",
+          "bn": "BtnInvertedChannel"
+        },
+        {
+          "p": "1",
+          "c": "10",
+          "pg": "1",
+          "bt": "98",
+          "pn": "MainPage",
+          "bn": "BtnChannel"
+        },
+        {
+          "p": "1",
+          "c": "10",
+          "pg": "1",
+          "bt": "99",
+          "pn": "MainPage",
+          "bn": "BtnAllwayOn"
+        },
+        {
+          "p": "1",
+          "c": "10",
+          "pg": "1",
+          "bt": "100",
+          "pn": "MainPage",
+          "bn": "BtnBlink"
+        },
+        {
+          "p": "1",
+          "c": "10",
+          "pg": "1",
+          "bt": "101",
+          "pn": "MainPage",
+          "bn": "BtnMomentary"
+        },
+        {
+          "p": "1",
+          "c": "101",
+          "pg": "1",
+          "bt": "102",
+          "pn": "MainPage",
+          "bn": "[Time]"
+        },
+        {
+          "p": "1",
+          "c": "102",
+          "pg": "1",
+          "bt": "103",
+          "pn": "MainPage",
+          "bn": "[Date]"
+        },
+        {
+          "p": "3",
+          "c": "33",
+          "pg": "1",
+          "bt": "1",
+          "pn": "MainPage",
+          "bn": "Button A"
+        },
+        {
+          "p": "5",
+          "c": "55",
+          "pg": "2",
+          "bt": "1",
+          "pn": "Page_B",
+          "bn": "Power-64x64"
+        },
+        {
+          "p": "5",
+          "c": "55",
+          "pg": "1",
+          "bt": "2",
+          "pn": "MainPage",
+          "bn": "Button B"
+        },
+        {
+          "p": "5",
+          "c": "55",
+          "pg": "2",
+          "bt": "10",
+          "pn": "Page_B",
+          "bn": "Power-64x64"
+        }
+      ]
     },
     "am": {
-      "me": {
-        "p": "2",
-        "c": "22",
-        "pg": "1",
-        "bt": "1",
-        "pn": "MainPage",
-        "bn": "Button A"
-      }
-    },
-    "lm": {
-      "me": {
-        "p": "4",
-        "c": "44",
-        "ax": "0",
-        "pg": "1",
-        "bt": "1",
-        "pn": "MainPage",
-        "bn": "Button A"
-      }
+      "me": [
+        {
+          "p": "1",
+          "c": "101",
+          "pg": "1",
+          "bt": "102",
+          "pn": "MainPage",
+          "bn": "[Time]"
+        },
+        {
+          "p": "1",
+          "c": "102",
+          "pg": "1",
+          "bt": "103",
+          "pn": "MainPage",
+          "bn": "[Date]"
+        },
+        {
+          "p": "2",
+          "c": "22",
+          "pg": "1",
+          "bt": "1",
+          "pn": "MainPage",
+          "bn": "Button A"
+        }
+      ]
     },
     "bm": {
       "im": {
@@ -6163,15 +6705,15 @@ var Proj = {
         "usageCount": "2003"
       },
       {
-        "number": "32",
-        "file": "verdanab.ttf",
-        "fileSize": "211316",
+        "number": "33",
+        "file": "arial-boldatc.ttf",
+        "fileSize": "622396",
         "faceIndex": "0",
-        "name": "Verdana",
+        "name": "Arial",
         "subfamilyName": "Bold",
-        "fullName": "Verdana Bold",
-        "size": "14",
-        "usageCount": "2"
+        "fullName": "Arial Bold ATC",
+        "size": "10",
+        "usageCount": "24"
       },
       {
         "number": "34",
@@ -6182,18 +6724,29 @@ var Proj = {
         "subfamilyName": "Bold",
         "fullName": "Arial Bold ATC",
         "size": "12",
-        "usageCount": "4"
+        "usageCount": "16"
       },
       {
         "number": "35",
-        "file": "arial-boldatc.ttf",
-        "fileSize": "622396",
+        "file": "verdanab.ttf",
+        "fileSize": "211316",
         "faceIndex": "0",
-        "name": "Arial",
+        "name": "Verdana",
         "subfamilyName": "Bold",
-        "fullName": "Arial Bold ATC",
-        "size": "10",
-        "usageCount": "20"
+        "fullName": "Verdana Bold",
+        "size": "12",
+        "usageCount": "2"
+      },
+      {
+        "number": "36",
+        "file": "itckrist.ttf",
+        "fileSize": "59712",
+        "faceIndex": "0",
+        "name": "Kristen ITC",
+        "subfamilyName": "Regular",
+        "fullName": "Kristen ITC",
+        "size": "12",
+        "usageCount": "2"
       },
       {
         "number": "38",
@@ -6204,17 +6757,17 @@ var Proj = {
         "subfamilyName": "Bold",
         "fullName": "Calibri Bold",
         "size": "12",
-        "usageCount": "48"
+        "usageCount": "46"
       },
       {
-        "number": "39",
-        "file": "consolab.ttf",
-        "fileSize": "392348",
+        "number": "43",
+        "file": "digiticg.ttf",
+        "fileSize": "36308",
         "faceIndex": "0",
-        "name": "Consolas",
-        "subfamilyName": "Bold",
-        "fullName": "Consolas Bold",
-        "size": "12",
+        "name": "Digital",
+        "subfamilyName": "Medium",
+        "fullName": "DigitalICG",
+        "size": "16",
         "usageCount": "2"
       }
     ]

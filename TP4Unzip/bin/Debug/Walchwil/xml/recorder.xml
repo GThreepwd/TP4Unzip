@@ -1,0 +1,733 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
+<root>
+  <page type="subpage" popupType="popup">
+    <pageID>516</pageID>
+    <name>Recorder</name>
+    <top>91</top>
+    <width>1024</width>
+    <height>565</height>
+    <group>Content</group>
+    <hideTime>3</hideTime>
+    <button type="general">
+      <bi>1</bi>
+      <na>Recorder</na>
+      <lt>32</lt>
+      <tp>16</tp>
+      <wt>960</wt>
+      <ht>30</ht>
+      <zo>1</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Recorder</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightOrange</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Recorder</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>2</bi>
+      <na>p</na>
+      <lt>754</lt>
+      <tp>246</tp>
+      <wt>135</wt>
+      <ht>135</ht>
+      <zo>2</zo>
+      <bs>
+      </bs>
+      <cp>7</cp>
+      <ch>12</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 135</bs>
+        <cb>#222222FF</cb>
+        <cf>17</cf>
+        <ct>#AC0000FF</ct>
+        <ec>#63356300</ec>
+        <fi>63</fi>
+        <te>p</te>
+        <tx>52</tx>
+        <ty>26</ty>
+      </sr>
+      <sr number="2">
+        <bs>Circle 135</bs>
+        <cb>#222222FF</cb>
+        <cf>#FCAEB2FF</cf>
+        <ct>#E10101FF</ct>
+        <ec>#63356300</ec>
+        <fi>63</fi>
+        <te>p</te>
+        <tx>52</tx>
+        <ty>26</ty>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>3</bi>
+      <na>w</na>
+      <lt>556</lt>
+      <tp>246</tp>
+      <wt>135</wt>
+      <ht>135</ht>
+      <zo>3</zo>
+      <bs>
+      </bs>
+      <cp>7</cp>
+      <ch>11</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 135</bs>
+        <cb>#222222FF</cb>
+        <cf>17</cf>
+        <ct>Grey12</ct>
+        <ec>#63356300</ec>
+        <fi>63</fi>
+        <te>w</te>
+        <tx>52</tx>
+        <ty>26</ty>
+      </sr>
+      <sr number="2">
+        <bs>Circle 135</bs>
+        <cb>#222222FF</cb>
+        <cf>MediumLime</cf>
+        <ct>Grey12</ct>
+        <ec>#63356300</ec>
+        <fi>63</fi>
+        <te>w</te>
+        <tx>52</tx>
+        <ty>26</ty>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>4</bi>
+      <na>00:00:00</na>
+      <lt>241</lt>
+      <tp>460</tp>
+      <wt>200</wt>
+      <ht>62</ht>
+      <zo>4</zo>
+      <bs>
+      </bs>
+      <ap>7</ap>
+      <ad>3</ad>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>17</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>62</fi>
+        <te>00:00:00</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>17</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>62</fi>
+        <te>00:00:00</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>5</bi>
+      <na>Gesammte verbleibende Aufnahmezeit</na>
+      <lt>241</lt>
+      <tp>406</tp>
+      <wt>200</wt>
+      <ht>46</ht>
+      <zo>5</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Gesammte verbleibende Aufnahmezeit</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Gesammte verbleibende Aufnahmezeit</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>7</bi>
+      <na>Aufgezeichnete Daten werden auf das Medium geschrieben</na>
+      <lt>457</lt>
+      <tp>62</tp>
+      <wt>535</wt>
+      <ht>119</ht>
+      <zo>7</zo>
+      <bs>
+      </bs>
+      <ap>7</ap>
+      <ad>1</ad>
+      <cp>7</cp>
+      <ch>1</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>17</cf>
+        <ct>#000000FF</ct>
+        <ec>#000000FF</ec>
+        <fi>36</fi>
+        <te>Aufgezeichnete Daten werden auf das Medium geschrieben</te>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>VeryLightRed</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>36</fi>
+        <te>Aufgezeichnete Daten werden auf das Medium geschrieben</te>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>8</bi>
+      <na>00:00:00</na>
+      <lt>32</lt>
+      <tp>460</tp>
+      <wt>200</wt>
+      <ht>62</ht>
+      <zo>8</zo>
+      <bs>
+      </bs>
+      <ap>7</ap>
+      <ad>2</ad>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>17</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>62</fi>
+        <te>00:00:00</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>17</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>62</fi>
+        <te>00:00:00</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>9</bi>
+      <na>Verbleibende Aufnahmezeit (Titel)</na>
+      <lt>32</lt>
+      <tp>406</tp>
+      <wt>200</wt>
+      <ht>46</ht>
+      <zo>9</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Verbleibende Aufnahmezeit (Titel)</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Verbleibende Aufnahmezeit (Titel)</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>10</bi>
+      <na>---</na>
+      <lt>32</lt>
+      <tp>292</tp>
+      <wt>200</wt>
+      <ht>62</ht>
+      <zo>10</zo>
+      <bs>
+      </bs>
+      <ap>7</ap>
+      <ad>4</ad>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>17</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>62</fi>
+        <te>---</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>17</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>62</fi>
+        <te>---</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>11</bi>
+      <na>Aktuelles  Speichermedium</na>
+      <lt>32</lt>
+      <tp>222</tp>
+      <wt>200</wt>
+      <ht>62</ht>
+      <zo>11</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Aktuelles 
+Speichermedium</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Aktuelles 
+Speichermedium</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>12</bi>
+      <na>Speichermedium</na>
+      <lt>32</lt>
+      <tp>62</tp>
+      <wt>409</wt>
+      <ht>31</ht>
+      <zo>12</zo>
+      <bs>
+      </bs>
+      <fb>none</fb>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey2</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Speichermedium</te>
+      </sr>
+      <sr number="2">
+        <bs>Single Line</bs>
+        <cb>Black</cb>
+        <cf>Grey2</cf>
+        <ct>Black</ct>
+        <ec>#000000FF</ec>
+        <fi>116</fi>
+        <te>Speichermedium</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>13</bi>
+      <na>SD</na>
+      <lt>173</lt>
+      <tp>109</tp>
+      <wt>127</wt>
+      <ht>72</ht>
+      <zo>13</zo>
+      <bs>
+      </bs>
+      <ap>7</ap>
+      <ad>103</ad>
+      <cp>7</cp>
+      <ch>103</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>40</fi>
+        <te>SD</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>40</fi>
+        <te>SD</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>14</bi>
+      <na>USB</na>
+      <lt>32</lt>
+      <tp>109</tp>
+      <wt>127</wt>
+      <ht>72</ht>
+      <zo>14</zo>
+      <bs>
+      </bs>
+      <ap>7</ap>
+      <ad>102</ad>
+      <cp>7</cp>
+      <ch>102</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>40</fi>
+        <te>USB</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>40</fi>
+        <te>USB</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>15</bi>
+      <na>CF</na>
+      <lt>314</lt>
+      <tp>109</tp>
+      <wt>127</wt>
+      <ht>72</ht>
+      <zo>15</zo>
+      <bs>
+      </bs>
+      <ap>7</ap>
+      <ad>100</ad>
+      <cp>7</cp>
+      <ch>100</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>Circle 15</bs>
+        <cb>157</cb>
+        <cf>1</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>40</fi>
+        <te>CF</te>
+      </sr>
+      <sr number="2">
+        <bs>Circle 15</bs>
+        <cb>Black</cb>
+        <cf>MediumGreen</cf>
+        <ct>White</ct>
+        <ec>#000000FF</ec>
+        <bm>Btn-1280x70.png</bm>
+        <fi>40</fi>
+        <te>CF</te>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>18</bi>
+      <na>Warning</na>
+      <lt>420</lt>
+      <tp>495</tp>
+      <wt>42</wt>
+      <ht>44</ht>
+      <zo>18</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>7</ap>
+      <ad>99</ad>
+      <cp>7</cp>
+      <ch>99</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Transparent</ct>
+        <ec>Transparent</ec>
+        <bm>symbolWarningYellow40Red_shadow.png</bm>
+        <by>11</by>
+        <fi>20</fi>
+        <ty>32</ty>
+        <et>25</et>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Transparent</ct>
+        <ec>Transparent</ec>
+        <by>11</by>
+        <fi>20</fi>
+        <ty>32</ty>
+        <et>25</et>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>19</bi>
+      <na>Aufnahme starten</na>
+      <lt>754</lt>
+      <tp>406</tp>
+      <wt>135</wt>
+      <ht>46</ht>
+      <zo>19</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Aufnahme
+starten</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Aufnahme
+starten</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>20</bi>
+      <na>Aufnahme stoppen</na>
+      <lt>556</lt>
+      <tp>406</tp>
+      <wt>135</wt>
+      <ht>46</ht>
+      <zo>20</zo>
+      <bs>
+      </bs>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Aufnahme
+stoppen</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>Black</cb>
+        <cf>#63356300</cf>
+        <ct>Black</ct>
+        <ec>#63356300</ec>
+        <fi>116</fi>
+        <te>Aufnahme
+stoppen</te>
+        <tx>42</tx>
+        <ty>19</ty>
+        <ww>1</ww>
+      </sr>
+    </button>
+    <button type="general">
+      <bi>21</bi>
+      <na>Warning</na>
+      <lt>942</lt>
+      <tp>129</tp>
+      <wt>42</wt>
+      <ht>44</ht>
+      <zo>21</zo>
+      <hs>passThru</hs>
+      <bs>
+      </bs>
+      <fb>blink</fb>
+      <ap>7</ap>
+      <ad>98</ad>
+      <cp>7</cp>
+      <ch>98</ch>
+      <rl>0</rl>
+      <rh>255</rh>
+      <ac di="0" />
+      <sr number="1">
+        <bs>
+        </bs>
+        <cb>VeryLightYellow</cb>
+        <cf>Transparent</cf>
+        <ct>Transparent</ct>
+        <ec>Transparent</ec>
+        <bm>symbolWarningYellow40Red_shadow.png</bm>
+        <by>11</by>
+        <fi>20</fi>
+        <ty>32</ty>
+        <et>25</et>
+      </sr>
+      <sr number="2">
+        <bs>
+        </bs>
+        <cb>LightBlue</cb>
+        <cf>Transparent</cf>
+        <ct>Transparent</ct>
+        <ec>Transparent</ec>
+        <by>11</by>
+        <fi>20</fi>
+        <ty>32</ty>
+        <et>25</et>
+      </sr>
+    </button>
+    <sr number="1">
+      <bs>
+      </bs>
+      <cb>#222222FF</cb>
+      <cf>White</cf>
+      <ct>#222222FF</ct>
+      <ec>#222222FF</ec>
+      <jb>1</jb>
+      <fi>45</fi>
+    </sr>
+  </page>
+</root>

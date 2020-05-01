@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../DefaultStyle.xslx"?>
 <root>
   <versionInfo>
     <formatVersion>4</formatVersion>
@@ -29,7 +28,7 @@
     </designerId>
     <creationDate>Tue May 22 08:34:48 2018</creationDate>
     <revisionDate>Tue May 22 08:34:48 2018</revisionDate>
-    <lastSaveDate>Sun Jun 03 18:05:08 2018</lastSaveDate>
+    <lastSaveDate>Sun Jun 17 16:59:41 2018</lastSaveDate>
     <fileName>Simple.tp4</fileName>
     <colorChoice>
     </colorChoice>
@@ -46,11 +45,11 @@
     <externalButtonFile>external.xma</externalButtonFile>
   </supportFileList>
   <panelSetup>
-    <portCount>4</portCount>
+    <portCount>5</portCount>
     <setupPort>0</setupPort>
-    <addressCount>22</addressCount>
-    <channelCount>33</channelCount>
-    <levelCount>44</levelCount>
+    <addressCount>102</addressCount>
+    <channelCount>102</channelCount>
+    <levelCount>0</levelCount>
     <powerUpPage>MainPage</powerUpPage>
     <feedbackBlinkRate>5</feedbackBlinkRate>
     <startupString>
@@ -183,7 +182,7 @@
   <fwFeatureList>
     <feature>
       <featureID>buttonTouchStyle</featureID>
-      <usageCount>2</usageCount>
+      <usageCount>6</usageCount>
     </feature>
   </fwFeatureList>
   <paletteList>

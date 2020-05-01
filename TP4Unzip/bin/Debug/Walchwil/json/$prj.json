@@ -1,0 +1,279 @@
+{
+  "versionInfo": {
+    "formatVersion": "4",
+    "graphicsVersion": "9",
+    "fileVersion": "",
+    "designVersion": ""
+  },
+  "projectInfo": {
+    "protection": "none",
+    "password": {
+      "encrypted": "1"
+    },
+    "panelType": "iPad (TPC)",
+    "fileRevision": "V02",
+    "dealerId": "Sonnenberg",
+    "jobName": "Gemeinde Walchwil",
+    "salesOrder": "",
+    "purchaseOrder": "",
+    "jobComment": "",
+    "designerId": "dp",
+    "creationDate": "Thu Dec 27 19:23:37 2012",
+    "revisionDate": "Fri Mar 30 15:04:57 2018",
+    "lastSaveDate": "Thu Apr 26 15:52:45 2018",
+    "fileName": "Walchwil,iPad,V02,dp.tp4",
+    "colorChoice": "",
+    "specifyPortCount": "0",
+    "specifyChanCount": "0"
+  },
+  "supportFileList": {
+    "mapFile": "map.xma",
+    "colorFile": "pal_001.xma",
+    "fontFile": "fnt.xma",
+    "themeFile": "",
+    "iconFile": "icon.xma",
+    "externalButtonFile": "external.xma"
+  },
+  "panelSetup": {
+    "portCount": "10",
+    "setupPort": "0",
+    "addressCount": "321",
+    "channelCount": "503",
+    "levelCount": "221",
+    "powerUpPage": "Main",
+    "powerUpPopup": [
+      "Welcome",
+      "Navigation_Off"
+    ],
+    "feedbackBlinkRate": "5",
+    "startupString": "tp_startup",
+    "wakeupString": "tp_wakeup",
+    "sleepString": "tp_sleep",
+    "standbyString": "tp_standby",
+    "shutdownString": "tp_shutdown",
+    "idlePage": "",
+    "idleTimeout": "0",
+    "extButtonsKey": "0",
+    "screenWidth": "1024",
+    "screenHeight": "768",
+    "screenRefresh": "60",
+    "screenRotate": "0",
+    "screenDescription": "",
+    "pageTracking": "0",
+    "cursor": "0",
+    "brightness": "128",
+    "lightSensorLevelPort": "1",
+    "lightSensorLevelCode": "0",
+    "lightSensorChannelPort": "1",
+    "lightSensorChannelCode": "0",
+    "motionSensorChannelPort": "1",
+    "motionSensorChannelCode": "0",
+    "batteryLevelPort": "1",
+    "batteryLevelCode": "0",
+    "irPortAMX38Emit": "0",
+    "irPortAMX455Emit": "0",
+    "irPortAMX38Recv": "0",
+    "irPortAMX455Recv": "0",
+    "irPortUser1": "0",
+    "irPortUser2": "0",
+    "cradleChannelPort": "1",
+    "cradleChannelCode": "0",
+    "uniqueID": "2 - Thu Dec 27 19:23:37 2012",
+    "appCreated": "TPDesign4",
+    "buildNumber": "674",
+    "appModified": "TPDesign4",
+    "buildNumberMod": "674",
+    "buildStatusMod": "ga",
+    "activePalette": "1",
+    "marqueeSpeed": "1",
+    "setupPagesProject": "0",
+    "voipCommandPort": "1"
+  },
+  "pageList": [
+    {
+      "type": "page",
+      "pageEntry": {
+        "name": "Main",
+        "pageID": "4",
+        "file": "Main.xml",
+        "isValid": "-1"
+      }
+    },
+    {
+      "type": "subpage",
+      "pageEntry": [
+        {
+          "name": "Navigation_On",
+          "pageID": "502",
+          "file": "Navigation_On.xml",
+          "group": "Navigation",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Blueray",
+          "pageID": "503",
+          "file": "Blueray.xml",
+          "group": "",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Setup",
+          "pageID": "504",
+          "file": "Setup.xml",
+          "group": "",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "MsgBox_ProjectorOff",
+          "pageID": "505",
+          "file": "MsgBox_ProjectorOff.xml",
+          "group": "MsgBox",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "_Content",
+          "pageID": "506",
+          "file": "_Content.xml",
+          "group": "Content",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Setup_NetBooter",
+          "pageID": "507",
+          "file": "Setup_NetBooter.xml",
+          "group": "Setup",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "AppleTv",
+          "pageID": "508",
+          "file": "AppleTv.xml",
+          "group": "",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Source",
+          "pageID": "509",
+          "file": "Source.xml",
+          "group": "Content",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "_MsgBox",
+          "pageID": "510",
+          "file": "_MsgBox.xml",
+          "group": "MsgBox",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Mic",
+          "pageID": "511",
+          "file": "Mic.xml",
+          "group": "Content",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Room_Stage",
+          "pageID": "512",
+          "file": "Room_Stage.xml",
+          "group": "Content",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Setup_Projector",
+          "pageID": "513",
+          "file": "Setup_Projector.xml",
+          "group": "Setup",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Navigation_Off",
+          "pageID": "514",
+          "file": "Navigation_Off.xml",
+          "group": "Navigation",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "TurnOff",
+          "pageID": "515",
+          "file": "TurnOff.xml",
+          "group": "",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Recorder",
+          "pageID": "516",
+          "file": "Recorder.xml",
+          "group": "Content",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Source_Extended",
+          "pageID": "517",
+          "file": "Source_Extended.xml",
+          "group": "Content",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Audio",
+          "pageID": "518",
+          "file": "Audio.xml",
+          "group": "Content",
+          "isValid": "-1",
+          "popupType": "1"
+        },
+        {
+          "name": "Room_Hall",
+          "pageID": "519",
+          "file": "Room_Hall.xml",
+          "group": "Content",
+          "isValid": "-1",
+          "popupType": "1"
+        }
+      ]
+    }
+  ],
+  "fwFeatureList": {
+    "feature": [
+      {
+        "featureID": "buttonTouchStyle",
+        "usageCount": "137"
+      },
+      {
+        "featureID": "powerUpPopups",
+        "usageCount": "1"
+      },
+      {
+        "featureID": "stateDrawOrder",
+        "usageCount": "2"
+      },
+      {
+        "featureID": "stateMaskImage",
+        "usageCount": "14"
+      }
+    ]
+  },
+  "paletteList": {
+    "palette": {
+      "name": "Vorlage_Verkauf_01",
+      "file": "pal_001.xma",
+      "paletteID": "1"
+    }
+  }
+}
